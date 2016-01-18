@@ -25,44 +25,111 @@ sophisticated solutions in the area of web portals (intranet, internet,
 extranet) as well as in electronic publishing and diverse individual software
 developments ever since.
 
-Skills
-------
-- Python
-- Zope
-- Plone
-- Postgres, MongoDB, MySQL, noSQL databases
-- XML
-- PDF generation 
-- all web technologies (HTML, Javascript, jQuery, Highstocks, Highcharts)
+.. raw:: html
 
-Areas of activity
------------------
+  <table class="table">
+    <thead>
+      <tr>
+        <th style="width: 25%">Skills</th>
+        <th style="width: 25%">Areas of activity</th>
+        <th style="width: 25%">Services</th>
+        <th style="width: 25%">Training</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <ul>
+            <li>Python
+            <li>Zope
+            <li>Plone
+            <li>Postgres, MongoDB, MySQL, noSQL databases
+            <li>XML
+            <li>PDF generation 
+            <li>all web technologies (HTML, Javascript, jQuery, Highstocks, Highcharts)
+           </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Back-end software development</li>
+            <li>Architecture</li>
+            <li>Project management</li>
+            <li>Consulting</li>
+            <li>Training, incl. hands-on training</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Python and Plone software development</li>
+            <li>Electronic publishing solutions</li>
+            <li>XML based publishing</li>
+            <li>web applications and portals</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>
+                <a href="https://www.produce-and-publish.com/information/training/generating-high-quality-pdf-documents-from-xml-and-html-using-css-paged-media">CSS Paged Media training, consulting and development</a>
+            </li>
 
-- Back-end software development
-- Architecture
-- Project management
-- Consulting
-- Training, incl. hands-on training
- 
-Services
---------
-- Python and Plone software development
-- Electronic publishing solutions
-- XML based publishing
-- web applications and portals
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
-Training
---------
-- `CSS Paged Media training, consulting and development <https://www.produce-and-publish.com/information/training/generating-high-quality-pdf-documents-from-xml-and-html-using-css-paged-media/>`_
-
-
-
-Licence
--------
 
 .. raw:: html
 
-    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">print-css.rocks</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.aboutme.com/andreasjung" property="cc:attributionName" rel="cc:attributionURL">Andreas Jung</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/zopyx/css-paged-media-tutorial" rel="dct:source">https://github.com/zopyx/css-paged-media-tutorial</a>.
+  <table>
+    <tbody>
+    </tbody>
+      <tr>
+        <td style="width: 25%">
+          <img src="_static/zopyx1.png" style="width: 75%"/>
+        </td>
+        <td style="width: 25%">
+          <img src="_static/pp.png" style="width: 75%"/>
+        </td>
+        <td style="width: 25%">
+          <img src="_static/xmldirector.jpg" style="width: 75%"/>
+        </td>
+        <td style="width: 25%">
+          <img src="_static/printcss.jpg" style="width: 75%"/>
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 25%; height: 30px;">
+            <a href="https://www.zopyx.com">www.zopyx.com</a>
+        </td>
+        <td style="width: 25%">
+            <a href="https://www.produce-and-publish.com">www.produce-and-publish.com</a>
+        </td>
+        <td style="width: 25%">
+            <a href="https://www.xml-director.info">www.xml-director.info</a>
+        </td>
+        <td style="width: 25%">
+            <a href="https://print-css.rocks">print-css.rocks</a>
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 25%; padding-right: 1em; vertical-align: top">
+            ZOPYX homepage      
+        </td>
+        <td style="width: 25%; padding-right: 1em; vertical-align: top">
+            Our single-source multi-channel publishing solutions
+            and toolbox.      
+        </td>
+        <td style="width: 25%; padding-right: 1em; vertical-align: top">
+            Our XML content-managment solution based on the open-source
+            CMS <a href="https://plone.org">Plone</a>      
+        </td>
+        <td style="width: 25%; padding-right: 1em; vertical-align: top">
+            CSS Paged Media tutorial and showcase
+        </td>
+      </tr>
+    
+  </table>
 
 Contact
 -------
@@ -74,8 +141,11 @@ Contact
 | `www.zopyx.com <https://https://www.zopyx.com>`_
 | @MacYET on Twitter
 
-Sites
------
+Licence
+-------
 
-- **Produce & Publish project**: https://www.produce-and-publish.com
-- **XML Director project**: https://www.xml-director.info
+.. raw:: html
+
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">print-css.rocks</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.aboutme.com/andreasjung" property="cc:attributionName" rel="cc:attributionURL">Andreas Jung</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/zopyx/css-paged-media-tutorial" rel="dct:source">https://github.com/zopyx/css-paged-media-tutorial</a>.
+
+
