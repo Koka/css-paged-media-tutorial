@@ -86,7 +86,7 @@ developments ever since.
     </tbody>
       <tr>
         <td style="width: 25%">
-          <img src="_static/zopyx1.png" style="width: 75%"/>
+          <img src="_static/zopyx.png" style="width: 75%"/>
         </td>
         <td style="width: 25%">
           <img src="_static/pp.png" style="width: 75%"/>
