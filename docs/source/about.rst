@@ -39,7 +39,7 @@ developments ever since.
     <tbody>
       <tr>
         <td>
-          <ul>
+          <ul style="padding-left: 1em">
             <li>Python
             <li>Zope
             <li>Plone
@@ -50,7 +50,7 @@ developments ever since.
            </ul>
         </td>
         <td>
-          <ul>
+          <ul style="padding-left: 1em">
             <li>Back-end software development</li>
             <li>Architecture</li>
             <li>Project management</li>
@@ -59,7 +59,7 @@ developments ever since.
           </ul>
         </td>
         <td>
-          <ul>
+          <ul style="padding-left: 1em">
             <li>Python and Plone software development</li>
             <li>Electronic publishing solutions</li>
             <li>XML based publishing</li>
@@ -67,7 +67,7 @@ developments ever since.
           </ul>
         </td>
         <td>
-          <ul>
+          <ul style="padding-left: 1em">
             <li>
                 <a href="https://www.produce-and-publish.com/information/training/generating-high-quality-pdf-documents-from-xml-and-html-using-css-paged-media">CSS Paged Media training, consulting and development</a>
             </li>
