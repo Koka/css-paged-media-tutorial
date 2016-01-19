@@ -15,6 +15,17 @@ antennahouse:
 clean:
 	find . -name \*.pdf -exec rm {} \;
 
+images: FORCE
+	git rm -r images
+	rm -fr images
+	mkdir -p images/pdfreactor images/prince images/antennahouse images/vivliostyle
+	convert -density 150 -quality 75 pdfreactor.pdf         images/pdfreactor/pdfreactor.jpg
+	convert -density 150 -quality 75 prince.pdf             images/prince/prince.jpg
+	convert -density 150 -quality 75 antennahouse.pdf       images/antennahouse/antennahouse.jpg
+	convert -density 150 -quality 75 vivliostyle-output.pdf images/vivliostyle/vivliostyle.jpg
+	git add images
+	git commit -m updated images
+
 git: clean all 
 	git add *pdf
 	git commit -m updated *pdf
