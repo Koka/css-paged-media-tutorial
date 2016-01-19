@@ -18,3 +18,19 @@ clean:
 git: clean all 
 	git add *pdf
 	git commit -m updated *pdf
+
+images: FORCE
+	mkdir -p images
+	echo 1 >images/placeholder
+	git add images
+	git rm -rf images
+	rm -fr images
+	mkdir -p images/pdfreactor images/prince images/antennahouse images/vivliostyle
+	convert -density 150 -quality 75 pdfreactor.pdf         images/pdfreactor/pdfreactor.jpg
+	convert -density 150 -quality 75 prince.pdf             images/prince/prince.jpg
+	convert -density 150 -quality 75 antennahouse.pdf       images/antennahouse/antennahouse.jpg
+	convert -density 150 -quality 75 vivliostyle-output.pdf images/vivliostyle/vivliostyle.jpg
+	git add images
+	git commit -m updated images
+
+FORCE:
