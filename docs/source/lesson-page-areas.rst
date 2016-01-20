@@ -2,7 +2,12 @@ Lesson: lesson-page-areas
 =====================================================
 
 .. include:: ../../lesson-page-areas/README.rst
-
+ 
+ 
+ .. raw:: html
+   <link href="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+   <script src="//code.jquery.com/jquery-latest.js"></script>
+   <script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
 Repository files
 ++++++++++++++++
