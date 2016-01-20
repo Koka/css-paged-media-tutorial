@@ -31,6 +31,6 @@ images: FORCE
 	convert -density 150 -quality 75 antennahouse.pdf       images/antennahouse/antennahouse.jpg
 	convert -density 150 -quality 75 vivliostyle-output.pdf images/vivliostyle/vivliostyle.jpg
 	-git add images
-	-git commit -m updated images
+#	-git commit -m updated images
 
 FORCE:
