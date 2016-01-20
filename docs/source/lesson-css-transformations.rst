@@ -118,31 +118,6 @@ PDF files
 
                     <td>
                         
-                           
-
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-css-transformations/images/antennahouse/antennahouse-0.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-css-transformations/images/antennahouse/antennahouse-0.jpg" />
-                            </a>
-                           
-
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-css-transformations/images/antennahouse/antennahouse-1.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-css-transformations/images/antennahouse/antennahouse-1.jpg" />
-                            </a>
-                           
-
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-css-transformations/images/antennahouse/antennahouse-2.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-css-transformations/images/antennahouse/antennahouse-2.jpg" />
-                            </a>
-                           
-
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-css-transformations/images/antennahouse/antennahouse-3.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-css-transformations/images/antennahouse/antennahouse-3.jpg" />
-                            </a>
-                           
-
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-css-transformations/images/antennahouse/antennahouse-4.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-css-transformations/images/antennahouse/antennahouse-4.jpg" />
-                            </a>
                           
                     </td>
 
@@ -168,16 +143,6 @@ PDF files
 
                     <td>
                         
-                           
-
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-css-transformations/images/vivliostyle/vivliostyle-0.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-css-transformations/images/vivliostyle/vivliostyle-0.jpg" />
-                            </a>
-                           
-
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-css-transformations/images/vivliostyle/vivliostyle-1.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-css-transformations/images/vivliostyle/vivliostyle-1.jpg" />
-                            </a>
                           
                     </td>
 

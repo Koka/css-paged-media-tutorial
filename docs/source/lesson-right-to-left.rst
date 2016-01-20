@@ -105,11 +105,6 @@ PDF files
 
                     <td>
                         
-                           
-
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-right-to-left/images/antennahouse/antennahouse.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-right-to-left/images/antennahouse/antennahouse.jpg" />
-                            </a>
                           
                     </td>
 
@@ -135,11 +130,6 @@ PDF files
 
                     <td>
                         
-                           
-
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-right-to-left/images/vivliostyle/vivliostyle.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-right-to-left/images/vivliostyle/vivliostyle.jpg" />
-                            </a>
                           
                     </td>
 

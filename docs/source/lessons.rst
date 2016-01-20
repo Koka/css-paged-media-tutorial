@@ -11,7 +11,6 @@ Lessons
   lesson-chart-js.rst
   lesson-fonts.rst
   lesson-hyphenation.rst
-  lesson-guideline.rst
   lesson-chapter-numbering.rst
   lesson-css-transformations.rst
   lesson-named-pages.rst

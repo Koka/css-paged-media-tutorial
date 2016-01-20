@@ -103,11 +103,6 @@ PDF files
 
                     <td>
                         
-                           
-
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/antennahouse/antennahouse.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/antennahouse/antennahouse.jpg" />
-                            </a>
                           
                     </td>
 
@@ -133,16 +128,6 @@ PDF files
 
                     <td>
                         
-                           
-
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/vivliostyle/vivliostyle-0.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/vivliostyle/vivliostyle-0.jpg" />
-                            </a>
-                           
-
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/vivliostyle/vivliostyle-1.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/vivliostyle/vivliostyle-1.jpg" />
-                            </a>
                           
                     </td>
 
