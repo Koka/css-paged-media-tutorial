@@ -48,7 +48,7 @@ with open('source/lessons.rst', 'wb') as fp_out:
                 images = []
                 if os.path.exists(image_directory):
                     images = sorted(os.listdir(image_directory))
-
+                
                 pdfs.append(dict(name=section, pdf_file=pdf_file, status=status, message=message, images=images))
                 comp[section] = dict(name=section, pdf_file=pdf_file, status=status, message=message)
 
