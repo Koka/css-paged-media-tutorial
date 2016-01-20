@@ -44,7 +44,10 @@ PDF files
                     <td>
                         
                           {% for image in entry.images %} 
-                            <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/{{ name }}/images/{{ entry.name.lower() }}/{{ image }}" />
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/{{ name }}/images/{{ entry.name.lower() }}/{{ image }}" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/{{ name }}/images/{{ entry.name.lower() }}/{{ image }}" />
+                            </a>
                           {% endfor %}
                     </td>
 
