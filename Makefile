@@ -1,16 +1,16 @@
 all: pdfreactor prince antennahouse vivliostyle
 
 pdfreactor:
-	pdfreactor -v -j index.html pdfreactor.pdf
+	-pdfreactor -v -j index.html pdfreactor.pdf
 
 prince: 
-	prince -v --javascript index.html prince.pdf
+	-prince -v --javascript index.html prince.pdf
 
 vivliostyle: 
-	vivliostyle-formatter index.html 
+	-vivliostyle-formatter index.html 
 
 antennahouse:
-	run.sh -d  index.html -o antennahouse.pdf
+	-run.sh -d  index.html -o antennahouse.pdf
 
 clean:
 	find . -name \*.pdf -exec rm {} \;
@@ -18,10 +18,10 @@ clean:
 images: FORCE
 	mkdir -p images/pdfreactor images/princexml images/antennahouse images/vivliostyle
 	echo placeholder >images/placeholder
-	convert -density 150 -quality 75 pdfreactor.pdf         images/pdfreactor/pdfreactor.jpg
-	convert -density 150 -quality 75 prince.pdf             images/princexml/prince.jpg
-	convert -density 150 -quality 75 antennahouse.pdf       images/antennahouse/antennahouse.jpg
-	convert -density 150 -quality 75 vivliostyle-output.pdf images/vivliostyle/vivliostyle.jpg
+	-convert -density 150 -quality 75 pdfreactor.pdf         images/pdfreactor/pdfreactor.jpg
+	-convert -density 150 -quality 75 prince.pdf             images/princexml/prince.jpg
+	-convert -density 150 -quality 75 antennahouse.pdf       images/antennahouse/antennahouse.jpg
+	-convert -density 150 -quality 75 vivliostyle-output.pdf images/vivliostyle/vivliostyle.jpg
 	git add images
 	git commit -m updated images
 
