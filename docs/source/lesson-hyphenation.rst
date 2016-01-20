@@ -94,6 +94,8 @@ PDF files
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/vivliostyle-output.pdf">Download</a>
                     </td>
                     <td>
+                           
+                          Vivliostyle does not support hyphenation right now due to the lack of hyphenation support in Webkit
                           
                     </td>
                 </tr>

@@ -41,7 +41,7 @@ PDF files
                     </td>
                     <td>
                            
-                          CSS 3 property box-shadow is not support
+                          CSS 3 property box-shadow is not supported
                           
                     </td>
                 </tr>
@@ -61,7 +61,7 @@ PDF files
                     </td>
                     <td>
                            
-                          CSS 3 property box-shadow is not support
+                          CSS 3 property box-shadow is not supported
                           
                     </td>
                 </tr>
@@ -99,7 +99,7 @@ PDF files
                     </td>
                     <td>
                            
-                          CSS 3 property box-shadow is not support
+                          CSS 3 property box-shadow is not supported
                           
                     </td>
                 </tr>

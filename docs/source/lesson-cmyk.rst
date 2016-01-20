@@ -1,13 +1,13 @@
-Lesson: lesson-tables
+Lesson: lesson-cmyk
 =====================================================
 
-.. include:: ../../lesson-tables/README.rst
+.. include:: ../../lesson-cmyk/README.rst
 
 
 Repository files
 ++++++++++++++++
 
-- https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-tables
+- https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-cmyk
 
 PDF files
 +++++++++
@@ -34,10 +34,10 @@ PDF files
                         OK
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-tables/pdfreactor.pdf">Preview</a>
+                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-cmyk/pdfreactor.pdf">Preview</a>
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/pdfreactor.pdf">Download</a>
+                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/pdfreactor.pdf">Download</a>
                     </td>
                     <td>
                           
@@ -52,10 +52,10 @@ PDF files
                         OK
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-tables/prince.pdf">Preview</a>
+                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-cmyk/prince.pdf">Preview</a>
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/prince.pdf">Download</a>
+                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/prince.pdf">Download</a>
                     </td>
                     <td>
                           
@@ -70,10 +70,10 @@ PDF files
                         OK
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-tables/antennahouse.pdf">Preview</a>
+                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-cmyk/antennahouse.pdf">Preview</a>
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/antennahouse.pdf">Download</a>
+                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/antennahouse.pdf">Download</a>
                     </td>
                     <td>
                           
@@ -88,14 +88,12 @@ PDF files
                         ERROR
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-tables/vivliostyle-output.pdf">Preview</a>
+                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-cmyk/vivliostyle-output.pdf">Preview</a>
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/vivliostyle-output.pdf">Download</a>
+                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/vivliostyle-output.pdf">Download</a>
                     </td>
                     <td>
-                           
-                          no support for repeating table header and footer
                           
                     </td>
                 </tr>
@@ -108,7 +106,7 @@ PDF files
 Stylesheet
 ++++++++++
 
-.. literalinclude:: ../../lesson-tables/styles.css
+.. literalinclude:: ../../lesson-cmyk/styles.css
   :language: css
   :linenos:
 
@@ -117,7 +115,7 @@ Stylesheet
 
 HTML input
 ++++++++++
-.. literalinclude:: ../../lesson-tables/index.html
+.. literalinclude:: ../../lesson-cmyk/index.html
   :language: html
   :linenos:
 

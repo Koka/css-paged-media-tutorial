@@ -67,7 +67,7 @@ PDF files
                         Antennahouse
                     </td>
                     <td>
-                        with error
+                        with errors
                     </td>
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-mathml-native/antennahouse.pdf">Preview</a>
@@ -85,7 +85,7 @@ PDF files
                         Vivliostyle
                     </td>
                     <td>
-                        partial rendering with errors
+                        with errors
                     </td>
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-mathml-native/vivliostyle-output.pdf">Preview</a>
@@ -94,6 +94,8 @@ PDF files
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/vivliostyle-output.pdf">Download</a>
                     </td>
                     <td>
+                           
+                          some MathML formulas not rendered at all
                           
                     </td>
                 </tr>
