@@ -51,12 +51,12 @@ PDF files
                         
                            
 
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/pdfreactor/pdfreactor-0.jpg" >
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/pdfreactor/pdfreactor-0.jpg" >
                                 <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/pdfreactor/pdfreactor-0.jpg" />
                             </a>
                            
 
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/pdfreactor/pdfreactor-1.jpg" >
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/pdfreactor/pdfreactor-1.jpg" >
                                 <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/pdfreactor/pdfreactor-1.jpg" />
                             </a>
                           
@@ -86,12 +86,12 @@ PDF files
                         
                            
 
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/princexml/prince-0.jpg" >
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/princexml/prince-0.jpg" >
                                 <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/princexml/prince-0.jpg" />
                             </a>
                            
 
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/princexml/prince-1.jpg" >
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/princexml/prince-1.jpg" >
                                 <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/princexml/prince-1.jpg" />
                             </a>
                           
@@ -121,7 +121,7 @@ PDF files
                         
                            
 
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/antennahouse/antennahouse.jpg" >
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/antennahouse/antennahouse.jpg" >
                                 <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/antennahouse/antennahouse.jpg" />
                             </a>
                           
@@ -151,12 +151,12 @@ PDF files
                         
                            
 
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/vivliostyle/vivliostyle-0.jpg" >
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/vivliostyle/vivliostyle-0.jpg" >
                                 <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/vivliostyle/vivliostyle-0.jpg" />
                             </a>
                            
 
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/vivliostyle/vivliostyle-1.jpg" >
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/vivliostyle/vivliostyle-1.jpg" >
                                 <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-basic/images/vivliostyle/vivliostyle-1.jpg" />
                             </a>
                           

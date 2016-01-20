@@ -51,7 +51,7 @@ PDF files
                         
                            
 
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/pdfreactor/pdfreactor.jpg" >
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/pdfreactor/pdfreactor.jpg" >
                                 <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/pdfreactor/pdfreactor.jpg" />
                             </a>
                           
@@ -81,7 +81,7 @@ PDF files
                         
                            
 
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/princexml/prince.jpg" >
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/princexml/prince.jpg" >
                                 <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/princexml/prince.jpg" />
                             </a>
                           
@@ -113,7 +113,7 @@ PDF files
                         
                            
 
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/antennahouse/antennahouse.jpg" >
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/antennahouse/antennahouse.jpg" >
                                 <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/antennahouse/antennahouse.jpg" />
                             </a>
                           
@@ -145,7 +145,7 @@ PDF files
                         
                            
 
-                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/vivliostyle/vivliostyle.jpg" >
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/vivliostyle/vivliostyle.jpg" >
                                 <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/vivliostyle/vivliostyle.jpg" />
                             </a>
                           
