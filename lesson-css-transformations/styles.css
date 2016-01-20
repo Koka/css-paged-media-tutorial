@@ -6,6 +6,7 @@
     border: 1px solid blue;
     padding: 1em;
     page-break-after: always;
+    break-after: always;
 }
 
 .rotate-90 {
