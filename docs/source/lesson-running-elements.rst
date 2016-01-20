@@ -25,8 +25,7 @@ PDF files
             <tr>
                 <th>Converter</th>
                 <th>Status</th>
-                <th>PDF Preview</th>
-                <th>PDF Download</th>
+                <th>PDF</th>
                 <th>Images</th>
                 <th>Comment</th>
             </tr>
@@ -42,8 +41,7 @@ PDF files
                     </td>
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-running-elements/pdfreactor.pdf">Preview</a>
-                    </td>
-                    <td>
+                        <br/>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-running-elements/pdfreactor.pdf">Download</a>
                     </td>
 
@@ -82,8 +80,7 @@ PDF files
                     </td>
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-running-elements/prince.pdf">Preview</a>
-                    </td>
-                    <td>
+                        <br/>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-running-elements/prince.pdf">Download</a>
                     </td>
 
@@ -127,8 +124,7 @@ PDF files
                     </td>
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-running-elements/antennahouse.pdf">Preview</a>
-                    </td>
-                    <td>
+                        <br/>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-running-elements/antennahouse.pdf">Download</a>
                     </td>
 
@@ -167,8 +163,7 @@ PDF files
                     </td>
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-running-elements/vivliostyle-output.pdf">Preview</a>
-                    </td>
-                    <td>
+                        <br/>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-running-elements/vivliostyle-output.pdf">Download</a>
                     </td>
 

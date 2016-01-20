@@ -25,8 +25,7 @@ PDF files
             <tr>
                 <th>Converter</th>
                 <th>Status</th>
-                <th>PDF Preview</th>
-                <th>PDF Download</th>
+                <th>PDF</th>
                 <th>Images</th>
                 <th>Comment</th>
             </tr>
