@@ -25,8 +25,7 @@ PDF files
             <tr>
                 <th>Converter</th>
                 <th>Status</th>
-                <th>PDF Preview</th>
-                <th>PDF Download</th>
+                <th>PDF</th>
                 <th>Images</th>
                 <th>Comment</th>
             </tr>
@@ -42,8 +41,7 @@ PDF files
                     </td>
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/{{ name }}/{{ entry['pdf_file'] }}">Preview</a>
-                    </td>
-                    <td>
+                        <br/>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/{{ name }}/{{ entry['pdf_file'] }}">Download</a>
                     </td>
 
