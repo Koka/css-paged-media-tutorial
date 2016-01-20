@@ -21,6 +21,7 @@ PDF files
                 <th>Status</th>
                 <th>PDF Preview</th>
                 <th>PDF Download</th>
+                <th>Images</th>
                 <th>Comment</th>
             </tr>
         </thead>
@@ -39,6 +40,13 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/pdfreactor.pdf">Download</a>
                     </td>
+
+                    <td>
+                        
+                          
+                    </td>
+
+
                     <td>
                           
                     </td>
@@ -57,6 +65,13 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/prince.pdf">Download</a>
                     </td>
+
+                    <td>
+                        
+                          
+                    </td>
+
+
                     <td>
                           
                     </td>
@@ -75,6 +90,13 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/antennahouse.pdf">Download</a>
                     </td>
+
+                    <td>
+                        
+                          
+                    </td>
+
+
                     <td>
                           
                     </td>
@@ -93,6 +115,13 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/vivliostyle-output.pdf">Download</a>
                     </td>
+
+                    <td>
+                        
+                          
+                    </td>
+
+
                     <td>
                           
                     </td>

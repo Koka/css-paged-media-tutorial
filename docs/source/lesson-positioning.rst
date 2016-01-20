@@ -21,6 +21,7 @@ PDF files
                 <th>Status</th>
                 <th>PDF Preview</th>
                 <th>PDF Download</th>
+                <th>Images</th>
                 <th>Comment</th>
             </tr>
         </thead>
@@ -39,6 +40,18 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/pdfreactor.pdf">Download</a>
                     </td>
+
+                    <td>
+                        
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/pdfreactor/pdfreactor.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/pdfreactor/pdfreactor.jpg" />
+                            </a>
+                          
+                    </td>
+
+
                     <td>
                           
                     </td>
@@ -57,6 +70,13 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/prince.pdf">Download</a>
                     </td>
+
+                    <td>
+                        
+                          
+                    </td>
+
+
                     <td>
                           
                     </td>
@@ -75,6 +95,18 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/antennahouse.pdf">Download</a>
                     </td>
+
+                    <td>
+                        
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/antennahouse/antennahouse.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/antennahouse/antennahouse.jpg" />
+                            </a>
+                          
+                    </td>
+
+
                     <td>
                           
                     </td>
@@ -93,6 +125,23 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/vivliostyle-output.pdf">Download</a>
                     </td>
+
+                    <td>
+                        
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/vivliostyle/vivliostyle-0.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/vivliostyle/vivliostyle-0.jpg" />
+                            </a>
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/vivliostyle/vivliostyle-1.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/vivliostyle/vivliostyle-1.jpg" />
+                            </a>
+                          
+                    </td>
+
+
                     <td>
                           
                     </td>

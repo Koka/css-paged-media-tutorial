@@ -21,6 +21,7 @@ PDF files
                 <th>Status</th>
                 <th>PDF Preview</th>
                 <th>PDF Download</th>
+                <th>Images</th>
                 <th>Comment</th>
             </tr>
         </thead>
@@ -39,6 +40,18 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/pdfreactor.pdf">Download</a>
                     </td>
+
+                    <td>
+                        
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/pdfreactor/pdfreactor.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/pdfreactor/pdfreactor.jpg" />
+                            </a>
+                          
+                    </td>
+
+
                     <td>
                           
                     </td>
@@ -57,6 +70,13 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/prince.pdf">Download</a>
                     </td>
+
+                    <td>
+                        
+                          
+                    </td>
+
+
                     <td>
                            
                           does not work
@@ -77,6 +97,18 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/antennahouse.pdf">Download</a>
                     </td>
+
+                    <td>
+                        
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/antennahouse/antennahouse.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/antennahouse/antennahouse.jpg" />
+                            </a>
+                          
+                    </td>
+
+
                     <td>
                            
                           does not work
@@ -97,6 +129,18 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/vivliostyle-output.pdf">Download</a>
                     </td>
+
+                    <td>
+                        
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/vivliostyle/vivliostyle.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/vivliostyle/vivliostyle.jpg" />
+                            </a>
+                          
+                    </td>
+
+
                     <td>
                            
                           does not work

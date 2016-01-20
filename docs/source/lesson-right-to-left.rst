@@ -21,6 +21,7 @@ PDF files
                 <th>Status</th>
                 <th>PDF Preview</th>
                 <th>PDF Download</th>
+                <th>Images</th>
                 <th>Comment</th>
             </tr>
         </thead>
@@ -39,6 +40,23 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-right-to-left/pdfreactor.pdf">Download</a>
                     </td>
+
+                    <td>
+                        
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-right-to-left/images/pdfreactor/pdfreactor-0.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-right-to-left/images/pdfreactor/pdfreactor-0.jpg" />
+                            </a>
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-right-to-left/images/pdfreactor/pdfreactor-1.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-right-to-left/images/pdfreactor/pdfreactor-1.jpg" />
+                            </a>
+                          
+                    </td>
+
+
                     <td>
                            
                           improper rendering and positing of numbers
@@ -59,6 +77,13 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-right-to-left/prince.pdf">Download</a>
                     </td>
+
+                    <td>
+                        
+                          
+                    </td>
+
+
                     <td>
                           
                     </td>
@@ -77,6 +102,18 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-right-to-left/antennahouse.pdf">Download</a>
                     </td>
+
+                    <td>
+                        
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-right-to-left/images/antennahouse/antennahouse.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-right-to-left/images/antennahouse/antennahouse.jpg" />
+                            </a>
+                          
+                    </td>
+
+
                     <td>
                           
                     </td>
@@ -95,6 +132,18 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-right-to-left/vivliostyle-output.pdf">Download</a>
                     </td>
+
+                    <td>
+                        
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-right-to-left/images/vivliostyle/vivliostyle.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-right-to-left/images/vivliostyle/vivliostyle.jpg" />
+                            </a>
+                          
+                    </td>
+
+
                     <td>
                           
                     </td>

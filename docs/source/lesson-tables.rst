@@ -21,6 +21,7 @@ PDF files
                 <th>Status</th>
                 <th>PDF Preview</th>
                 <th>PDF Download</th>
+                <th>Images</th>
                 <th>Comment</th>
             </tr>
         </thead>
@@ -39,7 +40,41 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/pdfreactor.pdf">Download</a>
                     </td>
+
                     <td>
+                        
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-0.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-0.jpg" />
+                            </a>
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-1.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-1.jpg" />
+                            </a>
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-2.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-2.jpg" />
+                            </a>
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-3.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-3.jpg" />
+                            </a>
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-4.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-4.jpg" />
+                            </a>
+                          
+                    </td>
+
+
+                    <td>
+                           
+                          Uses repeating header and footer
                           
                     </td>
                 </tr>
@@ -57,7 +92,16 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/prince.pdf">Download</a>
                     </td>
+
                     <td>
+                        
+                          
+                    </td>
+
+
+                    <td>
+                           
+                          Uses repeating header and footer
                           
                     </td>
                 </tr>
@@ -75,7 +119,36 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/antennahouse.pdf">Download</a>
                     </td>
+
                     <td>
+                        
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-0.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-0.jpg" />
+                            </a>
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-1.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-1.jpg" />
+                            </a>
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-2.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-2.jpg" />
+                            </a>
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-3.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-3.jpg" />
+                            </a>
+                          
+                    </td>
+
+
+                    <td>
+                           
+                          Uses repeating header and footer
                           
                     </td>
                 </tr>
@@ -85,7 +158,7 @@ PDF files
                         Vivliostyle
                     </td>
                     <td>
-                        ERROR
+                        OK
                     </td>
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-tables/vivliostyle-output.pdf">Preview</a>
@@ -93,9 +166,36 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/vivliostyle-output.pdf">Download</a>
                     </td>
+
+                    <td>
+                        
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-0.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-0.jpg" />
+                            </a>
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-1.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-1.jpg" />
+                            </a>
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-2.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-2.jpg" />
+                            </a>
+                           
+
+                            <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-3.jpg" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-3.jpg" />
+                            </a>
+                          
+                    </td>
+
+
                     <td>
                            
-                          no support for repeating table header and footer
+                          No support for repeating table header and footer (https://github.com/vivliostyle/vivliostyle-formatter-issues/issues/24)
                           
                     </td>
                 </tr>
