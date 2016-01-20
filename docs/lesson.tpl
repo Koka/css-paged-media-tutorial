@@ -21,6 +21,7 @@ PDF files
                 <th>Status</th>
                 <th>PDF Preview</th>
                 <th>PDF Download</th>
+                <th>Images</th>
                 <th>Comment</th>
             </tr>
         </thead>
@@ -39,6 +40,15 @@ PDF files
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/{{ name }}/{{ entry['pdf_file'] }}">Download</a>
                     </td>
+
+                    <td>
+                        
+                          {% for image in entry.images %} 
+                            <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/{{ name }}/images/{{ entry.name.lower() }}/{{ image }}" />
+                          {% endfor %}
+                    </td>
+
+
                     <td>
                           {% if entry.message %} 
                           {{ entry.message }}

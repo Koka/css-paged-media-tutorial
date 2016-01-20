@@ -43,7 +43,13 @@ with open('source/lessons.rst', 'wb') as fp_out:
                 pdf_file = CP.get(section, 'pdf')
                 status = CP.get(section, 'status')
                 message = CP.get(section, 'message')
-                pdfs.append(dict(name=section, pdf_file=pdf_file, status=status, message=message))
+
+                image_directory  = os.path.join(lesson_dir, 'images', section.lower())
+                images = []
+                if os.path.exists(image_directory):
+                    images = sorted(os.listdir(image_directory))
+
+                pdfs.append(dict(name=section, pdf_file=pdf_file, status=status, message=message, images=images))
                 comp[section] = dict(name=section, pdf_file=pdf_file, status=status, message=message)
 
         compliance[name]  = comp
