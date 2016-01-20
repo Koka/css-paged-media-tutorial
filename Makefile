@@ -16,7 +16,7 @@ clean:
 	find . -name \*.pdf -exec rm {} \;
 
 images: FORCE
-	git rm -r images
+	-git rm -r images
 	rm -fr images
 	mkdir -p images/pdfreactor images/princexml images/antennahouse images/vivliostyle
 	convert -density 150 -quality 75 pdfreactor.pdf         images/pdfreactor/pdfreactor.jpg
