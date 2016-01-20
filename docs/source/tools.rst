@@ -52,25 +52,17 @@ PrinceXML
 Vivliostyle Formatter
 +++++++++++++++++++++
 
-* Current version: unreleased/beta
+* Current version: 2016.1
 * Website: http://www.vivliostyle.com
 * Samples: http://www.vivliostyle.com/en/sample/
+* Documentation: http://www.vivliostyle.com/en/documentation/supported-features/
 * Pricing: unknown so far
 
-* Personal rating:
+* Personal rating (based on latest beta versions, not on the current 2016.1 version):
 
   * Not much can be said to this beta-quality software.
   * Detailed documentation missing so far.
   * Vivliostyle may become a game changer and perhaps "the next big thing" in publishing
-  * Vivliostyle does not claim being (fully) CSS Paged Media compliant. Instead it seems
-    to push vendors and the W3C publishing groups for getting forward with the standardization
-    of various features (e.g. shapes).
-  * Absolutely worthy keeping an eye on Vivliostyle.
-  * The success of Vivliostyle will depend on three things: 
-    
-    * reasonable pricing, 
-    * friendly license conditions
-    * documentation, documentation, documentation
 
 
 Antennahouse CSS Formatter
