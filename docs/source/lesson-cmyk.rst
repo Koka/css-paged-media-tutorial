@@ -124,7 +124,7 @@ PDF files
                         Vivliostyle
                     </td>
                     <td>
-                        OK
+                        ERROR
                     </td>
                     <td>
                         <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-cmyk/vivliostyle-output.pdf">Preview</a>
@@ -144,6 +144,8 @@ PDF files
 
 
                     <td>
+                           
+                          Vivliostyle does not seem to support CMYK colors
                           
                     </td>
                 </tr>

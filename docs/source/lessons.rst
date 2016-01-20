@@ -17,6 +17,7 @@ Lessons
   lesson-images.rst
   lesson-mathml-native.rst
   lesson-multi-columns.rst
+  lesson-multiple-backgrounds.rst
   lesson-named-pages.rst
   lesson-page-areas.rst
   lesson-page-numbers.rst
