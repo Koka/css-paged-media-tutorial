@@ -12,6 +12,12 @@
 About this site
 ===============
 
+
+.. image:: images/ajung-med.jpg 
+    :width: 150 px 
+    :align: left
+
+
 This site is a private project of 
 `Andreas Jung <https://about.me/andreasjung>`_ .  
 
