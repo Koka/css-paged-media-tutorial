@@ -49,8 +49,8 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/pdfreactor/pdfreactor.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/pdfreactor/pdfreactor.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/pdfreactor/pdfreactor.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/pdfreactor/pdfreactor.png" />
                             </a>
                           
                     </td>
@@ -78,8 +78,8 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/princexml/prince.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/princexml/prince.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/princexml/prince.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/princexml/prince.png" />
                             </a>
                           
                     </td>
@@ -109,8 +109,8 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/antennahouse/antennahouse.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/antennahouse/antennahouse.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/antennahouse/antennahouse.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/antennahouse/antennahouse.png" />
                             </a>
                           
                     </td>
@@ -140,8 +140,8 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/vivliostyle/vivliostyle.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/vivliostyle/vivliostyle.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/vivliostyle/vivliostyle.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/vivliostyle/vivliostyle.png" />
                             </a>
                           
                     </td>

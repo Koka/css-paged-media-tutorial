@@ -49,8 +49,8 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/pdfreactor/pdfreactor.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/pdfreactor/pdfreactor.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/pdfreactor/pdfreactor.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/pdfreactor/pdfreactor.png" />
                             </a>
                           
                     </td>
@@ -78,8 +78,8 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/princexml/prince.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/princexml/prince.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/princexml/prince.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/princexml/prince.png" />
                             </a>
                           
                     </td>
@@ -107,8 +107,8 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/antennahouse/antennahouse.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/antennahouse/antennahouse.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/antennahouse/antennahouse.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/antennahouse/antennahouse.png" />
                             </a>
                           
                     </td>
@@ -136,13 +136,13 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/vivliostyle/vivliostyle-0.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/vivliostyle/vivliostyle-0.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/vivliostyle/vivliostyle-0.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/vivliostyle/vivliostyle-0.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/vivliostyle/vivliostyle-1.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/vivliostyle/vivliostyle-1.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/vivliostyle/vivliostyle-1.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-positioning/images/vivliostyle/vivliostyle-1.png" />
                             </a>
                           
                     </td>

@@ -49,23 +49,28 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-0.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-0.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-0.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-0.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-1.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-1.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-1.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-1.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-2.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-2.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-2.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-2.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-3.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-3.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-3.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-3.png" />
+                            </a>
+                           
+
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-4.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/pdfreactor/pdfreactor-4.png" />
                             </a>
                           
                     </td>
@@ -95,28 +100,28 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-0.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-0.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-0.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-0.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-1.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-1.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-1.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-1.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-2.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-2.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-2.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-2.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-3.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-3.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-3.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-3.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-4.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-4.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-4.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/princexml/prince-4.png" />
                             </a>
                           
                     </td>
@@ -146,23 +151,23 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-0.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-0.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-0.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-0.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-1.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-1.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-1.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-1.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-2.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-2.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-2.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-2.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-3.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-3.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-3.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/antennahouse/antennahouse-3.png" />
                             </a>
                           
                     </td>
@@ -192,23 +197,23 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-0.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-0.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-0.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-0.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-1.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-1.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-1.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-1.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-2.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-2.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-2.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-2.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-3.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-3.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-3.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-tables/images/vivliostyle/vivliostyle-3.png" />
                             </a>
                           
                     </td>

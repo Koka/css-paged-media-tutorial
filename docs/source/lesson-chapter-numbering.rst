@@ -49,13 +49,13 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/pdfreactor/pdfreactor-0.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/pdfreactor/pdfreactor-0.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/pdfreactor/pdfreactor-0.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/pdfreactor/pdfreactor-0.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/pdfreactor/pdfreactor-1.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/pdfreactor/pdfreactor-1.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/pdfreactor/pdfreactor-1.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/pdfreactor/pdfreactor-1.png" />
                             </a>
                           
                     </td>
@@ -83,13 +83,13 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/princexml/prince-0.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/princexml/prince-0.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/princexml/prince-0.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/princexml/prince-0.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/princexml/prince-1.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/princexml/prince-1.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/princexml/prince-1.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/princexml/prince-1.png" />
                             </a>
                           
                     </td>
@@ -117,8 +117,8 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/antennahouse/antennahouse.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/antennahouse/antennahouse.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/antennahouse/antennahouse.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/antennahouse/antennahouse.png" />
                             </a>
                           
                     </td>
@@ -146,13 +146,13 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/vivliostyle/vivliostyle-0.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/vivliostyle/vivliostyle-0.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/vivliostyle/vivliostyle-0.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/vivliostyle/vivliostyle-0.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/vivliostyle/vivliostyle-1.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/vivliostyle/vivliostyle-1.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/vivliostyle/vivliostyle-1.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/vivliostyle/vivliostyle-1.png" />
                             </a>
                           
                     </td>

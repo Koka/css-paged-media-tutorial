@@ -49,63 +49,63 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-0.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-0.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-0.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-0.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-1.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-1.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-1.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-1.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-10.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-10.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-10.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-10.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-11.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-11.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-11.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-11.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-2.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-2.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-2.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-2.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-3.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-3.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-3.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-3.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-4.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-4.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-4.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-4.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-5.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-5.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-5.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-5.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-6.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-6.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-6.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-6.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-7.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-7.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-7.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-7.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-8.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-8.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-8.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-8.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-9.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-9.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-9.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/pdfreactor/pdfreactor-9.png" />
                             </a>
                           
                     </td>
@@ -133,63 +133,63 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-0.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-0.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-0.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-0.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-1.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-1.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-1.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-1.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-10.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-10.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-10.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-10.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-11.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-11.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-11.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-11.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-2.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-2.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-2.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-2.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-3.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-3.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-3.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-3.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-4.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-4.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-4.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-4.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-5.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-5.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-5.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-5.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-6.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-6.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-6.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-6.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-7.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-7.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-7.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-7.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-8.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-8.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-8.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-8.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-9.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-9.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-9.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/princexml/prince-9.png" />
                             </a>
                           
                     </td>
@@ -217,63 +217,63 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-0.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-0.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-0.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-0.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-1.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-1.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-1.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-1.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-10.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-10.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-10.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-10.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-11.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-11.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-11.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-11.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-2.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-2.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-2.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-2.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-3.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-3.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-3.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-3.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-4.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-4.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-4.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-4.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-5.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-5.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-5.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-5.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-6.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-6.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-6.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-6.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-7.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-7.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-7.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-7.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-8.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-8.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-8.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-8.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-9.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-9.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-9.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/antennahouse/antennahouse-9.png" />
                             </a>
                           
                     </td>
@@ -301,63 +301,63 @@ PDF files
                         
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-0.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-0.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-0.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-0.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-1.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-1.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-1.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-1.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-10.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-10.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-10.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-10.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-11.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-11.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-11.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-11.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-2.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-2.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-2.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-2.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-3.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-3.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-3.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-3.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-4.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-4.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-4.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-4.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-5.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-5.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-5.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-5.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-6.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-6.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-6.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-6.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-7.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-7.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-7.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-7.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-8.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-8.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-8.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-8.png" />
                             </a>
                            
 
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-9.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-9.jpg" />
+                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-9.png" >
+                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-hyphenation/images/vivliostyle/vivliostyle-9.png" />
                             </a>
                           
                     </td>

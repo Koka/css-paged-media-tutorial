@@ -47,11 +47,6 @@ PDF files
 
                     <td>
                         
-                           
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-multiple-backgrounds/images/pdfreactor/pdfreactor.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-multiple-backgrounds/images/pdfreactor/pdfreactor.jpg" />
-                            </a>
                           
                     </td>
 
@@ -76,11 +71,6 @@ PDF files
 
                     <td>
                         
-                           
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-multiple-backgrounds/images/princexml/prince.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-multiple-backgrounds/images/princexml/prince.jpg" />
-                            </a>
                           
                     </td>
 
@@ -131,11 +121,6 @@ PDF files
 
                     <td>
                         
-                           
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-multiple-backgrounds/images/vivliostyle/vivliostyle.jpg" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-multiple-backgrounds/images/vivliostyle/vivliostyle.jpg" />
-                            </a>
                           
                     </td>
 
