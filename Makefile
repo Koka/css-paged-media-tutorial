@@ -18,10 +18,10 @@ clean:
 images: FORCE
 	mkdir -p images/pdfreactor images/princexml images/antennahouse images/vivliostyle
 	echo placeholder >images/placeholder
-	-convert -density 150 -quality 75 pdfreactor.pdf         images/pdfreactor/pdfreactor.jpg
-	-convert -density 150 -quality 75 prince.pdf             images/princexml/prince.jpg
-	-convert -density 150 -quality 75 antennahouse.pdf       images/antennahouse/antennahouse.jpg
-	-convert -density 150 -quality 75 vivliostyle-output.pdf images/vivliostyle/vivliostyle.jpg
+	-convert -density 150 -quality 85 pdfreactor.pdf         images/pdfreactor/pdfreactor.png
+	-convert -density 150 -quality 85 prince.pdf             images/princexml/prince.png
+	-convert -density 150 -quality 85 antennahouse.pdf       images/antennahouse/antennahouse.png
+	-convert -density 150 -quality 85 vivliostyle-output.pdf images/vivliostyle/vivliostyle.png
 	git add images
 	git commit -m updated images
 
