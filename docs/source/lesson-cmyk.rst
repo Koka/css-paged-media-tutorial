@@ -40,22 +40,15 @@ PDF files
                         OK
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-cmyk/pdfreactor.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/pdfreactor.pdf">Download</a>
+                        <a href="_static/lesson-cmyk/pdfreactor.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/images/pdfreactor/pdfreactor.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/images/pdfreactor/pdfreactor.png" />
+                            <a href="#" data-featherlight="_static/lesson-cmyk/images/pdfreactor/pdfreactor.png" >
+                                <img class="preview" src="_static/lesson-cmyk/images/pdfreactor/thumb-pdfreactor.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                           
                     </td>
@@ -69,22 +62,15 @@ PDF files
                         OK
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-cmyk/prince.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/prince.pdf">Download</a>
+                        <a href="_static/lesson-cmyk/prince.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/images/princexml/prince.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/images/princexml/prince.png" />
+                            <a href="#" data-featherlight="_static/lesson-cmyk/images/princexml/prince.png" >
+                                <img class="preview" src="_static/lesson-cmyk/images/princexml/thumb-prince.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                           
                     </td>
@@ -98,22 +84,15 @@ PDF files
                         OK
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-cmyk/antennahouse.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/antennahouse.pdf">Download</a>
+                        <a href="_static/lesson-cmyk/antennahouse.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/images/antennahouse/antennahouse.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/images/antennahouse/antennahouse.png" />
+                            <a href="#" data-featherlight="_static/lesson-cmyk/images/antennahouse/antennahouse.png" >
+                                <img class="preview" src="_static/lesson-cmyk/images/antennahouse/thumb-antennahouse.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                           
                     </td>
@@ -127,22 +106,15 @@ PDF files
                         ERROR
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-cmyk/vivliostyle-output.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/vivliostyle-output.pdf">Download</a>
+                        <a href="_static/lesson-cmyk/vivliostyle-output.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/images/vivliostyle/vivliostyle.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-cmyk/images/vivliostyle/vivliostyle.png" />
+                            <a href="#" data-featherlight="_static/lesson-cmyk/images/vivliostyle/vivliostyle.png" >
+                                <img class="preview" src="_static/lesson-cmyk/images/vivliostyle/thumb-vivliostyle.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                            
                           Vivliostyle does not seem to support CMYK colors

@@ -40,17 +40,11 @@ PDF files
                         ERROR
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-multiple-backgrounds/pdfreactor.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-multiple-backgrounds/pdfreactor.pdf">Download</a>
+                        <a href="_static/lesson-multiple-backgrounds/pdfreactor.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                           
                     </td>
-
-
                     <td>
                           
                     </td>
@@ -64,17 +58,11 @@ PDF files
                         ERROR
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-multiple-backgrounds/prince.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-multiple-backgrounds/prince.pdf">Download</a>
+                        <a href="_static/lesson-multiple-backgrounds/prince.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                           
                     </td>
-
-
                     <td>
                           
                     </td>
@@ -88,17 +76,11 @@ PDF files
                         ERROR
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-multiple-backgrounds/antennahouse.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-multiple-backgrounds/antennahouse.pdf">Download</a>
+                        <a href="_static/lesson-multiple-backgrounds/antennahouse.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                           
                     </td>
-
-
                     <td>
                            
                           Does not render at all
@@ -114,17 +96,11 @@ PDF files
                         OK
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-multiple-backgrounds/vivliostyle-output.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-multiple-backgrounds/vivliostyle-output.pdf">Download</a>
+                        <a href="_static/lesson-multiple-backgrounds/vivliostyle-output.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                           
                     </td>
-
-
                     <td>
                           
                     </td>

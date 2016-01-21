@@ -40,27 +40,19 @@ PDF files
                         OK
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-chapter-numbering/pdfreactor.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/pdfreactor.pdf">Download</a>
+                        <a href="_static/lesson-chapter-numbering/pdfreactor.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/pdfreactor/pdfreactor-0.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/pdfreactor/pdfreactor-0.png" />
+                            <a href="#" data-featherlight="_static/lesson-chapter-numbering/images/pdfreactor/pdfreactor-0.png" >
+                                <img class="preview" src="_static/lesson-chapter-numbering/images/pdfreactor/thumb-pdfreactor-0.png" />
                             </a>
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/pdfreactor/pdfreactor-1.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/pdfreactor/pdfreactor-1.png" />
+                            <a href="#" data-featherlight="_static/lesson-chapter-numbering/images/pdfreactor/pdfreactor-1.png" >
+                                <img class="preview" src="_static/lesson-chapter-numbering/images/pdfreactor/thumb-pdfreactor-1.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                           
                     </td>
@@ -74,27 +66,19 @@ PDF files
                         OK
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-chapter-numbering/prince.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/prince.pdf">Download</a>
+                        <a href="_static/lesson-chapter-numbering/prince.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/princexml/prince-0.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/princexml/prince-0.png" />
+                            <a href="#" data-featherlight="_static/lesson-chapter-numbering/images/princexml/prince-0.png" >
+                                <img class="preview" src="_static/lesson-chapter-numbering/images/princexml/thumb-prince-0.png" />
                             </a>
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/princexml/prince-1.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/princexml/prince-1.png" />
+                            <a href="#" data-featherlight="_static/lesson-chapter-numbering/images/princexml/prince-1.png" >
+                                <img class="preview" src="_static/lesson-chapter-numbering/images/princexml/thumb-prince-1.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                           
                     </td>
@@ -108,22 +92,15 @@ PDF files
                         OK
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-chapter-numbering/antennahouse.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/antennahouse.pdf">Download</a>
+                        <a href="_static/lesson-chapter-numbering/antennahouse.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/antennahouse/antennahouse.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/antennahouse/antennahouse.png" />
+                            <a href="#" data-featherlight="_static/lesson-chapter-numbering/images/antennahouse/antennahouse.png" >
+                                <img class="preview" src="_static/lesson-chapter-numbering/images/antennahouse/thumb-antennahouse.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                           
                     </td>
@@ -137,27 +114,19 @@ PDF files
                         OK
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-chapter-numbering/vivliostyle-output.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/vivliostyle-output.pdf">Download</a>
+                        <a href="_static/lesson-chapter-numbering/vivliostyle-output.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/vivliostyle/vivliostyle-0.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/vivliostyle/vivliostyle-0.png" />
+                            <a href="#" data-featherlight="_static/lesson-chapter-numbering/images/vivliostyle/vivliostyle-0.png" >
+                                <img class="preview" src="_static/lesson-chapter-numbering/images/vivliostyle/thumb-vivliostyle-0.png" />
                             </a>
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/vivliostyle/vivliostyle-1.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-chapter-numbering/images/vivliostyle/vivliostyle-1.png" />
+                            <a href="#" data-featherlight="_static/lesson-chapter-numbering/images/vivliostyle/vivliostyle-1.png" >
+                                <img class="preview" src="_static/lesson-chapter-numbering/images/vivliostyle/thumb-vivliostyle-1.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                           
                     </td>

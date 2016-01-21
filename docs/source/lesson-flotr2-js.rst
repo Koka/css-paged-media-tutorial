@@ -40,22 +40,15 @@ PDF files
                         OK
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-flotr2-js/pdfreactor.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/pdfreactor.pdf">Download</a>
+                        <a href="_static/lesson-flotr2-js/pdfreactor.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/pdfreactor/pdfreactor.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/pdfreactor/pdfreactor.png" />
+                            <a href="#" data-featherlight="_static/lesson-flotr2-js/images/pdfreactor/pdfreactor.png" >
+                                <img class="preview" src="_static/lesson-flotr2-js/images/pdfreactor/thumb-pdfreactor.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                           
                     </td>
@@ -69,22 +62,15 @@ PDF files
                         ERROR
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-flotr2-js/prince.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/prince.pdf">Download</a>
+                        <a href="_static/lesson-flotr2-js/prince.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/princexml/prince.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/princexml/prince.png" />
+                            <a href="#" data-featherlight="_static/lesson-flotr2-js/images/princexml/prince.png" >
+                                <img class="preview" src="_static/lesson-flotr2-js/images/princexml/thumb-prince.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                            
                           does not work
@@ -100,22 +86,15 @@ PDF files
                         ERROR
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-flotr2-js/antennahouse.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/antennahouse.pdf">Download</a>
+                        <a href="_static/lesson-flotr2-js/antennahouse.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/antennahouse/antennahouse.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/antennahouse/antennahouse.png" />
+                            <a href="#" data-featherlight="_static/lesson-flotr2-js/images/antennahouse/antennahouse.png" >
+                                <img class="preview" src="_static/lesson-flotr2-js/images/antennahouse/thumb-antennahouse.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                            
                           does not work
@@ -131,22 +110,15 @@ PDF files
                         ERROR
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-flotr2-js/vivliostyle-output.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/vivliostyle-output.pdf">Download</a>
+                        <a href="_static/lesson-flotr2-js/vivliostyle-output.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/vivliostyle/vivliostyle.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-flotr2-js/images/vivliostyle/vivliostyle.png" />
+                            <a href="#" data-featherlight="_static/lesson-flotr2-js/images/vivliostyle/vivliostyle.png" >
+                                <img class="preview" src="_static/lesson-flotr2-js/images/vivliostyle/thumb-vivliostyle.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                            
                           does not work

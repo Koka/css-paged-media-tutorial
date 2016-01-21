@@ -40,22 +40,15 @@ PDF files
                         {{ entry.status }}
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/{{ name }}/{{ entry['pdf_file'] }}">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/{{ name }}/{{ entry['pdf_file'] }}">Download</a>
+                        <a href="_static/{{ name }}/{{ entry['pdf_file'] }}">Download</a>
                     </td>
-
                     <td>
-                        
                           {% for image in entry.images %} 
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/{{ name }}/images/{{ entry.name.lower() }}/{{ image }}" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/{{ name }}/images/{{ entry.name.lower() }}/{{ image }}" />
+                            <a href="#" data-featherlight="_static/{{ name }}/images/{{ entry.name.lower() }}/{{ image }}" >
+                                <img class="preview" src="_static/{{ name }}/images/{{ entry.name.lower() }}/thumb-{{ image }}" />
                             </a>
                           {% endfor %}
                     </td>
-
-
                     <td>
                           {% if entry.message %} 
                           {{ entry.message }}

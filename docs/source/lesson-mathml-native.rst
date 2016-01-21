@@ -40,27 +40,19 @@ PDF files
                         with errors
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-mathml-native/pdfreactor.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/pdfreactor.pdf">Download</a>
+                        <a href="_static/lesson-mathml-native/pdfreactor.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/images/pdfreactor/pdfreactor-0.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/images/pdfreactor/pdfreactor-0.png" />
+                            <a href="#" data-featherlight="_static/lesson-mathml-native/images/pdfreactor/pdfreactor-0.png" >
+                                <img class="preview" src="_static/lesson-mathml-native/images/pdfreactor/thumb-pdfreactor-0.png" />
                             </a>
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/images/pdfreactor/pdfreactor-1.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/images/pdfreactor/pdfreactor-1.png" />
+                            <a href="#" data-featherlight="_static/lesson-mathml-native/images/pdfreactor/pdfreactor-1.png" >
+                                <img class="preview" src="_static/lesson-mathml-native/images/pdfreactor/thumb-pdfreactor-1.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                           
                     </td>
@@ -74,27 +66,19 @@ PDF files
                         with errors
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-mathml-native/prince.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/prince.pdf">Download</a>
+                        <a href="_static/lesson-mathml-native/prince.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/images/princexml/prince-0.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/images/princexml/prince-0.png" />
+                            <a href="#" data-featherlight="_static/lesson-mathml-native/images/princexml/prince-0.png" >
+                                <img class="preview" src="_static/lesson-mathml-native/images/princexml/thumb-prince-0.png" />
                             </a>
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/images/princexml/prince-1.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/images/princexml/prince-1.png" />
+                            <a href="#" data-featherlight="_static/lesson-mathml-native/images/princexml/prince-1.png" >
+                                <img class="preview" src="_static/lesson-mathml-native/images/princexml/thumb-prince-1.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                           
                     </td>
@@ -108,27 +92,19 @@ PDF files
                         with errors
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-mathml-native/antennahouse.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/antennahouse.pdf">Download</a>
+                        <a href="_static/lesson-mathml-native/antennahouse.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/images/antennahouse/antennahouse-0.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/images/antennahouse/antennahouse-0.png" />
+                            <a href="#" data-featherlight="_static/lesson-mathml-native/images/antennahouse/antennahouse-0.png" >
+                                <img class="preview" src="_static/lesson-mathml-native/images/antennahouse/thumb-antennahouse-0.png" />
                             </a>
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/images/antennahouse/antennahouse-1.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/images/antennahouse/antennahouse-1.png" />
+                            <a href="#" data-featherlight="_static/lesson-mathml-native/images/antennahouse/antennahouse-1.png" >
+                                <img class="preview" src="_static/lesson-mathml-native/images/antennahouse/thumb-antennahouse-1.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                           
                     </td>
@@ -142,27 +118,19 @@ PDF files
                         with errors
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-mathml-native/vivliostyle-output.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/vivliostyle-output.pdf">Download</a>
+                        <a href="_static/lesson-mathml-native/vivliostyle-output.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/images/vivliostyle/vivliostyle-0.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/images/vivliostyle/vivliostyle-0.png" />
+                            <a href="#" data-featherlight="_static/lesson-mathml-native/images/vivliostyle/vivliostyle-0.png" >
+                                <img class="preview" src="_static/lesson-mathml-native/images/vivliostyle/thumb-vivliostyle-0.png" />
                             </a>
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/images/vivliostyle/vivliostyle-1.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-mathml-native/images/vivliostyle/vivliostyle-1.png" />
+                            <a href="#" data-featherlight="_static/lesson-mathml-native/images/vivliostyle/vivliostyle-1.png" >
+                                <img class="preview" src="_static/lesson-mathml-native/images/vivliostyle/thumb-vivliostyle-1.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                            
                           some MathML formulas not rendered at all

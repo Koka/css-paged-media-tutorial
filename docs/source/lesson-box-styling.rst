@@ -40,22 +40,15 @@ PDF files
                         ERROR
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-box-styling/pdfreactor.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-box-styling/pdfreactor.pdf">Download</a>
+                        <a href="_static/lesson-box-styling/pdfreactor.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-box-styling/images/pdfreactor/pdfreactor.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-box-styling/images/pdfreactor/pdfreactor.png" />
+                            <a href="#" data-featherlight="_static/lesson-box-styling/images/pdfreactor/pdfreactor.png" >
+                                <img class="preview" src="_static/lesson-box-styling/images/pdfreactor/thumb-pdfreactor.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                            
                           CSS 3 property box-shadow is not supported
@@ -71,22 +64,15 @@ PDF files
                         ERROR
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-box-styling/prince.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-box-styling/prince.pdf">Download</a>
+                        <a href="_static/lesson-box-styling/prince.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-box-styling/images/princexml/prince.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-box-styling/images/princexml/prince.png" />
+                            <a href="#" data-featherlight="_static/lesson-box-styling/images/princexml/prince.png" >
+                                <img class="preview" src="_static/lesson-box-styling/images/princexml/thumb-prince.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                            
                           CSS 3 property box-shadow is not supported
@@ -102,22 +88,15 @@ PDF files
                         OK
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-box-styling/antennahouse.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-box-styling/antennahouse.pdf">Download</a>
+                        <a href="_static/lesson-box-styling/antennahouse.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-box-styling/images/antennahouse/antennahouse.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-box-styling/images/antennahouse/antennahouse.png" />
+                            <a href="#" data-featherlight="_static/lesson-box-styling/images/antennahouse/antennahouse.png" >
+                                <img class="preview" src="_static/lesson-box-styling/images/antennahouse/thumb-antennahouse.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                           
                     </td>
@@ -131,22 +110,15 @@ PDF files
                         ERROR
                     </td>
                     <td>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-box-styling/vivliostyle-output.pdf">Preview</a>
-                        <br/>
-                        <a href="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-box-styling/vivliostyle-output.pdf">Download</a>
+                        <a href="_static/lesson-box-styling/vivliostyle-output.pdf">Download</a>
                     </td>
-
                     <td>
-                        
                            
-
-                            <a href="#" data-featherlight="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-box-styling/images/vivliostyle/vivliostyle.png" >
-                                <img class="preview" src="https://github.com/zopyx/css-paged-media-tutorial/raw/master/lesson-box-styling/images/vivliostyle/vivliostyle.png" />
+                            <a href="#" data-featherlight="_static/lesson-box-styling/images/vivliostyle/vivliostyle.png" >
+                                <img class="preview" src="_static/lesson-box-styling/images/vivliostyle/thumb-vivliostyle.png" />
                             </a>
                           
                     </td>
-
-
                     <td>
                            
                           CSS 3 property box-shadow is not supported
