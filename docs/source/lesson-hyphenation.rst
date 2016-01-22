@@ -7,6 +7,7 @@ Lesson: lesson-hyphenation
 .. raw:: html
 
    <link href="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+   <script src="//code.jquery.com/jquery-latest.js"></script>
    <script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
 Repository files
@@ -19,27 +20,22 @@ PDF files
 
  .. raw:: html
 
-    <table class="table">
+    <table class="table docutils">
         <thead>
             <tr>
                 <th>Converter</th>
-                <th>Status</th>
-                <th>PDF</th>
                 <th>Images</th>
-                <th>Comment</th>
             </tr>
         </thead>
         <tbody>
             
                 <tr>
                     <td>
-                        PDFreactor
-                    </td>
-                    <td>
-                        OK
-                    </td>
-                    <td>
-                        <a href="_static/lesson-hyphenation/pdfreactor.pdf">Download</a>
+                        <span class="converter-name">PDFreactor</span>
+                        <br/>
+                        <span class="converter-status">OK</span>
+                        <br/>
+                        <a class="pdf-download" href="_static/lesson-hyphenation/pdfreactor.pdf">Download</a>
                     </td>
                     <td>
                            
@@ -91,21 +87,17 @@ PDF files
                                 <img class="preview" src="_static/lesson-hyphenation/images/pdfreactor/thumb-pdfreactor-9.png" />
                             </a>
                           
-                    </td>
-                    <td>
                           
                     </td>
                 </tr>
             
                 <tr>
                     <td>
-                        PrinceXML
-                    </td>
-                    <td>
-                        OK
-                    </td>
-                    <td>
-                        <a href="_static/lesson-hyphenation/prince.pdf">Download</a>
+                        <span class="converter-name">PrinceXML</span>
+                        <br/>
+                        <span class="converter-status">OK</span>
+                        <br/>
+                        <a class="pdf-download" href="_static/lesson-hyphenation/prince.pdf">Download</a>
                     </td>
                     <td>
                            
@@ -157,21 +149,17 @@ PDF files
                                 <img class="preview" src="_static/lesson-hyphenation/images/princexml/thumb-prince-9.png" />
                             </a>
                           
-                    </td>
-                    <td>
                           
                     </td>
                 </tr>
             
                 <tr>
                     <td>
-                        Antennahouse
-                    </td>
-                    <td>
-                        OK
-                    </td>
-                    <td>
-                        <a href="_static/lesson-hyphenation/antennahouse.pdf">Download</a>
+                        <span class="converter-name">Antennahouse</span>
+                        <br/>
+                        <span class="converter-status">OK</span>
+                        <br/>
+                        <a class="pdf-download" href="_static/lesson-hyphenation/antennahouse.pdf">Download</a>
                     </td>
                     <td>
                            
@@ -223,21 +211,17 @@ PDF files
                                 <img class="preview" src="_static/lesson-hyphenation/images/antennahouse/thumb-antennahouse-9.png" />
                             </a>
                           
-                    </td>
-                    <td>
                           
                     </td>
                 </tr>
             
                 <tr>
                     <td>
-                        Vivliostyle
-                    </td>
-                    <td>
-                        ERROR
-                    </td>
-                    <td>
-                        <a href="_static/lesson-hyphenation/vivliostyle-output.pdf">Download</a>
+                        <span class="converter-name">Vivliostyle</span>
+                        <br/>
+                        <span class="converter-status">ERROR</span>
+                        <br/>
+                        <a class="pdf-download" href="_static/lesson-hyphenation/vivliostyle-output.pdf">Download</a>
                     </td>
                     <td>
                            
@@ -289,11 +273,11 @@ PDF files
                                 <img class="preview" src="_static/lesson-hyphenation/images/vivliostyle/thumb-vivliostyle-9.png" />
                             </a>
                           
-                    </td>
-                    <td>
                            
-                          Vivliostyle does not support hyphenation right now due to the lack of hyphenation support in Webkit
-                          
+                              <div>
+                                Vivliostyle does not support hyphenation right now due to the lack of hyphenation support in Webkit
+                              </div>
+                         
                     </td>
                 </tr>
             

@@ -7,6 +7,7 @@ Lesson: lesson-multiple-backgrounds
 .. raw:: html
 
    <link href="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+   <script src="//code.jquery.com/jquery-latest.js"></script>
    <script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
 Repository files
@@ -19,88 +20,71 @@ PDF files
 
  .. raw:: html
 
-    <table class="table">
+    <table class="table docutils">
         <thead>
             <tr>
                 <th>Converter</th>
-                <th>Status</th>
-                <th>PDF</th>
                 <th>Images</th>
-                <th>Comment</th>
             </tr>
         </thead>
         <tbody>
             
                 <tr>
                     <td>
-                        PDFreactor
-                    </td>
-                    <td>
-                        ERROR
-                    </td>
-                    <td>
-                        <a href="_static/lesson-multiple-backgrounds/pdfreactor.pdf">Download</a>
+                        <span class="converter-name">PDFreactor</span>
+                        <br/>
+                        <span class="converter-status">ERROR</span>
+                        <br/>
+                        <a class="pdf-download" href="_static/lesson-multiple-backgrounds/pdfreactor.pdf">Download</a>
                     </td>
                     <td>
                           
-                    </td>
-                    <td>
                           
                     </td>
                 </tr>
             
                 <tr>
                     <td>
-                        PrinceXML
-                    </td>
-                    <td>
-                        ERROR
-                    </td>
-                    <td>
-                        <a href="_static/lesson-multiple-backgrounds/prince.pdf">Download</a>
+                        <span class="converter-name">PrinceXML</span>
+                        <br/>
+                        <span class="converter-status">ERROR</span>
+                        <br/>
+                        <a class="pdf-download" href="_static/lesson-multiple-backgrounds/prince.pdf">Download</a>
                     </td>
                     <td>
                           
-                    </td>
-                    <td>
                           
                     </td>
                 </tr>
             
                 <tr>
                     <td>
-                        Antennahouse
-                    </td>
-                    <td>
-                        ERROR
-                    </td>
-                    <td>
-                        <a href="_static/lesson-multiple-backgrounds/antennahouse.pdf">Download</a>
+                        <span class="converter-name">Antennahouse</span>
+                        <br/>
+                        <span class="converter-status">ERROR</span>
+                        <br/>
+                        <a class="pdf-download" href="_static/lesson-multiple-backgrounds/antennahouse.pdf">Download</a>
                     </td>
                     <td>
                           
-                    </td>
-                    <td>
                            
-                          Does not render at all
-                          
+                              <div>
+                                Does not render at all
+                              </div>
+                         
                     </td>
                 </tr>
             
                 <tr>
                     <td>
-                        Vivliostyle
-                    </td>
-                    <td>
-                        OK
-                    </td>
-                    <td>
-                        <a href="_static/lesson-multiple-backgrounds/vivliostyle-output.pdf">Download</a>
+                        <span class="converter-name">Vivliostyle</span>
+                        <br/>
+                        <span class="converter-status">OK</span>
+                        <br/>
+                        <a class="pdf-download" href="_static/lesson-multiple-backgrounds/vivliostyle-output.pdf">Download</a>
                     </td>
                     <td>
                           
-                    </td>
-                    <td>
                           
                     </td>
                 </tr>

@@ -7,6 +7,7 @@ Lesson: {{ name }}
 .. raw:: html
 
    <link href="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+   <script src="//code.jquery.com/jquery-latest.js"></script>
    <script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
 Repository files
@@ -19,27 +20,22 @@ PDF files
 
  .. raw:: html
 
-    <table class="table">
+    <table class="table docutils">
         <thead>
             <tr>
                 <th>Converter</th>
-                <th>Status</th>
-                <th>PDF</th>
                 <th>Images</th>
-                <th>Comment</th>
             </tr>
         </thead>
         <tbody>
             {% for entry in pdfs %}
                 <tr>
                     <td>
-                        {{ entry.name }}
-                    </td>
-                    <td>
-                        {{ entry.status }}
-                    </td>
-                    <td>
-                        <a href="_static/{{ name }}/{{ entry['pdf_file'] }}">Download</a>
+                        <span class="converter-name">{{ entry.name }}</span>
+                        <br/>
+                        <span class="converter-status">{{ entry.status }}</span>
+                        <br/>
+                        <a class="pdf-download" href="_static/{{ name }}/{{ entry['pdf_file'] }}">Download</a>
                     </td>
                     <td>
                           {% for image in entry.images %} 
@@ -47,11 +43,11 @@ PDF files
                                 <img class="preview" src="_static/{{ name }}/images/{{ entry.name.lower() }}/thumb-{{ image }}" />
                             </a>
                           {% endfor %}
-                    </td>
-                    <td>
                           {% if entry.message %} 
-                          {{ entry.message }}
-                          {% endif %}
+                              <div>
+                                {{ entry.message }}
+                              </div>
+                         {% endif %}
                     </td>
                 </tr>
             {% endfor %}
