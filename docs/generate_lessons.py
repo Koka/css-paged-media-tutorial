@@ -9,6 +9,9 @@ root_path = os.path.abspath(os.path.join(os.getcwd(), '..'))
 names = glob.glob('{}/lesson-*'.format(root_path))
 names = [os.path.basename(name) for name in names]
 
+
+source_generated = 'source/generated'
+
 compliance = collections.OrderedDict()
 
 with open('source/lessons.rst', 'wb') as fp_out:
@@ -44,7 +47,9 @@ with open('source/lessons.rst', 'wb') as fp_out:
                 status = CP.get(section, 'status')
                 message = CP.get(section, 'message')
 
-                image_directory  = os.path.join(lesson_dir, 'images', section.lower())
+                image_directory  = os.path.join(source_generated, name, 'images', section.lower())
+                print image_directory
+
                 images = []
                 if os.path.exists(image_directory):
                     images = sorted(os.listdir(image_directory))

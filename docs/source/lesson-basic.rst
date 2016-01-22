@@ -7,7 +7,6 @@ Lesson: lesson-basic
 .. raw:: html
 
    <link href="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.css" type="text/css" rel="stylesheet" />
-   <script src="//code.jquery.com/jquery-latest.js"></script>
    <script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
 Repository files
@@ -43,6 +42,14 @@ PDF files
                         <a href="_static/lesson-basic/pdfreactor.pdf">Download</a>
                     </td>
                     <td>
+                           
+                            <a href="#" data-featherlight="_static/lesson-basic/images/pdfreactor/pdfreactor-0.png" >
+                                <img class="preview" src="_static/lesson-basic/images/pdfreactor/thumb-pdfreactor-0.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-basic/images/pdfreactor/pdfreactor-1.png" >
+                                <img class="preview" src="_static/lesson-basic/images/pdfreactor/thumb-pdfreactor-1.png" />
+                            </a>
                           
                     </td>
                     <td>
@@ -61,6 +68,14 @@ PDF files
                         <a href="_static/lesson-basic/prince.pdf">Download</a>
                     </td>
                     <td>
+                           
+                            <a href="#" data-featherlight="_static/lesson-basic/images/princexml/prince-0.png" >
+                                <img class="preview" src="_static/lesson-basic/images/princexml/thumb-prince-0.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-basic/images/princexml/prince-1.png" >
+                                <img class="preview" src="_static/lesson-basic/images/princexml/thumb-prince-1.png" />
+                            </a>
                           
                     </td>
                     <td>
@@ -79,6 +94,10 @@ PDF files
                         <a href="_static/lesson-basic/antennahouse.pdf">Download</a>
                     </td>
                     <td>
+                           
+                            <a href="#" data-featherlight="_static/lesson-basic/images/antennahouse/antennahouse.png" >
+                                <img class="preview" src="_static/lesson-basic/images/antennahouse/thumb-antennahouse.png" />
+                            </a>
                           
                     </td>
                     <td>
@@ -97,6 +116,14 @@ PDF files
                         <a href="_static/lesson-basic/vivliostyle-output.pdf">Download</a>
                     </td>
                     <td>
+                           
+                            <a href="#" data-featherlight="_static/lesson-basic/images/vivliostyle/vivliostyle-0.png" >
+                                <img class="preview" src="_static/lesson-basic/images/vivliostyle/thumb-vivliostyle-0.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-basic/images/vivliostyle/vivliostyle-1.png" >
+                                <img class="preview" src="_static/lesson-basic/images/vivliostyle/thumb-vivliostyle-1.png" />
+                            </a>
                           
                     </td>
                     <td>
