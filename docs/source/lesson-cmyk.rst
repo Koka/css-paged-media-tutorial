@@ -43,10 +43,6 @@ PDF files
                         <a href="_static/lesson-cmyk/pdfreactor.pdf">Download</a>
                     </td>
                     <td>
-                           
-                            <a href="#" data-featherlight="_static/lesson-cmyk/images/pdfreactor/pdfreactor.png" >
-                                <img class="preview" src="_static/lesson-cmyk/images/pdfreactor/thumb-pdfreactor.png" />
-                            </a>
                           
                     </td>
                     <td>
@@ -65,10 +61,6 @@ PDF files
                         <a href="_static/lesson-cmyk/prince.pdf">Download</a>
                     </td>
                     <td>
-                           
-                            <a href="#" data-featherlight="_static/lesson-cmyk/images/princexml/prince.png" >
-                                <img class="preview" src="_static/lesson-cmyk/images/princexml/thumb-prince.png" />
-                            </a>
                           
                     </td>
                     <td>
@@ -87,10 +79,6 @@ PDF files
                         <a href="_static/lesson-cmyk/antennahouse.pdf">Download</a>
                     </td>
                     <td>
-                           
-                            <a href="#" data-featherlight="_static/lesson-cmyk/images/antennahouse/antennahouse.png" >
-                                <img class="preview" src="_static/lesson-cmyk/images/antennahouse/thumb-antennahouse.png" />
-                            </a>
                           
                     </td>
                     <td>
@@ -109,10 +97,6 @@ PDF files
                         <a href="_static/lesson-cmyk/vivliostyle-output.pdf">Download</a>
                     </td>
                     <td>
-                           
-                            <a href="#" data-featherlight="_static/lesson-cmyk/images/vivliostyle/vivliostyle.png" >
-                                <img class="preview" src="_static/lesson-cmyk/images/vivliostyle/thumb-vivliostyle.png" />
-                            </a>
                           
                     </td>
                     <td>
@@ -145,3 +129,31 @@ HTML input
 
 
 
+
+
+.. raw:: html
+
+    <hr/>
+
+    <div id="disqus_thread"></div>
+    <script>
+    /**
+    * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+    */
+    /*
+    var disqus_config = function () {
+        this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+
+    s.src = '//printcssrocks.disqus.com/embed.js';
+
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
