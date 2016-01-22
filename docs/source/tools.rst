@@ -148,14 +148,21 @@ Docraptor
 * Personal rating:
 
   * Same PDF quality as PrinceXML, but DocRaptor does offer better JavaScript
-    parsing on top of the PrinceXML engine * Using DocRaptor requires sending your
-    document to a third-party, but they can delete it immediately upon processing
-  * Pricing is based on conversion volume and appears reasonable. Not sure when a
-    self-hosted version of some other professional converter is cheaper
-    when a self-hosted version of some other professional converter is cheaper and
-    the better option in the long run). 
-    See their `TCO calculator <http://docraptor.com/tco>`_ (however TCO are only
-    one factor out of many for making technical decisions).
+    parsing on top of the PrinceXML engine.
+  * Using DocRaptor requires sending your document to a third-party, but they
+    can delete it immediately upon processing. Images and CSS must be placed on
+    a (public) server for Docraptor to pick them up or they must be embedded
+    with the HTML using data URIs (https://css-tricks.com/data-uris/). My
+    recommendation to Docraptor: provide an API for accepting a self-contained
+    ZIP archive containing the HTML source and all related resources like
+    images, CSS, fonts etc. instead of differenciating between source input and
+    resources.
+  * Pricing is based on conversion volume and appears reasonable. Not sure when
+    a self-hosted version of some other professional converter is cheaper when
+    a self-hosted version of some other professional converter is cheaper and
+    the better option in the long run).  See their `TCO calculator
+    <http://docraptor.com/tco>`_ (however TCO are only one factor out of many
+    for making technical decisions).
 
 
 
