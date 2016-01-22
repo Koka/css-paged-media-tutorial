@@ -11,6 +11,7 @@ print-css.rocks - A tutorial and showcase for CSS Paged Media
    compliance.rst
    references.rst
    supplementary.rst
+   discussion.rst
    about.rst
    :maxdepth: 2
 
