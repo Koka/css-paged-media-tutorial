@@ -155,7 +155,7 @@ Docraptor
     with the HTML using data URIs (https://css-tricks.com/data-uris/). My
     recommendation to Docraptor: provide an API for accepting a self-contained
     ZIP archive containing the HTML source and all related resources like
-    images, CSS, fonts etc. instead of differenciating between source input and
+    images, CSS, fonts etc. instead of differentiating between source input and
     resources.
   * Pricing is based on conversion volume and appears reasonable. Not sure when
     a self-hosted version of some other professional converter is cheaper when
