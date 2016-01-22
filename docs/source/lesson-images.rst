@@ -24,7 +24,7 @@ PDF files
         <thead>
             <tr>
                 <th>Converter</th>
-                <th>Images</th>
+                <th>PDF Preview</th>
             </tr>
         </thead>
         <tbody>

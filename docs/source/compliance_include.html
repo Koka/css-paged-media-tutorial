@@ -1,4 +1,4 @@
-<table border="0" class="table">
+<table border="0" class="table docutils">
     <thead>
         <tr>
             <th>Lesson</th>
