@@ -94,7 +94,7 @@ pdfChip
 * Pricing: the various pdfChip versions are artificially limited (you pay
   for document volume and usage):
 
-  * pdfChip S (1000 pages per hour, 25 pages per document, barcode support limited): 5.000 EUR                               $
+  * pdfChip S (1000 pages per hour, 25 pages per document, barcode support limited): 5.000 EUR                            
   * pdfChip M (5000 pages per hour, 250 pages per document): 10.000 EUR
   * pdfChip L (25000 pages per hour, 1500 pages per document): 15.000 EUR
   * pdfChip XL/Enterprise (unlimited):  25.000 EUR
