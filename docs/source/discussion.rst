@@ -1,6 +1,22 @@
 Discussion
 ==========
 
+Standards and proprietary extensions
+------------------------------------
+
+All converters are in some way or the other compliant with the established
+standards. However the showcases show that the rendering behaviors - partly
+because of bugs and partly because of ambiguties in the standard or because the
+standard leave room for interpretation. All converters implement on top of the
+standard their own extensions for providing additional functionalities that are
+not (yet) part of the related standards. This makes it more complicated for
+choosing the right tool.  For more complex layout requirements you need to know
+the tools in detail and check if a particular requirement is supported by a
+certain tool - often you need to think about workaround for implementing a
+particular functionality (e.g. sidenotes are only supported by Antennahouse as
+propriertary extension, same for footnotes within a multi-column layout within
+the same column).
+
 Javascript
 ----------
 
@@ -30,13 +46,9 @@ here also is not straight forward here.
 Missing features and major pain
 -------------------------------
 
-- support for sidenotes (Antennahouse has its own extension)
 - shapes and exclusions (there is a W3C CSS draft for shapes and exclusions)
-- more flexible support for flots (every converter is dealing with floats differently
+- more flexible support for floats (every converter is dealing with floats differently
   and has its own extensions (Antennahouse in particular))
-- working Javascript support. Working with Javascript in PrinceXML or PDFreactor is
-  often a bit like gambling because you don't know which Javascript module is working
-  with with processor. 
 - general support for adaptive image layout (doable with Javascript in PDFreactor)
 - better control over the rendering process (e.g. through a Javascript API)
 - better control over pagination (the page-break-* properties are kind of a
