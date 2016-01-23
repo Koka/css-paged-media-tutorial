@@ -44,6 +44,7 @@ Standards and drafts
 Articles
 --------
 
+- `CSS Books <https://books.spec.whatwg.org/>`_
 - `Designing for Print with CSS <https://www.smashingmagazine.com/2015/01/designing-for-print-with-css/>`_
 - `Building books with CSS 3 <http://alistapart.com/article/building-books-with-css3>`_
 - `Introduction to the Paged Media Module in CSS 3 <http://www.techrepublic.com/blog/web-designer/introduction-to-the-paged-media-module-in-css3/>`_
