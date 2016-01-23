@@ -54,10 +54,6 @@ PDF files
                             <a href="#" data-featherlight="_static/lesson-tables/images/pdfreactor/pdfreactor-3.png" >
                                 <img class="preview" src="_static/lesson-tables/images/pdfreactor/thumb-pdfreactor-3.png" />
                             </a>
-                           
-                            <a href="#" data-featherlight="_static/lesson-tables/images/pdfreactor/pdfreactor-4.png" >
-                                <img class="preview" src="_static/lesson-tables/images/pdfreactor/thumb-pdfreactor-4.png" />
-                            </a>
                           
                            
                               <div>
