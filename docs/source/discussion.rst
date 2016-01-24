@@ -54,6 +54,20 @@ Missing features and major pain
 - better control over pagination (the page-break-* properties are kind of a
   joke since often the renderer do what they want)
 
+Which tool should I choose?
+---------------------------
+
+The general rule in my experience is: you get what you pay for.  The
+open-source solution ``Weasyprint`` will work for standard requirements without
+fancy layout requirements. ``PDFreactor`` and ``PrinceXML`` provide worked both
+for us in enterprise projects. Our current preference is ``PDFreactor`` because
+of the better documentation and the lower price compared to ``PrinceXML``.
+``Antennahouse`` is more expensive (you pay for each CPU and each extension)
+but it provides several extensions (e.g. better float support) that might be
+needed in your projects. So there is no general recommendation possible. The
+choice of a tool depends on your requirements and budget.  (ZOPYX offers a
+vendor-neutral consulting on CSS Paged Media issues).
+
 .. raw:: html
 
     <hr/>
