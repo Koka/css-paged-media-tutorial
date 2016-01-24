@@ -1,8 +1,10 @@
 
 .. image:: images/banner-med.png
+    :class: banner
 
-print-css.rocks - A tutorial and showcase for CSS Paged Media
-=============================================================
+
+A tutorial and showcase for CSS Paged Media
+===========================================
 
 .. toctree::
    intro.rst
