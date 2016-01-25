@@ -33,7 +33,7 @@ PDF files
                     <td>
                         <span class="converter-name">PDFreactor</span>
                         <br/>
-                        <span class="converter-status">ERROR</span>
+                        <span class="converter-status">OK</span>
                         <br/>
                         <a class="pdf-download" href="_static/lesson-multiple-backgrounds/pdfreactor.pdf">Download</a>
                     </td>
@@ -43,11 +43,7 @@ PDF files
                                 <img class="preview" src="_static/lesson-multiple-backgrounds/images/pdfreactor/thumb-pdfreactor.png" />
                             </a>
                           
-                           
-                              <div>
-                                No reasonable output
-                              </div>
-                         
+                          
                     </td>
                 </tr>
             

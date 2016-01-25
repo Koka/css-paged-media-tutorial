@@ -10,6 +10,7 @@ Lessons
   lesson-cross-references.rst
   lesson-css-transformations.rst
   lesson-css-transformations2.rst
+  lesson-css-transformations3.rst
   lesson-flotr2-js.rst
   lesson-fonts.rst
   lesson-footnotes.rst
@@ -17,6 +18,7 @@ Lessons
   lesson-hyphenation.rst
   lesson-images.rst
   lesson-mathml-native.rst
+  lesson-mathml-torture-test.rst
   lesson-multi-columns.rst
   lesson-multiple-backgrounds.rst
   lesson-named-pages.rst
