@@ -40,3 +40,7 @@ docs: FORCE
 	cp -a docs/build/html/* /var/www/print-css.rocks
 
 FORCE:
+
+generate-all: FORCE
+	./generate.sh
+	cd docs; ../bin/python generate_lessons.py; make html

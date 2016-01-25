@@ -5,6 +5,7 @@ div.multicol {
     text-align: justify;
     hyphens: auto;
     page-break-after: always;
+    font-size: 11pt;
 }
 
 

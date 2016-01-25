@@ -50,6 +50,10 @@ PDF files
                             <a href="#" data-featherlight="_static/lesson-running-elements/images/pdfreactor/pdfreactor-2.png" >
                                 <img class="preview" src="_static/lesson-running-elements/images/pdfreactor/thumb-pdfreactor-2.png" />
                             </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-running-elements/images/pdfreactor/pdfreactor-3.png" >
+                                <img class="preview" src="_static/lesson-running-elements/images/pdfreactor/thumb-pdfreactor-3.png" />
+                            </a>
                           
                           
                     </td>

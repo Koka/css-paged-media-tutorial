@@ -48,7 +48,6 @@ with open('source/lessons.rst', 'wb') as fp_out:
                 message = CP.get(section, 'message')
 
                 image_directory  = os.path.join(source_generated, name, 'images', section.lower())
-                print image_directory
 
                 images = []
                 if os.path.exists(image_directory):

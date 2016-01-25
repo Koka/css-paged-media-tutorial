@@ -9,6 +9,7 @@ Lessons
   lesson-cmyk.rst
   lesson-cross-references.rst
   lesson-css-transformations.rst
+  lesson-css-transformations2.rst
   lesson-flotr2-js.rst
   lesson-fonts.rst
   lesson-footnotes.rst
