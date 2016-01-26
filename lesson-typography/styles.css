@@ -1,0 +1,18 @@
+@import url("../styles/a5.css");
+
+p {
+    font-size: 20px;
+    color: red;
+}
+
+table {
+    border: 1px solid black;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+
