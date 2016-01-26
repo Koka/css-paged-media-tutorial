@@ -46,6 +46,10 @@ PDF files
                             <a href="#" data-featherlight="_static/lesson-mathml-torture-test/images/pdfreactor/pdfreactor-1.png" >
                                 <img class="preview" src="_static/lesson-mathml-torture-test/images/pdfreactor/thumb-pdfreactor-1.png" />
                             </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-mathml-torture-test/images/pdfreactor/pdfreactor-2.png" >
+                                <img class="preview" src="_static/lesson-mathml-torture-test/images/pdfreactor/thumb-pdfreactor-2.png" />
+                            </a>
                           
                            
                               <div>
@@ -75,6 +79,10 @@ PDF files
                            
                             <a href="#" data-featherlight="_static/lesson-mathml-torture-test/images/princexml/prince-2.png" >
                                 <img class="preview" src="_static/lesson-mathml-torture-test/images/princexml/thumb-prince-2.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-mathml-torture-test/images/princexml/prince-3.png" >
+                                <img class="preview" src="_static/lesson-mathml-torture-test/images/princexml/thumb-prince-3.png" />
                             </a>
                           
                            
@@ -106,6 +114,10 @@ PDF files
                             <a href="#" data-featherlight="_static/lesson-mathml-torture-test/images/antennahouse/antennahouse-2.png" >
                                 <img class="preview" src="_static/lesson-mathml-torture-test/images/antennahouse/thumb-antennahouse-2.png" />
                             </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-mathml-torture-test/images/antennahouse/antennahouse-3.png" >
+                                <img class="preview" src="_static/lesson-mathml-torture-test/images/antennahouse/thumb-antennahouse-3.png" />
+                            </a>
                           
                            
                               <div>
@@ -135,6 +147,10 @@ PDF files
                            
                             <a href="#" data-featherlight="_static/lesson-mathml-torture-test/images/vivliostyle/vivliostyle-2.png" >
                                 <img class="preview" src="_static/lesson-mathml-torture-test/images/vivliostyle/thumb-vivliostyle-2.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-mathml-torture-test/images/vivliostyle/vivliostyle-3.png" >
+                                <img class="preview" src="_static/lesson-mathml-torture-test/images/vivliostyle/thumb-vivliostyle-3.png" />
                             </a>
                           
                            

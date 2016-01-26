@@ -43,4 +43,4 @@ FORCE:
 
 generate-all: FORCE
 	./generate.sh
-	cd docs; ../bin/python generate_lessons.py; make html
+	cd docs;  export PATH=${PWD}/../bin:${PATH} ../bin/python generate_lessons.py; make html
