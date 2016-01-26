@@ -1,18 +1,15 @@
 @import url("../styles/a5.css");
 
-p {
-    font-size: 20px;
-    color: red;
+
+p.first-letter::first-letter {
+    font-size: 2em;
+    color: pink;
+    font-weight: bold;
 }
 
-table {
-    border: 1px solid black;
-    width: 50%;
-    border-collapse: collapse;
+p.first-line::first-line {
+    font-size: 2em;
+    color: pink;
+    font-weight: bold;
+    text-transform: uppercase;
 }
-
-td, th {
-    border: 1px solid black;
-    text-align: center;
-}
-
