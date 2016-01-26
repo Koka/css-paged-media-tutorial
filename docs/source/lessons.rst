@@ -7,6 +7,7 @@ Lessons
   lesson-chapter-numbering.rst
   lesson-chart-js.rst
   lesson-cmyk.rst
+  lesson-complex-css.rst
   lesson-cross-references.rst
   lesson-css-transformations.rst
   lesson-css-transformations2.rst
