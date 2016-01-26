@@ -1,4 +1,6 @@
-﻿img {
+﻿@import url("../styles/a4.css");
+
+img {
     width: 8cm;
 }
 
