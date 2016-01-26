@@ -111,7 +111,7 @@ PDF files
                     <td>
                         <span class="converter-name">Vivliostyle</span>
                         <br/>
-                        <span class="converter-status"></span>
+                        <span class="converter-status">ERROR</span>
                         <br/>
                         <a class="pdf-download" href="_static/lesson-named-pages/vivliostyle-output.pdf">Download</a>
                     </td>
@@ -125,7 +125,11 @@ PDF files
                                 <img class="preview" src="_static/lesson-named-pages/images/vivliostyle/thumb-vivliostyle-1.png" />
                             </a>
                           
-                          
+                           
+                              <div>
+                                no support for named pages so far
+                              </div>
+                         
                     </td>
                 </tr>
             
