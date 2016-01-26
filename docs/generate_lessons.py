@@ -7,7 +7,7 @@ from ConfigParser import ConfigParser
 root_path = os.path.abspath(os.path.join(os.getcwd(), '..'))
 
 names = glob.glob('{}/lesson-*'.format(root_path))
-names = [os.path.basename(name) for name in names]
+names = sorted([os.path.basename(name) for name in names])
 
 
 source_generated = 'source/generated'
