@@ -9,6 +9,7 @@ Lessons
   lesson-cmyk.rst
   lesson-complex-css.rst
   lesson-cross-references.rst
+  lesson-css-gradients.rst
   lesson-css-transformations.rst
   lesson-css-transformations2.rst
   lesson-css-transformations3.rst
