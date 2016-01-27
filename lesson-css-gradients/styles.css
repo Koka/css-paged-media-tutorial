@@ -29,4 +29,40 @@ div {
 #gradient5 {
     background: -webkit-repeating-radial-gradient(#000000, #ffffff 10px, #000000 20px);
     background: repeating-radial-gradient(#000000, #ffffff 10px, #000000 20px);
-}    
+}
+
+/*
+#gradient6 {
+    background:
+        repeating-radial-gradient(
+            circle at top left,
+            cyan,
+            yellow 2em,
+            magenta 4em,
+            cyan 6em
+        ),
+        repeating-radial-gradient(
+            circle at bottom left,
+            cyan,
+            yellow 2em,
+            magenta 4em,
+            cyan 6em
+        ),
+        repeating-radial-gradient(
+            circle at top right,
+            cyan,
+            yellow 2em,
+            magenta 4em,
+            cyan 6em
+        ),
+        repeating-radial-gradient(
+            circle at bottom right,
+            cyan,
+            yellow 2em,
+            magenta 4em,
+            cyan 6em
+        );
+
+    background-blend-mode: multiply;    
+}
+*/
