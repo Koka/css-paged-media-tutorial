@@ -4,6 +4,9 @@ div {
     width: 3cm;
     height: 3cm;
     border: 1px solid blue;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    display: inline-block;
 }
 
 #gradient1 {
@@ -66,3 +69,4 @@ div {
     background-blend-mode: multiply;    
 }
 */
+
