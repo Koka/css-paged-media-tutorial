@@ -29,7 +29,6 @@ Javascript modules like MathJax for rendering MathML does not work at all.
 Vivliostyle does not support Javascript at the moment. The state of Javascript
 with Antennahouse is unknown.
 
-
 Images
 ------
 
@@ -41,7 +40,6 @@ especially in edge cases where an automatic size reduction of images could
 result in a better layout. Tools like PDFreactor provide limited access to the
 renderer internals in order to implement an adaptive image layout.
 
-
 MathML support
 --------------
 
@@ -50,10 +48,10 @@ Lots of formatting and layout issues with native renderers and renderers based
 on MathJax (Vivliostyle). It is questionable if MathML will ever work. The only
 future for MathML is a cross-plattform support for a Javascript based rendering
 engine like MathJax. However neither PrinceXML nor PDFreactor nor Antennahouse
-support MathJax. So the only recommendation for using MathML directly: forget it.
-The only valid option is to convert MathML somehow to LaTeX and then SVG. MathML
-parts of your input should be replaced with a related SVG. However the toolchain
-here also is not straight forward here.
+support MathJax. So the only recommendation for using MathML directly: forget
+it.  The only valid option is to convert MathML somehow to LaTeX and then SVG.
+MathML parts of your input should be replaced with a related SVG. However the
+toolchain here also is not straight forward here.
 
 Missing features and major pain
 -------------------------------
