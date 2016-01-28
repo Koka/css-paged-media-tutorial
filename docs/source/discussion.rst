@@ -30,6 +30,18 @@ Vivliostyle does not support Javascript at the moment. The state of Javascript
 with Antennahouse is unknown.
 
 
+Images
+------
+
+All converters work with the most common images formats (GIF, PNG, JPG) and
+vector graphics (SVG). RGB and CMYK color spaces are supported. The major
+problem with graphics is automatic positioning and resizing of images. CSS
+provides a limited options for influencing image placement and positioning
+especially in edge cases where an automatic size reduction of images could
+result in a better layout. Tools like PDFreactor provide limited access to the
+renderer internals in order to implement an adaptive image layout.
+
+
 MathML support
 --------------
 
