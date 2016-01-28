@@ -48,10 +48,10 @@ platform for inclusion as a library.
 
 This tutorial and shortcut covers and compares the following four tools:
 
-- PDFreactor 7/8
-- PrinceXML 9/10
+- PDFreactor 8
+- PrinceXML 10
 - Antennahouse 6.2 CSS formatter 
-- Vivliostyle Formatter
+- Vivliostyle Formatter 2016.1
 
 This tutorial does not cover and installation issues. Please refer to
 the vendor documentation. All tools are available for free for the purpose
