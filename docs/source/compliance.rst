@@ -1,6 +1,6 @@
 
-Compliance 
-----------
+Lessons and tests
+-----------------
 
 .. note::
 

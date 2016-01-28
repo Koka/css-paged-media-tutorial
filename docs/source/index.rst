@@ -9,7 +9,6 @@ A tutorial and showcase for CSS Paged Media
 .. toctree::
    intro.rst
    tools.rst
-   lessons.rst
    compliance.rst
    references.rst
    supplementary.rst
