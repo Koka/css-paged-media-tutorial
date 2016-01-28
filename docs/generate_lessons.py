@@ -30,6 +30,12 @@ with open('source/lessons.rst', 'wb') as fp_out:
 
         lesson_dir = os.path.join(root_path, name)
         conversion_ini = os.path.join(lesson_dir, 'conversion.ini')
+        readme_fn = os.path.join(lesson_dir, 'README.rst')
+        read_me = None
+        if os.path.exists(readme_fn):
+            readme = open(readme_fn, 'rb').read()
+
+
         pdfs = list()
         comp = dict()
         mode = 'html'
@@ -57,7 +63,7 @@ with open('source/lessons.rst', 'wb') as fp_out:
                 pdfs.append(dict(name=section, pdf_file=pdf_file, status=status, message=message, images=images))
                 comp[section] = dict(name=section, pdf_file=pdf_file, status=status, message=message)
 
-        compliance[name]  = comp
+        compliance[name]  = dict(converters=comp, readme=readme)
         has_css = os.path.exists(os.path.join(lesson_dir, 'styles.css'))
 
         params = dict(

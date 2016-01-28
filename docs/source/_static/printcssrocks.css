@@ -22,3 +22,13 @@ img.preview {
 img.banner {
     margin-bottom: 2em;
 }
+
+div.readme 
+{
+    max-width: 225px;
+    font-size: 0.8em;
+    color: #aaa;
+    white-space: normal;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}

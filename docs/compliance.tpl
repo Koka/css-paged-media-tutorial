@@ -11,25 +11,32 @@
     <tbody>
         {% for lesson in rows %}
             <tr>
-                <td><a href="{{ lesson}}.html">{{ lesson }}</a></td>
                 <td>
-                    {% if rows[lesson].get('PDFreactor') %}
-                        {{ rows[lesson]['PDFreactor']['status'] }}
+                    <a href="{{ lesson}}.html">{{ lesson }}</a>
+                    {% if rows[lesson]['readme'] %}
+                        <div class="readme">
+                            {{ rows[lesson]['readme'] }}
+                        </div>
                     {% endif %}
                 </td>
                 <td>
-                    {% if rows[lesson].get('PrinceXML') %}
-                        {{ rows[lesson]['PrinceXML']['status'] }}
+                    {% if rows[lesson]['converters'].get('PDFreactor') %}
+                        {{ rows[lesson]['converters']['PDFreactor']['status'] }}
                     {% endif %}
                 </td>
                 <td>
-                    {% if rows[lesson].get('Antennahouse') %}
-                        {{ rows[lesson]['Antennahouse']['status'] }}
+                    {% if rows[lesson]['converters'].get('PrinceXML') %}
+                        {{ rows[lesson]['converters']['PrinceXML']['status'] }}
                     {% endif %}
                 </td>
                 <td>
-                    {% if rows[lesson].get('Vivliostyle') %}
-                        {{ rows[lesson]['Vivliostyle']['status'] }}
+                    {% if rows[lesson]['converters'].get('Antennahouse') %}
+                        {{ rows[lesson]['converters']['Antennahouse']['status'] }}
+                    {% endif %}
+                </td>
+                <td>
+                    {% if rows[lesson]['converters'].get('Vivliostyle') %}
+                        {{ rows[lesson]['converters']['Vivliostyle']['status'] }}
                     {% endif %}
                 </td>
             </tr>
