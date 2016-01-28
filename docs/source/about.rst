@@ -33,7 +33,7 @@ developments ever since.
 
 .. raw:: html
 
-  <table class="table docutils">
+  <table class="table ">
     <thead>
       <tr>
         <th style="width: 25%">Skills</th>
@@ -87,7 +87,7 @@ developments ever since.
 
 .. raw:: html
 
-  <table class="table docutils">
+  <table class="table ">
     <tbody>
     </tbody>
       <tr>
