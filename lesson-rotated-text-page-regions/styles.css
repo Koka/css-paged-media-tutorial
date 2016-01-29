@@ -1,0 +1,19 @@
+@import url("../styles/a5.css");
+
+p {
+    font-size: 20px;
+    color: red;
+}
+
+@page {
+    @left-top {
+        font-family: Lato;
+        content: "Text left side";
+        font-size: 15px;
+        color: blue;
+        background: pink;
+        transform-origin: top;
+        transform: rotate(-90deg);
+        transform-origin: 20% 40%;
+    }
+}
