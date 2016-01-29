@@ -32,3 +32,10 @@ div.readme
     margin-top: 0.25em;
     margin-bottom: 0.25em;
 }
+
+caption {
+    text-align: left !important;
+    font-weight: bold !important;
+    font-size: 1.4em !important;
+    font-style: normal !important;
+}

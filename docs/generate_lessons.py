@@ -13,6 +13,9 @@ names = sorted([os.path.basename(name) for name in names])
 source_generated = 'source/generated'
 
 compliance = collections.OrderedDict()
+compliance['intro'] = []
+compliance['advanced'] = []
+compliance['special'] = []
 
 with open('source/lessons.rst', 'wb') as fp_out:
     fp_out.write('Lessons\n')
@@ -66,7 +69,7 @@ with open('source/lessons.rst', 'wb') as fp_out:
                 pdfs.append(dict(name=section, pdf_file=pdf_file, status=status, message=message, images=images))
                 comp[section] = dict(name=section, pdf_file=pdf_file, status=status, message=message)
 
-        compliance[name]  = dict(converters=comp, readme=readme)
+        compliance[category].append(dict(name=name, converters=comp, readme=readme))
         has_css = os.path.exists(os.path.join(lesson_dir, 'styles.css'))
 
         params = dict(
@@ -87,5 +90,5 @@ with open('compliance.tpl', 'rb') as fp:
     content = fp.read()
     content = unicode(content, 'utf-8')
     template = jinja2.Template(content)
-output = template.render(dict(rows=compliance))
+output = template.render(dict(data=compliance))
 open('source/compliance_include.html'.format(name), 'wb').write(output.encode('utf8'))
