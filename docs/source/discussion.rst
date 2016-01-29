@@ -59,13 +59,30 @@ toolchain here also is not straight forward here.
 Missing features and major pain
 -------------------------------
 
-- shapes and exclusions (there is a W3C CSS draft for shapes and exclusions)
-- more flexible support for floats (every converter is dealing with floats differently
-  and has its own extensions (Antennahouse in particular))
-- general support for adaptive image layout (doable with Javascript in PDFreactor)
-- better control over the rendering process (e.g. through a Javascript API)
-- better control over pagination (the page-break-* properties are kind of a
-  joke since often the renderer do what they want)
+Shapes and exclusions
+++++++++++++++++++++++
+
+There is a `W3C CSS draft for shapes and exclusions <https://www.w3.org/TR/css3-exclusions/>`_ 
+however none of the converters support this draft sofar. Vivliostyle implements support
+for shapes and exclusions through <EPUB Adaptive Layout <http://www.idpf.org/epub/pgt/>`_ -
+however this approach is pretty weird.
+
+Better and more flexible support for floats 
++++++++++++++++++++++++++++++++++++++++++++
+
+All converters support the standard ``float: left`` and ``float: right``
+properties (in particular for images combined with text). Vendor specific
+extensions are implemented (by Antennhouse in particular).
+
+Support for influencing the rendering process
++++++++++++++++++++++++++++++++++++++++++++++
+
+Using "CSS Paged Media" approach means automatic typesetting. Formatting
+decisions are left to the implementation of the related converters. You have
+little influence on the rendering process (except pagination). It would be
+helpful having a Javascript API for being able to influence the rendering. This
+might solve issues with improper pagination decisions, floating of elements
+etc.
 
 Which tool should I choose?
 ---------------------------
