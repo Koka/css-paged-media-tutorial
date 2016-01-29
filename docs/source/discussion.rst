@@ -15,7 +15,10 @@ the tools in detail and check if a particular requirement is supported by a
 certain tool - often you need to think about workaround for implementing a
 particular functionality (e.g. sidenotes are only supported by Antennahouse as
 propriertary extension, same for footnotes within a multi-column layout within
-the same column).
+the same column). In addition: none of the converters implements the CSS Paged
+Media standard completely. The vendor specific extensions makes interoperability
+hard. You can not expect that converters will produce the result with identical
+content and styles.
 
 Javascript
 ----------
