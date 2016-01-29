@@ -124,13 +124,13 @@ Stylesheet
 
 
 
-HTML input
-++++++++++
-.. literalinclude:: ../../lesson-xml/index.html
-  :language: html
+
+
+XML input
++++++++++
+.. literalinclude:: ../../lesson-xml/index.xml
+  :language: xml
   :linenos:
-
-
 
 
 
