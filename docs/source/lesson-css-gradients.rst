@@ -67,7 +67,7 @@ PDF files
                           
                            
                               <div>
-                                partial support for gradients, improper rendering
+                                partial support for gradients
                               </div>
                          
                     </td>

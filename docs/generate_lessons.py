@@ -39,11 +39,14 @@ with open('source/lessons.rst', 'wb') as fp_out:
         pdfs = list()
         comp = dict()
         mode = 'html'
+        category = 'intro'
         if os.path.exists(conversion_ini):
             CP = ConfigParser()
             CP.read(conversion_ini)
-            if CP.has_option('main', 'mode'):
-                mode = CP.get('main', 'mode')
+            if CP.has_option('common', 'mode'):
+                mode = CP.get('common', 'mode')
+            if CP.has_option('common', 'category'):
+                category = CP.get('common', 'category')
 
             for section in CP.sections():
                 if section not in ('PDFreactor', 'PrinceXML', 'Vivliostyle', 'Antennahouse'):
