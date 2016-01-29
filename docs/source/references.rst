@@ -5,6 +5,10 @@ Vendor samples
 --------------
 
 - `PDFreactor samples <http://www.pdfreactor.com/samples/>`_
+
+   - outstanding sample: `Product catalog <http://www.pdfreactor.com/wp-content/uploads/pdf/noindex/boesch-preisliste-2013.pdf>`_   
+   - all lPDF files on `Onkopedia [DE] <https://onkopedia.com>`_ and `Onkopedia [EN] <https://onkopedia-guidelines.info>`_  e.g. this document on `cancer [DE]  <https://www.onkopedia.com/de/onkopedia/guidelines/mammakarzinom-des-mannes/@@view/pdf/index.pdf?filename=mammakarzinom-des-mannes.pdf>`_
+
 - `PrinceXML samples <http://www.princexml.com/samples/>`_
 - `Antennahouse <http://www.antennahouse.com/antenna1/css/>`_
 
