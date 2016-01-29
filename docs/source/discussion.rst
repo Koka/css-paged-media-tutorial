@@ -56,6 +56,25 @@ it.  The only valid option is to convert MathML somehow to LaTeX and then SVG.
 MathML parts of your input should be replaced with a related SVG. However the
 toolchain here also is not straight forward here.
 
+Forms
+-----
+
+PDF forms are widely available and used. PDFreactor is the only tool that can
+generate PDF files with forms support. 
+
+Further PDF features
+--------------------
+
+Advanced features like
+
+* digital signatures
+* tagged PDFs
+* accessible PDFs 
+* archive PDFs (PDF/A)
+
+are best supported by Antennahouse and PDFreactor.
+
+
 Missing features and major pain
 -------------------------------
 
