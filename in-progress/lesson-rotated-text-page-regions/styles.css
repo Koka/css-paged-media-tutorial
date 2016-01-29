@@ -16,4 +16,8 @@ p {
         transform: rotate(-90deg);
         transform-origin: 20% 40%;
     }
+    @right-top {
+        font-family: Lato;
+        content: url("logo.png");
+    }
 }
