@@ -77,7 +77,7 @@ PDF files
                     <td>
                         <span class="converter-name">Antennahouse</span>
                         <br/>
-                        <span class="converter-status">with errors</span>
+                        <span class="converter-status">(OK)</span>
                         <br/>
                         <a class="pdf-download" href="_static/lesson-mathml-native/antennahouse.pdf">Download</a>
                     </td>
@@ -91,7 +91,11 @@ PDF files
                                 <img class="preview" src="_static/lesson-mathml-native/images/antennahouse/thumb-antennahouse-1.png" />
                             </a>
                           
-                          
+                           
+                              <div>
+                                some layout issues
+                              </div>
+                         
                     </td>
                 </tr>
             

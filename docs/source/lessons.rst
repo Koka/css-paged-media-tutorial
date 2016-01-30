@@ -29,7 +29,6 @@ Lessons
   lesson-pagination.rst
   lesson-positioning.rst
   lesson-right-to-left.rst
-  lesson-rotated-text-page-regions.rst
   lesson-running-elements.rst
   lesson-tables.rst
   lesson-typography.rst

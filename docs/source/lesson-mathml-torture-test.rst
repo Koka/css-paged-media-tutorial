@@ -97,7 +97,7 @@ PDF files
                     <td>
                         <span class="converter-name">Antennahouse</span>
                         <br/>
-                        <span class="converter-status">ERROR</span>
+                        <span class="converter-status">(OK)</span>
                         <br/>
                         <a class="pdf-download" href="_static/lesson-mathml-torture-test/antennahouse.pdf">Download</a>
                     </td>
@@ -121,7 +121,7 @@ PDF files
                           
                            
                               <div>
-                                various rendering and layout errors
+                                some layout issues
                               </div>
                          
                     </td>
