@@ -40,6 +40,7 @@ Standards and drafts
 - `CSS Paged Media Module Level 3 <https://www.w3.org/TR/css3-page/>`_
 - `Requirements for Latin Text Layout and Pagination <https://www.w3.org/TR/2014/WD-dpub-latinreq-20140930/>`_
 - `CSS Exclusions Module Level 1 <https://www.w3.org/TR/css3-exclusions/>`_
+- `CSS Generated Content for Paged Media Module <https://www.w3.org/TR/css-gcpm-3>`_
 
 Articles
 --------
