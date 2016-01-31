@@ -69,7 +69,7 @@ PDF files
                     <td>
                         <span class="converter-name">Antennahouse</span>
                         <br/>
-                        <span class="converter-status">undecided</span>
+                        <span class="converter-status">OK</span>
                         <br/>
                         <a class="pdf-download" href="_static/lesson-xml/antennahouse.pdf">Download</a>
                     </td>
@@ -79,11 +79,7 @@ PDF files
                                 <img class="preview" src="_static/lesson-xml/images/antennahouse/thumb-antennahouse.png" />
                             </a>
                           
-                           
-                              <div>
-                                does not render properly, eventually a configuration issue
-                              </div>
-                         
+                          
                     </td>
                 </tr>
             
@@ -103,7 +99,7 @@ PDF files
                           
                            
                               <div>
-                                does not render properly, eventually a configuration issue
+                                No support for custom non-HTML elements for now
                               </div>
                          
                     </td>

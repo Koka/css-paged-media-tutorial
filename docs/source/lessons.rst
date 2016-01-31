@@ -2,6 +2,7 @@ Lessons
 +++++++
 
 .. toctree::
+  lesson-background-repeated.rst
   lesson-basic.rst
   lesson-box-styling.rst
   lesson-chapter-numbering.rst
@@ -13,6 +14,7 @@ Lessons
   lesson-css-transformations.rst
   lesson-css-transformations2.rst
   lesson-css-transformations3.rst
+  lesson-css-zindex.rst
   lesson-flotr2-js.rst
   lesson-fonts.rst
   lesson-footnotes.rst
