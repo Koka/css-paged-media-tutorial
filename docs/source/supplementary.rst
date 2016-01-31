@@ -55,6 +55,11 @@ Articles
 - `CSS 3 (and HTML) for Publishers <http://chimera.labs.oreilly.com/books/1234000001694/index.html>`_
 - `PubCSS: Formatting Academic Publications in HTML & CSS  <http://thomaspark.co/2015/01/pubcss-formatting-academic-publications-in-html-css/>`_
 
+DITA
+----
+
+- `Converting DITA to PDF using CSS Paged Media <https://www.andreas-jung.com/contents/converting-dita-to-pdf>`_
+
 .. raw:: html
 
     <hr/>
