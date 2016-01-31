@@ -7,10 +7,10 @@ prince:
 	prince -s styles.css  index.xml prince.pdf
 
 vivliostyle: 
-	vivliostyle-formatter index.xml 
+	vivliostyle-formatter --style=styles.css index.xml 
 
 antennahouse: 
-	run.sh -d index.xml -o antennahouse.pdf
+	run.sh -css styles.css -d index.xml -o antennahouse.pdf
 
 clean:
 	find . -name \*.pdf -exec rm {} \;
