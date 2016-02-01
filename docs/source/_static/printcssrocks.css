@@ -39,3 +39,20 @@ caption {
     font-size: 1.4em !important;
     font-style: normal !important;
 }
+
+
+#projects-table,
+#about-table {
+    margin-bottom: 2em;
+}
+
+#projects-table th,
+#about-table th {
+    text-align: left;
+    padding-right: 1em;
+}
+
+#projects-table li,
+#about-table li {
+    margin-left: 1.0em;
+}

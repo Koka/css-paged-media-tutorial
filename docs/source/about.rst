@@ -33,7 +33,7 @@ developments ever since.
 
 .. raw:: html
 
-  <table class="table ">
+  <table class="table" id="about-table">
     <thead>
       <tr>
         <th style="width: 25%">Skills</th>
@@ -45,7 +45,7 @@ developments ever since.
     <tbody>
       <tr>
         <td>
-          <ul style="padding-left: 1em">
+          <ul>
             <li>Python
             <li>Zope
             <li>Plone
@@ -56,7 +56,7 @@ developments ever since.
            </ul>
         </td>
         <td>
-          <ul style="padding-left: 1em">
+          <ul>
             <li>Back-end software development</li>
             <li>Architecture</li>
             <li>Project management</li>
@@ -65,7 +65,7 @@ developments ever since.
           </ul>
         </td>
         <td>
-          <ul style="padding-left: 1em">
+          <ul>
             <li>Python and Plone software development</li>
             <li>Electronic publishing solutions</li>
             <li>XML based publishing</li>
@@ -73,7 +73,7 @@ developments ever since.
           </ul>
         </td>
         <td>
-          <ul style="padding-left: 1em">
+          <ul>
             <li>
                 <a href="https://www.produce-and-publish.com/information/training/generating-high-quality-pdf-documents-from-xml-and-html-using-css-paged-media">CSS Paged Media training, consulting and development</a>
             </li>
@@ -87,7 +87,7 @@ developments ever since.
 
 .. raw:: html
 
-  <table class="table ">
+  <table class="table " id="projects-table">
     <tbody>
     </tbody>
       <tr>
