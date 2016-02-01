@@ -104,7 +104,7 @@ might solve issues with improper pagination decisions, floating of elements
 etc.
 
 Speed
-+++++
+-----
 
 For a quick benchmark of the tools I used the `Oxygen Userguide
 <https://github.com/oxygenxml/userguide.git>`_.  I converted the user guide to
