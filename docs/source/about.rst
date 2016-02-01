@@ -144,7 +144,7 @@ Contact
 | Hundskapfklinge 33
 | D-72074 Tübingen
 | info@zopyx.com
-| `www.zopyx.com <https://https://www.zopyx.com>`_
+| `www.zopyx.com <https://zopyx.com>`_
 | @MacYET on Twitter
 
 Licence
