@@ -1,7 +1,6 @@
 @font-face {
     font-family: Lato;
     src: url("Lato2OFL/Lato-Regular.ttf");
-      
 }
 
 @font-face {
@@ -23,7 +22,6 @@
     font-weight: bold;
 }
 
-
 @page {
     @bottom-center {
         content: "https://print-css.rocks";
@@ -31,6 +29,7 @@
         color: #aaa;
         font-family: Lato;
     }
+
     @top-center {
         content: "CSS Paged Media Tutorial by Andreas Jung";
         font-size: 0.8em;
