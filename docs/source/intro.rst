@@ -96,11 +96,10 @@ the related binary/binaries are configured in the ``$PATH`` of your shell enviro
 Each of ``lesson-...`` directory contains a ``Makefile`` that can be used in the same
 across all lessons for generating a PDF with one of the mentioned converters::
 
-    > make pdfreactor -> generates pdfreactor.pdf as output
-    > make prince -> generates prince.pdf as output
-    > make vivliostyle -> generates vivliostyle-formatter.pdf as output
-    > make antennahouse -> generates antennahouse.pdf as output
-
+    > make pdfreactor   -> generates `pdfreactor.pdf`
+    > make prince       -> generates `prince.pdf`
+    > make vivliostyle  -> generates `vivliostyle-formatter.pdf`
+    > make antennahouse -> generates `antennahouse.pdf`
 
 Source code
 -----------
