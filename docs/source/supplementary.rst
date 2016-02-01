@@ -40,6 +40,8 @@ Standards and drafts
 - `CSS Paged Media Module Level 3 <https://www.w3.org/TR/css3-page/>`_
 - `Requirements for Latin Text Layout and Pagination <https://www.w3.org/TR/2014/WD-dpub-latinreq-20140930/>`_
 - `CSS Exclusions Module Level 1 <https://www.w3.org/TR/css3-exclusions/>`_
+- `CSS Generated Content for Paged Media Module <https://www.w3.org/TR/css-gcpm-3>`_
+- `CSS Page Floats <https://www.w3.org/TR/css-page-floats-3/>`_
 
 Articles
 --------
@@ -52,6 +54,12 @@ Articles
 - `PRINTING WEB PAGES WITH THE PAGED MEDIA MODULE <https://www.stevefenton.co.uk/2013/12/printing-web-pages-with-the-paged-media-module/>`_
 - `CSS 3 (and HTML) for Publishers <http://chimera.labs.oreilly.com/books/1234000001694/index.html>`_
 - `PubCSS: Formatting Academic Publications in HTML & CSS  <http://thomaspark.co/2015/01/pubcss-formatting-academic-publications-in-html-css/>`_
+
+DITA
+----
+
+- `Converting DITA to PDF using CSS Paged Media <https://www.andreas-jung.com/contents/converting-dita-to-pdf>`_
+- `dita-css - An Oyxgen plugin for generating PDF from DITA using PrinceXML or Antennahouse <https://github.com/oxygenxml/dita-css>`_
 
 .. raw:: html
 

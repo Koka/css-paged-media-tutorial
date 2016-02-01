@@ -4,6 +4,7 @@ myindentedparagraph {
     display: block;
     margin: 2cm;
     border: 1px dashed grey;
+    font-family: Lato;
 }
 
 mytable {
@@ -11,6 +12,7 @@ mytable {
     border: 1px solid blue;
     width: 80%;
     border-collapse: collapse;
+    font-family: Lato;
 }
 
 row {
@@ -27,6 +29,7 @@ cell {
 
 mylist {
     display: block;
+    font-family: Lato;
 }
 
 item {

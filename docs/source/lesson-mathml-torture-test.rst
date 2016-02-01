@@ -33,7 +33,7 @@ PDF files
                     <td>
                         <span class="converter-name">PDFreactor</span>
                         <br/>
-                        <span class="converter-status">ERROR</span>
+                        <span class="converter-status">with errors</span>
                         <br/>
                         <a class="pdf-download" href="_static/lesson-mathml-torture-test/pdfreactor.pdf">Download</a>
                     </td>
@@ -63,7 +63,7 @@ PDF files
                     <td>
                         <span class="converter-name">PrinceXML</span>
                         <br/>
-                        <span class="converter-status">ERROR</span>
+                        <span class="converter-status">with errors</span>
                         <br/>
                         <a class="pdf-download" href="_static/lesson-mathml-torture-test/prince.pdf">Download</a>
                     </td>
