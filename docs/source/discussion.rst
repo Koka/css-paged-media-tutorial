@@ -103,6 +103,22 @@ helpful having a Javascript API for being able to influence the rendering. This
 might solve issues with improper pagination decisions, floating of elements
 etc.
 
+Speed
++++++
+
+For a quick benchmark of the tools I used the `Oxygen Userguide
+<https://github.com/oxygenxml/userguide.git>`_.  I converted the user guide to
+a single HTML file (20 MB) using the DITA OT and converted it using all four
+converters (4 CPU box, 24 GHz, 8 GB RAM). The result PDF files have been 2200 and 2400
+pages.
+
+==========   =========  ============  ===========
+PDFreactor   PrinceXML  Antennahouse  Vivliostyle
+==========   =========  ============  ===========
+150 secs     24 secs    220 secs      90 secs
+==========   =========  ============  ===========
+
+
 Which tool should I choose?
 ---------------------------
 

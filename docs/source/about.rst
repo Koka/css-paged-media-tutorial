@@ -145,7 +145,7 @@ Contact
 | D-72074 Tübingen
 | info@zopyx.com
 | `www.zopyx.com <https://zopyx.com>`_
-| @MacYET on Twitter
+| `@printcssrocks on Twitter <https://twitter.com/printcssrocks>`_
 
 Licence
 -------
