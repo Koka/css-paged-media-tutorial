@@ -58,8 +58,19 @@ the vendor documentation. All tools are available for free for the purpose
 of evaluation. Depending on the converter the generated PDF documents will
 contain a watermark or a vendor specific message or icon.
 
-Basic converter usage
----------------------
+Using this tutorial
+-------------------
+
+You can either download all the complete tutorial with all samples from
+
+https://github.com/zopyx/css-paged-media-tutorial/releases
+
+or you checkout the repository using git::
+
+    git clone git@github.com:zopyx/css-paged-media-tutorial.git
+
+The core examples work both with ```pdfreactor``, ``prince`` or ``run.sh`` (Antennahouse). 
+Ensure that the related binary/binaries are configured in the ``$PATH`` of your shell environment.
 
 PDFreactor
 ++++++++++
@@ -90,10 +101,8 @@ Antennahouse CSS Formatter
 
   > run.sh -d index.html  -o out.pdf
 
-The core examples work both with ```pdfreactor`` and ``prince```. Ensure that
-the related binary/binaries are configured in the ``$PATH`` of your shell environment.
 
-Each of ``lesson-...`` directory contains a ``Makefile`` that can be used in the same
+Each of ``lesson-...`` directories contains a ``Makefile`` that can be used in the same
 across all lessons for generating a PDF with one of the mentioned converters::
 
     > make pdfreactor   -> generates `pdfreactor.pdf`
