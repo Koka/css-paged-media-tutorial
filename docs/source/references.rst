@@ -1,13 +1,14 @@
 References and samples
 ======================
 
-Vendor samples
---------------
+Vendor samples & Case studies
+-----------------------------
 
 - `PDFreactor samples <http://www.pdfreactor.com/samples/>`_
 
    - outstanding sample: `Product catalog <http://www.pdfreactor.com/wp-content/uploads/pdf/noindex/boesch-preisliste-2013.pdf>`_   
 
+- `PDFreactor case studies <http://www.pdfreactor.com/case-studies/>`_
 - `PrinceXML samples <http://www.princexml.com/samples/>`_
 - `Antennahouse <http://www.antennahouse.com/antenna1/css/>`_
 
