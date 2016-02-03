@@ -109,8 +109,8 @@ Speed
 For a quick benchmark of the tools I used the `Oxygen Userguide
 <https://github.com/oxygenxml/userguide.git>`_.  I converted the user guide to
 a single HTML file (20 MB) using the DITA OT and converted it using all four
-converters (4 CPU box, 2.4 GHz, 8 GB RAM). The result PDF files have been 2200 and 2400
-pages.
+converters (4 CPU box, 2.4 GHz, 8 GB RAM). The result PDF files have been 2200
+and 2400 pages. 
 
 ==========   =========  ============  ===========
 PDFreactor   PrinceXML  Antennahouse  Vivliostyle

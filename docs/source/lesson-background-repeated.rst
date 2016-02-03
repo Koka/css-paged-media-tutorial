@@ -38,6 +38,10 @@ PDF files
                         <a class="pdf-download" href="_static/lesson-background-repeated/pdfreactor.pdf">Download</a>
                     </td>
                     <td>
+                           
+                            <a href="#" data-featherlight="_static/lesson-background-repeated/images/pdfreactor/pdfreactor.png" >
+                                <img class="preview" src="_static/lesson-background-repeated/images/pdfreactor/thumb-pdfreactor.png" />
+                            </a>
                           
                            
                               <div>
@@ -56,6 +60,10 @@ PDF files
                         <a class="pdf-download" href="_static/lesson-background-repeated/prince.pdf">Download</a>
                     </td>
                     <td>
+                           
+                            <a href="#" data-featherlight="_static/lesson-background-repeated/images/princexml/prince.png" >
+                                <img class="preview" src="_static/lesson-background-repeated/images/princexml/thumb-prince.png" />
+                            </a>
                           
                           
                     </td>
@@ -70,6 +78,10 @@ PDF files
                         <a class="pdf-download" href="_static/lesson-background-repeated/antennahouse.pdf">Download</a>
                     </td>
                     <td>
+                           
+                            <a href="#" data-featherlight="_static/lesson-background-repeated/images/antennahouse/antennahouse.png" >
+                                <img class="preview" src="_static/lesson-background-repeated/images/antennahouse/thumb-antennahouse.png" />
+                            </a>
                           
                           
                     </td>
@@ -84,6 +96,10 @@ PDF files
                         <a class="pdf-download" href="_static/lesson-background-repeated/vivliostyle-output.pdf">Download</a>
                     </td>
                     <td>
+                           
+                            <a href="#" data-featherlight="_static/lesson-background-repeated/images/vivliostyle/vivliostyle.png" >
+                                <img class="preview" src="_static/lesson-background-repeated/images/vivliostyle/thumb-vivliostyle.png" />
+                            </a>
                           
                            
                               <div>

@@ -38,6 +38,10 @@ PDF files
                         <a class="pdf-download" href="_static/lesson-css-zindex/pdfreactor.pdf">Download</a>
                     </td>
                     <td>
+                           
+                            <a href="#" data-featherlight="_static/lesson-css-zindex/images/pdfreactor/pdfreactor.png" >
+                                <img class="preview" src="_static/lesson-css-zindex/images/pdfreactor/thumb-pdfreactor.png" />
+                            </a>
                           
                           
                     </td>

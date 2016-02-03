@@ -46,6 +46,10 @@ PDF files
                             <a href="#" data-featherlight="_static/lesson-basic/images/pdfreactor/pdfreactor-1.png" >
                                 <img class="preview" src="_static/lesson-basic/images/pdfreactor/thumb-pdfreactor-1.png" />
                             </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-basic/images/pdfreactor/pdfreactor.png" >
+                                <img class="preview" src="_static/lesson-basic/images/pdfreactor/thumb-pdfreactor.png" />
+                            </a>
                           
                           
                     </td>
@@ -67,6 +71,10 @@ PDF files
                            
                             <a href="#" data-featherlight="_static/lesson-basic/images/princexml/prince-1.png" >
                                 <img class="preview" src="_static/lesson-basic/images/princexml/thumb-prince-1.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-basic/images/princexml/prince.png" >
+                                <img class="preview" src="_static/lesson-basic/images/princexml/thumb-prince.png" />
                             </a>
                           
                           
@@ -107,6 +115,10 @@ PDF files
                            
                             <a href="#" data-featherlight="_static/lesson-basic/images/vivliostyle/vivliostyle-1.png" >
                                 <img class="preview" src="_static/lesson-basic/images/vivliostyle/thumb-vivliostyle-1.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-basic/images/vivliostyle/vivliostyle.png" >
+                                <img class="preview" src="_static/lesson-basic/images/vivliostyle/thumb-vivliostyle.png" />
                             </a>
                           
                           
