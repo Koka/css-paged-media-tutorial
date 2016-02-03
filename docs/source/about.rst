@@ -147,6 +147,17 @@ Contact
 | `www.zopyx.com <https://zopyx.com>`_
 | `@printcssrocks on Twitter <https://twitter.com/printcssrocks>`_
 
+Contribute & participate
+------------------------
+
+The prince-css.rocks project is an open platform for spreading the word about
+"CSS Paged Media" and "Print CSS". Feel to contribute further lessons and
+showcases, pointers to documentation and resource etc.  You can either contact
+me directly or you fork the project on Github and see me some pull requests.
+print-css.rocks is supposed to be a living and growing project for the Print
+CSS community.
+
+
 Licence
 -------
 
