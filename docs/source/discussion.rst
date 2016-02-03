@@ -62,6 +62,18 @@ Forms
 PDF forms are widely available and used. PDFreactor is the only tool that can
 generate PDF files with forms support. 
 
+Line grids
+----------
+
+Support for line grids or grids in general is an upcoming features. There is an
+W3C draft `CSS Line Grid Module Level 1
+<https://drafts.csswg.org/css-line-grid/>`_ in the making. The this time there
+is only support for line grids in `PDFreactor Version 8
+<http://www.pdfreactor.com/product/doc_html/index.html#LineGridsAndSnapping>`_
+through vendor specific properties ``-ro-line-snap`` and ``-ro-line-grid``.
+The status of grid support in Antennahouse is unclear. No support for grid
+in PrinceXML and Vivliostyle.
+
 Further PDF features
 --------------------
 

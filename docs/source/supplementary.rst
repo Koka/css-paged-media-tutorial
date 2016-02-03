@@ -42,6 +42,7 @@ Standards and drafts
 - `CSS Exclusions Module Level 1 <https://www.w3.org/TR/css3-exclusions/>`_
 - `CSS Generated Content for Paged Media Module <https://www.w3.org/TR/css-gcpm-3>`_
 - `CSS Page Floats <https://www.w3.org/TR/css-page-floats-3/>`_
+- `CSS Line Grid Module Level 1 <https://drafts.csswg.org/css-line-grid/>`_
 
 Articles
 --------
