@@ -71,7 +71,7 @@ W3C draft `CSS Line Grid Module Level 1
 is only support for line grids in `PDFreactor Version 8
 <http://www.pdfreactor.com/product/doc_html/index.html#LineGridsAndSnapping>`_
 through vendor specific properties ``-ro-line-snap`` and ``-ro-line-grid``.
-The status of grid support in Antennahouse is unclear. No support for grid
+The status of grid support in Antennahouse is unclear. No support for grids
 in PrinceXML and Vivliostyle.
 
 Further PDF features
