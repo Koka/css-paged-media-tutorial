@@ -1,0 +1,18 @@
+@page {
+    size: a5;
+    margin: 2cm;
+
+    /* PDFreactor */
+    -ro-media-size: SRA4 landscape;
+    -ro-bleed-width: 3mm;
+    -ro-crop-size: trim;
+    -ro-marks: trim bleed registration;
+    -ro-marks-width: 1pt;
+    -ro-marks-color: red;
+    -ro-colorbar-bottom-left: gradient-tint;
+    -ro-colorbar-bottom-right: progressive-color;
+
+    /* PrinceXML */
+    marks: crop cross;
+}
+
