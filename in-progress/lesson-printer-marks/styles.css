@@ -1,6 +1,7 @@
+@import url("../styles/a4.css");
+
 @page {
-    size: a5;
-    margin: 2cm;
+    size: a4;
 
     /* PDFreactor */
     -ro-media-size: SRA4 landscape;
@@ -11,6 +12,7 @@
     -ro-marks-color: red;
     -ro-colorbar-bottom-left: gradient-tint;
     -ro-colorbar-bottom-right: progressive-color;
+    -ro-crop-size: none;
 
     /* PrinceXML */
     marks: crop cross;
