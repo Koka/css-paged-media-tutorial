@@ -59,11 +59,16 @@ with open('source/lessons.rst', 'wb') as fp_out:
                 status = CP.get(section, 'status')
                 message = CP.get(section, 'message')
 
-                image_directory  = os.path.join(source_generated, name, 'images', section.lower())
+                generated_pdf = os.path.join(source_generated, name, pdf_file)
+                if not os.path.exists(generated_pdf):
+                    print('--> No PDF file {}'.format(generated_pdf))
 
+                image_directory  = os.path.join(source_generated, name, 'images', section.lower())
                 images = []
                 if os.path.exists(image_directory):
                     images = sorted(os.listdir(image_directory))
+                    if not images:
+                        print('--> No images found in {}'.format(image_directory))
                     images = [image for image in images if not image.startswith('thumb-')]
 
                 pdfs.append(dict(name=section, pdf_file=pdf_file, status=status, message=message, images=images))
