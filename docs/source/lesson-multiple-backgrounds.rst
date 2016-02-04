@@ -38,6 +38,10 @@ PDF files
                         <a class="pdf-download" href="_static/lesson-multiple-backgrounds/pdfreactor.pdf">Download</a>
                     </td>
                     <td>
+                           
+                            <a href="#" data-featherlight="_static/lesson-multiple-backgrounds/images/pdfreactor/pdfreactor.png" >
+                                <img class="preview" src="_static/lesson-multiple-backgrounds/images/pdfreactor/thumb-pdfreactor.png" />
+                            </a>
                           
                           
                     </td>
@@ -52,6 +56,10 @@ PDF files
                         <a class="pdf-download" href="_static/lesson-multiple-backgrounds/prince.pdf">Download</a>
                     </td>
                     <td>
+                           
+                            <a href="#" data-featherlight="_static/lesson-multiple-backgrounds/images/princexml/prince.png" >
+                                <img class="preview" src="_static/lesson-multiple-backgrounds/images/princexml/thumb-prince.png" />
+                            </a>
                           
                            
                               <div>
@@ -88,6 +96,10 @@ PDF files
                         <a class="pdf-download" href="_static/lesson-multiple-backgrounds/vivliostyle-output.pdf">Download</a>
                     </td>
                     <td>
+                           
+                            <a href="#" data-featherlight="_static/lesson-multiple-backgrounds/images/vivliostyle/vivliostyle.png" >
+                                <img class="preview" src="_static/lesson-multiple-backgrounds/images/vivliostyle/thumb-vivliostyle.png" />
+                            </a>
                           
                           
                     </td>

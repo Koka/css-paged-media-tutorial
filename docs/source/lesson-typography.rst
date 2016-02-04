@@ -46,6 +46,10 @@ PDF files
                             <a href="#" data-featherlight="_static/lesson-typography/images/pdfreactor/pdfreactor-1.png" >
                                 <img class="preview" src="_static/lesson-typography/images/pdfreactor/thumb-pdfreactor-1.png" />
                             </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-typography/images/pdfreactor/pdfreactor.png" >
+                                <img class="preview" src="_static/lesson-typography/images/pdfreactor/thumb-pdfreactor.png" />
+                            </a>
                           
                            
                               <div>
@@ -71,6 +75,10 @@ PDF files
                            
                             <a href="#" data-featherlight="_static/lesson-typography/images/princexml/prince-1.png" >
                                 <img class="preview" src="_static/lesson-typography/images/princexml/thumb-prince-1.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-typography/images/princexml/prince.png" >
+                                <img class="preview" src="_static/lesson-typography/images/princexml/thumb-prince.png" />
                             </a>
                           
                           

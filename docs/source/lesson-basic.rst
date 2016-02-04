@@ -39,14 +39,6 @@ PDF files
                     </td>
                     <td>
                            
-                            <a href="#" data-featherlight="_static/lesson-basic/images/pdfreactor/pdfreactor-0.png" >
-                                <img class="preview" src="_static/lesson-basic/images/pdfreactor/thumb-pdfreactor-0.png" />
-                            </a>
-                           
-                            <a href="#" data-featherlight="_static/lesson-basic/images/pdfreactor/pdfreactor-1.png" >
-                                <img class="preview" src="_static/lesson-basic/images/pdfreactor/thumb-pdfreactor-1.png" />
-                            </a>
-                           
                             <a href="#" data-featherlight="_static/lesson-basic/images/pdfreactor/pdfreactor.png" >
                                 <img class="preview" src="_static/lesson-basic/images/pdfreactor/thumb-pdfreactor.png" />
                             </a>
@@ -64,14 +56,6 @@ PDF files
                         <a class="pdf-download" href="_static/lesson-basic/prince.pdf">Download</a>
                     </td>
                     <td>
-                           
-                            <a href="#" data-featherlight="_static/lesson-basic/images/princexml/prince-0.png" >
-                                <img class="preview" src="_static/lesson-basic/images/princexml/thumb-prince-0.png" />
-                            </a>
-                           
-                            <a href="#" data-featherlight="_static/lesson-basic/images/princexml/prince-1.png" >
-                                <img class="preview" src="_static/lesson-basic/images/princexml/thumb-prince-1.png" />
-                            </a>
                            
                             <a href="#" data-featherlight="_static/lesson-basic/images/princexml/prince.png" >
                                 <img class="preview" src="_static/lesson-basic/images/princexml/thumb-prince.png" />
@@ -108,14 +92,6 @@ PDF files
                         <a class="pdf-download" href="_static/lesson-basic/vivliostyle-output.pdf">Download</a>
                     </td>
                     <td>
-                           
-                            <a href="#" data-featherlight="_static/lesson-basic/images/vivliostyle/vivliostyle-0.png" >
-                                <img class="preview" src="_static/lesson-basic/images/vivliostyle/thumb-vivliostyle-0.png" />
-                            </a>
-                           
-                            <a href="#" data-featherlight="_static/lesson-basic/images/vivliostyle/vivliostyle-1.png" >
-                                <img class="preview" src="_static/lesson-basic/images/vivliostyle/thumb-vivliostyle-1.png" />
-                            </a>
                            
                             <a href="#" data-featherlight="_static/lesson-basic/images/vivliostyle/vivliostyle.png" >
                                 <img class="preview" src="_static/lesson-basic/images/vivliostyle/thumb-vivliostyle.png" />

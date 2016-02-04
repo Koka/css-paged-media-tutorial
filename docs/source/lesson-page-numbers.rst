@@ -46,6 +46,10 @@ PDF files
                             <a href="#" data-featherlight="_static/lesson-page-numbers/images/pdfreactor/pdfreactor-1.png" >
                                 <img class="preview" src="_static/lesson-page-numbers/images/pdfreactor/thumb-pdfreactor-1.png" />
                             </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/pdfreactor/pdfreactor.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/pdfreactor/thumb-pdfreactor.png" />
+                            </a>
                           
                           
                     </td>
@@ -67,6 +71,10 @@ PDF files
                            
                             <a href="#" data-featherlight="_static/lesson-page-numbers/images/princexml/prince-1.png" >
                                 <img class="preview" src="_static/lesson-page-numbers/images/princexml/thumb-prince-1.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/princexml/prince.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/princexml/thumb-prince.png" />
                             </a>
                           
                           
@@ -90,6 +98,10 @@ PDF files
                             <a href="#" data-featherlight="_static/lesson-page-numbers/images/antennahouse/antennahouse-1.png" >
                                 <img class="preview" src="_static/lesson-page-numbers/images/antennahouse/thumb-antennahouse-1.png" />
                             </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/antennahouse/antennahouse.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/antennahouse/thumb-antennahouse.png" />
+                            </a>
                           
                           
                     </td>
@@ -111,6 +123,10 @@ PDF files
                            
                             <a href="#" data-featherlight="_static/lesson-page-numbers/images/vivliostyle/vivliostyle-1.png" >
                                 <img class="preview" src="_static/lesson-page-numbers/images/vivliostyle/thumb-vivliostyle-1.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/vivliostyle/vivliostyle.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/vivliostyle/thumb-vivliostyle.png" />
                             </a>
                           
                            
