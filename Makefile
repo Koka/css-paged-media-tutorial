@@ -17,6 +17,7 @@ clean:
 	find . -name \*.pdf -exec rm {} \;
 
 images: FORCE
+	-rm -fr images
 	mkdir -p images/pdfreactor images/princexml images/antennahouse images/vivliostyle
 	echo 1 >images/placeholder
 	-convert -density 150 -quality 85 pdfreactor.pdf                                     images/pdfreactor/pdfreactor.png
