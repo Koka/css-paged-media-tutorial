@@ -86,18 +86,6 @@ Advanced features like
 
 are best supported by Antennahouse and PDFreactor.
 
-
-Missing features and major pain
--------------------------------
-
-Shapes and exclusions
-++++++++++++++++++++++
-
-There is a `W3C CSS draft for shapes and exclusions <https://www.w3.org/TR/css3-exclusions/>`_ 
-however none of the converters support this draft sofar. Vivliostyle implements support
-for shapes and exclusions through <EPUB Adaptive Layout <http://www.idpf.org/epub/pgt/>`_ -
-however this approach is pretty weird.
-
 XML vs. HTML
 ++++++++++++
 
@@ -111,6 +99,19 @@ functionality like auto-generated content, usage of selected Javascript add-ons
 etc. When dealing with XML you usually have a transformation pipeline for
 generating an equivalent HTML representation of XML input. Use XML as input is
 doable but I do prefer using HTML as input for the mentioned reasons.
+
+
+Missing features and major pain
+-------------------------------
+
+Shapes and exclusions
+++++++++++++++++++++++
+
+There is a `W3C CSS draft for shapes and exclusions <https://www.w3.org/TR/css3-exclusions/>`_ 
+however none of the converters support this draft sofar. Vivliostyle implements support
+for shapes and exclusions through <EPUB Adaptive Layout <http://www.idpf.org/epub/pgt/>`_ -
+however this approach is pretty weird.
+
 
 Better and more flexible support for floats 
 +++++++++++++++++++++++++++++++++++++++++++
