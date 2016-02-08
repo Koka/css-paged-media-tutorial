@@ -33,6 +33,7 @@ Lessons
   lesson-right-to-left.rst
   lesson-running-elements.rst
   lesson-tables.rst
+  lesson-texts-rotated-360-degrees.rst
   lesson-typography.rst
   lesson-xml.rst
   :maxdepth: 1

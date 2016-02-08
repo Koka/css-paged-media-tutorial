@@ -49,26 +49,10 @@ PrinceXML
   * A bit too expensive compared to PDFreactor
   * We used PrinceXML for many years before we discovered and switched to PDFreactor
 
-Vivliostyle Formatter
-+++++++++++++++++++++
-
-* Current version: 2016.1
-* Website: http://www.vivliostyle.com
-* Samples: http://www.vivliostyle.com/en/sample/
-* Documentation: http://www.vivliostyle.com/en/documentation/supported-features/
-* Pricing: unknown so far
-
-* Personal rating (based on latest beta versions, not on the current 2016.1 version):
-
-  * Not much can be said to this beta-quality software.
-  * Detailed documentation missing so far.
-  * Vivliostyle may become a game changer and perhaps "the next big thing" in publishing
-
-
 Antennahouse CSS Formatter
 ++++++++++++++++++++++++++
 
-* Current version: 6.2
+* Current version: 6.3
 * Website: http://www.antennahouse.com
 * `CSS Compliance <http://www.antennahouse.com/antenna1/css-conformance/>`_
 * Pricing:
@@ -85,6 +69,23 @@ Antennahouse CSS Formatter
   * Perhaps the formatter with the best quality and typographical features
     (in fact it is based on their own XSL-FO converter Antennahouse V 6.2).
   * high price
+
+Vivliostyle Formatter
++++++++++++++++++++++
+
+* Current version: 2016.1
+* Website: http://www.vivliostyle.com
+* Samples: http://www.vivliostyle.com/en/sample/
+* Documentation: http://www.vivliostyle.com/en/documentation/supported-features/
+* Pricing: to be announced
+
+* Personal rating:
+
+  * unrated because Vivliostyle by now is an appearently an unfinished product with
+    various issues compared to Antennahouse, PDFreactor or PrinceXML
+  * Detailed documentation missing so far.
+  * Vivliostyle may become a game changer and perhaps "the next big thing" in publishing
+
 
 pdfChip 
 +++++++
@@ -116,6 +117,7 @@ pdfChip
     limitation compared to a castrated pdfChip version (limited to #pages per document
     and # documents per hour).
   * pdfChip appears like a completely overpriced barcode generator.
+  * pdfChip is not included with the tests for the reasons given.
 
 Weasyprint
 ++++++++++
@@ -135,6 +137,7 @@ Weasyprint
     an option. Don't use it for professional enterprise projects. Tinkering
     with bugs and limitations costs more time, money and nerves than investing
     some money for PDFreactor or PrinceXML.
+  * Weasyprint is not included with the tests for the reasona given.
 
 Docraptor
 +++++++++
