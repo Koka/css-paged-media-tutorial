@@ -43,11 +43,7 @@ PDF files
                                 <img class="preview" src="_static/lesson-css-transformations2/images/pdfreactor/thumb-pdfreactor.png" />
                             </a>
                           
-                           
-                              <div>
-                                improper transformation
-                              </div>
-                         
+                          
                     </td>
                 </tr>
             
