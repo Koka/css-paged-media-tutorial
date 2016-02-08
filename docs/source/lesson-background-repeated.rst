@@ -45,7 +45,7 @@ PDF files
                           
                            
                               <div>
-                                does not cover the complete heigt
+                                does not cover the complete height
                               </div>
                          
                     </td>
@@ -103,7 +103,7 @@ PDF files
                           
                            
                               <div>
-                                does not cover the complete heigt
+                                does not cover the complete height
                               </div>
                          
                     </td>

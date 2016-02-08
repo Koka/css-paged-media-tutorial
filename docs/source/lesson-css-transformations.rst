@@ -141,14 +141,6 @@ PDF files
                     </td>
                     <td>
                            
-                            <a href="#" data-featherlight="_static/lesson-css-transformations/images/vivliostyle/vivliostyle-0.png" >
-                                <img class="preview" src="_static/lesson-css-transformations/images/vivliostyle/thumb-vivliostyle-0.png" />
-                            </a>
-                           
-                            <a href="#" data-featherlight="_static/lesson-css-transformations/images/vivliostyle/vivliostyle-1.png" >
-                                <img class="preview" src="_static/lesson-css-transformations/images/vivliostyle/thumb-vivliostyle-1.png" />
-                            </a>
-                           
                             <a href="#" data-featherlight="_static/lesson-css-transformations/images/vivliostyle/vivliostyle.png" >
                                 <img class="preview" src="_static/lesson-css-transformations/images/vivliostyle/thumb-vivliostyle.png" />
                             </a>
