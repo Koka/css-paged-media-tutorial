@@ -87,7 +87,7 @@ Advanced features like
 are best supported by Antennahouse and PDFreactor.
 
 XML vs. HTML
-++++++++++++
+------------
 
 All converters are in general capable to convert XML to PDF by using the
 ``display:`` CSS property that allows to specify the semantics of an XML
