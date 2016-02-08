@@ -144,7 +144,6 @@ PDFreactor   PrinceXML  Antennahouse  Vivliostyle
 150 secs     24 secs    220 secs      90 secs
 ==========   =========  ============  ===========
 
-
 Which tool should I choose?
 ---------------------------
 
