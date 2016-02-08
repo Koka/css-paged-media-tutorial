@@ -86,6 +86,20 @@ Advanced features like
 
 are best supported by Antennahouse and PDFreactor.
 
+XML vs. HTML
+------------
+
+All converters are in general capable to convert XML to PDF by using the
+``display:`` CSS property that allows to specify the semantics of an XML
+element like ``display: block`` or ``display: table-cell``. However using HTML
+over XML has a significant advantage - at least when using PDFreactor or
+PrinceXML- : usage of Javascript. The Javascript layer is only available for
+HTML as input, not for XML. Javascript allows you to provide additional
+functionality like auto-generated content, usage of selected Javascript add-ons
+etc. When dealing with XML you usually have a transformation pipeline for
+generating an equivalent HTML representation of XML input. Use XML as input is
+doable but I do prefer using HTML as input for the mentioned reasons.
+
 
 Missing features and major pain
 -------------------------------
@@ -97,6 +111,7 @@ There is a `W3C CSS draft for shapes and exclusions <https://www.w3.org/TR/css3-
 however none of the converters support this draft sofar. Vivliostyle implements support
 for shapes and exclusions through <EPUB Adaptive Layout <http://www.idpf.org/epub/pgt/>`_ -
 however this approach is pretty weird.
+
 
 Better and more flexible support for floats 
 +++++++++++++++++++++++++++++++++++++++++++
@@ -129,7 +144,6 @@ PDFreactor   PrinceXML  Antennahouse  Vivliostyle
 ==========   =========  ============  ===========
 150 secs     24 secs    220 secs      90 secs
 ==========   =========  ============  ===========
-
 
 Which tool should I choose?
 ---------------------------
