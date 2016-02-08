@@ -55,6 +55,7 @@ Articles
 - `PRINTING WEB PAGES WITH THE PAGED MEDIA MODULE <https://www.stevefenton.co.uk/2013/12/printing-web-pages-with-the-paged-media-module/>`_
 - `CSS 3 (and HTML) for Publishers <http://chimera.labs.oreilly.com/books/1234000001694/index.html>`_
 - `PubCSS: Formatting Academic Publications in HTML & CSS  <http://thomaspark.co/2015/01/pubcss-formatting-academic-publications-in-html-css/>`_
+-  `List of CSS features required for paged media <https://www.w3.org/Style/2013/paged-media-tasks#page-spread>`_
 
 DITA
 ----
