@@ -74,6 +74,15 @@ through vendor specific properties ``-ro-line-snap`` and ``-ro-line-grid``.
 The status of grid support in Antennahouse is unclear. No support for grids
 in PrinceXML and Vivliostyle.
 
+Multimedia (video and audio)
+----------------------------
+While PDF allows the embedding of multimedia content like video and audio, the overall
+value is questionsable. Antennahouse is the only tool supporting multimedia content
+in PDF files. The only PDF reader on the market with multimedia support seems to be 
+Acrobat (Reader). The standard PDF viewer on MacOSX ("Preview") does not support
+multimedia PDF files. So the toolchain for generating multimedia PDFs is limited
+and the tool options on the consumer side are even more poor.
+
 Further PDF features
 --------------------
 
