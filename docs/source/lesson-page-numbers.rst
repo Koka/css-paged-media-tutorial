@@ -39,8 +39,20 @@ PDF files
                     </td>
                     <td>
                            
-                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/pdfreactor/pdfreactor.png" >
-                                <img class="preview" src="_static/lesson-page-numbers/images/pdfreactor/thumb-pdfreactor.png" />
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/pdfreactor/pdfreactor-0.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/pdfreactor/thumb-pdfreactor-0.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/pdfreactor/pdfreactor-1.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/pdfreactor/thumb-pdfreactor-1.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/pdfreactor/pdfreactor-2.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/pdfreactor/thumb-pdfreactor-2.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/pdfreactor/pdfreactor-3.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/pdfreactor/thumb-pdfreactor-3.png" />
                             </a>
                           
                           
@@ -57,8 +69,20 @@ PDF files
                     </td>
                     <td>
                            
-                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/princexml/prince.png" >
-                                <img class="preview" src="_static/lesson-page-numbers/images/princexml/thumb-prince.png" />
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/princexml/prince-0.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/princexml/thumb-prince-0.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/princexml/prince-1.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/princexml/thumb-prince-1.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/princexml/prince-2.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/princexml/thumb-prince-2.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/princexml/prince-3.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/princexml/thumb-prince-3.png" />
                             </a>
                           
                           
@@ -75,8 +99,20 @@ PDF files
                     </td>
                     <td>
                            
-                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/antennahouse/antennahouse.png" >
-                                <img class="preview" src="_static/lesson-page-numbers/images/antennahouse/thumb-antennahouse.png" />
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/antennahouse/antennahouse-0.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/antennahouse/thumb-antennahouse-0.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/antennahouse/antennahouse-1.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/antennahouse/thumb-antennahouse-1.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/antennahouse/antennahouse-2.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/antennahouse/thumb-antennahouse-2.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/antennahouse/antennahouse-3.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/antennahouse/thumb-antennahouse-3.png" />
                             </a>
                           
                           
@@ -93,8 +129,20 @@ PDF files
                     </td>
                     <td>
                            
-                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/vivliostyle/vivliostyle.png" >
-                                <img class="preview" src="_static/lesson-page-numbers/images/vivliostyle/thumb-vivliostyle.png" />
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/vivliostyle/vivliostyle-0.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/vivliostyle/thumb-vivliostyle-0.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/vivliostyle/vivliostyle-1.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/vivliostyle/thumb-vivliostyle-1.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/vivliostyle/vivliostyle-2.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/vivliostyle/thumb-vivliostyle-2.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-page-numbers/images/vivliostyle/vivliostyle-3.png" >
+                                <img class="preview" src="_static/lesson-page-numbers/images/vivliostyle/thumb-vivliostyle-3.png" />
                             </a>
                           
                            
