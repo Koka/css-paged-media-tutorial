@@ -15,6 +15,7 @@ Lessons
   lesson-css-transformations2.rst
   lesson-css-transformations3.rst
   lesson-css-zindex.rst
+  lesson-css-zindex-2.rst
   lesson-flotr2-js.rst
   lesson-fonts.rst
   lesson-footnotes.rst
