@@ -1,7 +1,7 @@
 @import url("../styles/a5.css");
 
 div.outer {
-    font-size: 14px;
+    font-size: 14pt;
     color: red;
     text-align: justify;
     width: 80%;
