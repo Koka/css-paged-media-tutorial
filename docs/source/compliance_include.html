@@ -59,7 +59,7 @@ counters.
                     </td>
                     <td>
                         
-                            OK
+                            (OK)
                         
                     </td>
                     <td>
@@ -420,7 +420,9 @@ each section header.
                                 This example shows how to inject content pieces from the markup into a slot
 (e.g. header or footer). The @top-left slot is being filled with the title of
 the book.  The @top-right slot is automatically filled with title of the
-subsection.
+subsection. Running elements allow you to move content piece into one of the
+sixteen page area. The running element itself is removed from the page flow.
+
 
                             </div>
                         
@@ -670,24 +672,32 @@ The stacking order of the rectangles is defined by their z-index.
                         <a href="lesson-css-zindex-2.html">lesson-css-zindex-2</a>
                         
                             <div class="readme">
-                                Stacked DIV element. Demo from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Stacking_and_float
+                                Stacked DIV element. 
+
+Demo code taken from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Stacking_and_float
+
+The all outputs (see positioning of DIV #1) are correct. Vivliostyle supports
+as only converter opacity and stacks the DIV elements in the same way as
+browser engines do. PDFreactor, Antennahouse and PrinceXML do not support opacity
+and stack the DIV elements according to the rules...so the rendering of all
+converters here is at some point correct and consistent.
 
                             </div>
                         
                     </td>
                     <td>
                         
-                            ERROR
+                            (OK)
                         
                     </td>
                     <td>
                         
-                            ERROR
+                            (OK)
                         
                     </td>
                     <td>
                         
-                            ERROR
+                            (OK)
                         
                     </td>
                     <td>

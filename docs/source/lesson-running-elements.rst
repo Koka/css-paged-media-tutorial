@@ -50,6 +50,10 @@ PDF files
                             <a href="#" data-featherlight="_static/lesson-running-elements/images/pdfreactor/pdfreactor-2.png" >
                                 <img class="preview" src="_static/lesson-running-elements/images/pdfreactor/thumb-pdfreactor-2.png" />
                             </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-running-elements/images/pdfreactor/pdfreactor-3.png" >
+                                <img class="preview" src="_static/lesson-running-elements/images/pdfreactor/thumb-pdfreactor-3.png" />
+                            </a>
                           
                           
                     </td>
@@ -135,6 +139,10 @@ PDF files
                            
                             <a href="#" data-featherlight="_static/lesson-running-elements/images/vivliostyle/vivliostyle-3.png" >
                                 <img class="preview" src="_static/lesson-running-elements/images/vivliostyle/thumb-vivliostyle-3.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-running-elements/images/vivliostyle/vivliostyle-4.png" >
+                                <img class="preview" src="_static/lesson-running-elements/images/vivliostyle/thumb-vivliostyle-4.png" />
                             </a>
                           
                           

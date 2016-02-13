@@ -33,7 +33,7 @@ PDF files
                     <td>
                         <span class="converter-name">PDFreactor</span>
                         <br/>
-                        <span class="converter-status">ERROR</span>
+                        <span class="converter-status">(OK)</span>
                         <br/>
                         <a class="pdf-download" href="_static/lesson-css-zindex-2/pdfreactor.pdf">Download</a>
                     </td>
@@ -45,7 +45,7 @@ PDF files
                           
                            
                               <div>
-                                z-index issue
+                                no opacity support -> different stacking order
                               </div>
                          
                     </td>
@@ -55,7 +55,7 @@ PDF files
                     <td>
                         <span class="converter-name">PrinceXML</span>
                         <br/>
-                        <span class="converter-status">ERROR</span>
+                        <span class="converter-status">(OK)</span>
                         <br/>
                         <a class="pdf-download" href="_static/lesson-css-zindex-2/prince.pdf">Download</a>
                     </td>
@@ -67,7 +67,7 @@ PDF files
                           
                            
                               <div>
-                                z-index issue
+                                no opacity support -> different stacking order
                               </div>
                          
                     </td>
@@ -77,7 +77,7 @@ PDF files
                     <td>
                         <span class="converter-name">Antennahouse</span>
                         <br/>
-                        <span class="converter-status">ERROR</span>
+                        <span class="converter-status">(OK)</span>
                         <br/>
                         <a class="pdf-download" href="_static/lesson-css-zindex-2/antennahouse.pdf">Download</a>
                     </td>
@@ -89,7 +89,7 @@ PDF files
                           
                            
                               <div>
-                                z-index issue
+                                no opacity support -> different stacking order
                               </div>
                          
                     </td>

@@ -58,6 +58,22 @@ PDF files
                             <a href="#" data-featherlight="_static/lesson-cross-references/images/pdfreactor/pdfreactor-4.png" >
                                 <img class="preview" src="_static/lesson-cross-references/images/pdfreactor/thumb-pdfreactor-4.png" />
                             </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/pdfreactor/pdfreactor-5.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/pdfreactor/thumb-pdfreactor-5.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/pdfreactor/pdfreactor-6.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/pdfreactor/thumb-pdfreactor-6.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/pdfreactor/pdfreactor-7.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/pdfreactor/thumb-pdfreactor-7.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/pdfreactor/pdfreactor-8.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/pdfreactor/thumb-pdfreactor-8.png" />
+                            </a>
                           
                           
                     </td>
@@ -91,6 +107,22 @@ PDF files
                            
                             <a href="#" data-featherlight="_static/lesson-cross-references/images/princexml/prince-4.png" >
                                 <img class="preview" src="_static/lesson-cross-references/images/princexml/thumb-prince-4.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/princexml/prince-5.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/princexml/thumb-prince-5.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/princexml/prince-6.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/princexml/thumb-prince-6.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/princexml/prince-7.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/princexml/thumb-prince-7.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/princexml/prince-8.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/princexml/thumb-prince-8.png" />
                             </a>
                           
                           
@@ -126,6 +158,18 @@ PDF files
                             <a href="#" data-featherlight="_static/lesson-cross-references/images/antennahouse/antennahouse-4.png" >
                                 <img class="preview" src="_static/lesson-cross-references/images/antennahouse/thumb-antennahouse-4.png" />
                             </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/antennahouse/antennahouse-5.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/antennahouse/thumb-antennahouse-5.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/antennahouse/antennahouse-6.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/antennahouse/thumb-antennahouse-6.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/antennahouse/antennahouse-7.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/antennahouse/thumb-antennahouse-7.png" />
+                            </a>
                           
                           
                     </td>
@@ -159,6 +203,22 @@ PDF files
                            
                             <a href="#" data-featherlight="_static/lesson-cross-references/images/vivliostyle/vivliostyle-4.png" >
                                 <img class="preview" src="_static/lesson-cross-references/images/vivliostyle/thumb-vivliostyle-4.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/vivliostyle/vivliostyle-5.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/vivliostyle/thumb-vivliostyle-5.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/vivliostyle/vivliostyle-6.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/vivliostyle/thumb-vivliostyle-6.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/vivliostyle/vivliostyle-7.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/vivliostyle/thumb-vivliostyle-7.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/vivliostyle/vivliostyle-8.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/vivliostyle/thumb-vivliostyle-8.png" />
                             </a>
                           
                           
