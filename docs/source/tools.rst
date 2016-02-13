@@ -60,9 +60,7 @@ Antennahouse CSS Formatter
   * Server license with one CPU: 5000 USD
   * each additional CPU: 4000 USD 
   * Standalone license: 1250 USD
-  * SVG option: 2000 USD
-  * MathML option: 500 USD
-  * Barcode option: 1500 USD
+  * SVG output option: 2000 USD
 
 * Personal rating:
 
