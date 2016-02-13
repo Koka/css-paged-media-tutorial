@@ -2,8 +2,8 @@
 
 h1 {
     counter-increment: c1;
-    counter-reset: c2;
     counter-reset: c3;
+    counter-reset: c2;
 }
 
 h2 {
@@ -25,12 +25,15 @@ h3:before {
 
 h1:before {
     content: counter(c1);
+    width: 200px;
 }
 
 h2:before {
     content: counter(c1) "." counter(c2);
+    width: 200px;
 }
 
 h3:before {
     content: counter(c1) "." counter(c2) "." counter(c3);
+    width: 200px;
 }
