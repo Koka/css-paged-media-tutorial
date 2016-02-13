@@ -62,6 +62,7 @@ DITA
 
 - `Converting DITA to PDF using CSS Paged Media <https://www.andreas-jung.com/contents/converting-dita-to-pdf>`_
 - `dita-css - An Oyxgen plugin for generating PDF from DITA using PrinceXML or Antennahouse <https://github.com/oxygenxml/dita-css>`_
+- `DITA Open Toolkit plugin to generate PDF output using CSS Paged Media by xml.rocks <https://github.com/xmlrocks/dita-ot-pdf-css-page>`_
 
 .. raw:: html
 
