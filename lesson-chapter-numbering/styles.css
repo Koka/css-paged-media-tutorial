@@ -19,21 +19,21 @@ h1:before,
 h2:before,
 h3:before {
     color: red;
-    padding-right: 1em;
+    width: 2cm;
+    display: inline-block;
+    text-align: right;
+    padding-right: 0.25cm;
 }
 
 
 h1:before {
     content: counter(c1);
-    width: 200px;
 }
 
 h2:before {
     content: counter(c1) "." counter(c2);
-    width: 200px;
 }
 
 h3:before {
     content: counter(c1) "." counter(c2) "." counter(c3);
-    width: 200px;
 }
