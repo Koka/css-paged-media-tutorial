@@ -1,11 +1,11 @@
-@import url("../styles/a4-landscape.css");
+@import url("../styles/a5-landscape.css");
 
 div.multicol {
     margin-bottom: 2em;
     text-align: justify;
     hyphens: auto;
     page-break-after: always;
-    font-size: 11pt;
+    font-size: 9pt;
     column-gap: 1cm;
     column-rule: 4px solid #ff00ff;
 }
