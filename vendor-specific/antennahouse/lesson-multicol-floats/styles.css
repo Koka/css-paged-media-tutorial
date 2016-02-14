@@ -1,0 +1,33 @@
+@import url("../styles/a4-landscape.css");
+
+div.multicol {
+    margin-bottom: 2em;
+    text-align: justify;
+    hyphens: auto;
+    page-break-after: always;
+    font-size: 11pt;
+    column-gap: 1cm;
+    column-rule: 4px solid #ff00ff;
+}
+
+
+h1 {
+    column-span: all;
+}
+
+.cols-3 {
+    column-count: 3;
+    -webkit-column-count: 3;
+    -ah-column-fill: balance;
+    column-fill: balance;
+}
+
+.multicol img {
+    -ah-float-x: left;
+    -ah-float-y: top;
+    -ah-float-reference: column;
+    max-width: 70%;
+    max-height: 50%;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
