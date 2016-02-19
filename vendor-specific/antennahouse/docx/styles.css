@@ -4,6 +4,7 @@
     counter-increment: page;
     counter-reset: footnote 0;
     size: a4;
+    margin: 2cm;
 
     @bottom-center {
          content:  counter(page); 
@@ -30,6 +31,7 @@ article {
     column-gap: 3em;
     column-rule: 7px solid #eee;
     -ah-baseline-grid: new;
+    -ro-line-grid: create;
 }
 
 p {
@@ -39,6 +41,7 @@ p {
     hyphens: auto;
     hyphenate-before: 5;
     hyphenate-after: 5;
+    -ro-line-snap: baseline;
 }                     
 
 p[align="center"] {
@@ -69,6 +72,10 @@ li {
 
 li::before {
     content: "(" counter(list-counter, lower-roman) ")";
+    display: inline;
+}
+
+li p {
     display: inline;
 }
 

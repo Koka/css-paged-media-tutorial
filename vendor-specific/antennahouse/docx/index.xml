@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dghodoc version="1.0">
+<dghodoc version="1.0" lang="en">
   <head>
     <title>test ajung</title>
     <metadata>
@@ -113,47 +113,47 @@
         <p align="center" id="ID0EX">
           <strong>ANNEX ON OPERATIONAL CERTIFICATION PROCEDURES</strong>
         </p>
-        <p id="ID0E2">For the purpose of implementing Chapter <xref format="html" scope="internal" href="" checked="notfound" type="chapter">Chapter 3</xref> (Rules of Origin), the following operational procedures on the issuance and verification of Certificates of Origin and other related administrative matters shall be observed by each Party.</p>
-        <p align="center" id="ID0EGB">
-          <strong>AUTHORITIES </strong>
-        </p>
-        <p align="center" id="ID0EKB">
-          <strong>Rule 1</strong>
-        </p>
-        <p id="ID0EOB">The Certificate of Origin shall be issued by an Issuing Authority/Body of the exporting Party. Details of the Issuing Authorities/Bodies shall be notified by each Party, through the ASEAN Secretariat, prior to the entry into force of this Agreement. Any subsequent changes shall be promptly notified by each Party, through the ASEAN Secretariat.</p>
-        <p align="center" id="ID0ERB">
-          <strong>Rule 2</strong>
-        </p>
-        <p id="ID0EVB">1.<tab/>The Issuing Authorities/Bodies shall provide the names, addresses, specimen signatures and specimens of the impressions of official seals of their respective Issuing Authorities/Bodies to the other Parties, through the ASEAN Secretariat. The Issuing Authorities/Bodies shall submit electronically to the ASEAN Secretariat the above information and specimens for dissemination to the other Parties. Any subsequent changes shall be promptly notified through the ASEAN Secretariat.</p>
-        <p id="ID0E2B">2.<tab/>Any Certificate of Origin issued by a person not included in the list may not be honoured by the Customs Authority of the importing Party.</p>
-        <p align="center" id="ID0EBC">
-          <strong>Rule 3</strong>
-        </p>
-        <p id="ID0EFC">For the purpose of determining originating status, the Issuing Authorities/Bodies shall have the right to call for supporting documentary evidence and/or other relevant information to carry out any check considered appropriate in accordance with respective domestic laws, regulations and administrative practices.</p>
-        <p id="ID0EIC">
-          <br/>
-        </p>
-        <p align="center" id="ID0ELC">
-          <strong>APPLICATIONS </strong>
-        </p>
-        <p align="center" id="ID0EPC">
-          <strong>Rule 4</strong>
-        </p>
-        <p id="ID0ETC">1.<tab/>The manufacturer, producer, or exporter of the good or its authorised representative shall apply in writing or by electronic means to an Issuing Authority/Body, in accordance with the exporting Party’s domestic laws, regulations and the Issuing Authority’s/Body’s procedures, requesting a pre-exportation examination of the origin of the good to be exported.</p>
-        <p id="ID0EZC">2.<tab/>The result of the examination, subject to review periodically or whenever appropriate, shall be accepted as the supporting evidence in issuing a Certificate of Origin for the good to be exported thereafter.</p>
-        <p id="ID0E6C">3.<tab/>Pre-exportation examination need not apply to a good for which, by its nature, origin can be easily determined.</p>
-        <p align="center" id="ID0EFD">
-          <strong>Rule 5</strong>
-        </p>
-        <p id="ID0EJD">The manufacturer, producer, or exporter of the good or its authorised representative shall apply for the Certificate of Origin by providing appropriate supporting documents and other relevant information, proving that the good to be exported qualifies as originating.</p>
-        <p align="center" id="ID0EMD">
-          <strong>PRE-EXPORTATION EXAMINATION </strong>
-        </p>
-        <p align="center" id="ID0EQD">
-          <strong>Rule 6</strong>
-        </p>
-        <p id="ID0EUD">The Issuing Authority/Body shall, to the best of its competence and ability, carry out proper examination, in accordance with the domestic laws and regulations of the exporting Party or the procedures of the Issuing Authority/Body, upon each application for the Certificate of Origin to ensure that:</p>
-        <ol>
+            <p id="ID0E2">For the purpose of implementing Chapter <xref format="html" scope="internal" href="" checked="notfound" type="chapter">Chapter 3</xref> (Rules of Origin), the following operational procedures on the issuance and verification of Certificates of Origin and other related administrative matters shall be observed by each Party.</p>
+            <p align="center" id="ID0EGB">
+              <strong>AUTHORITIES </strong>
+            </p>
+            <p align="center" id="ID0EKB">
+              <strong>Rule 1</strong>
+            </p>
+            <p id="ID0EOB">The Certificate of Origin shall be issued by an Issuing Authority/Body of the exporting Party. Details of the Issuing Authorities/Bodies shall be notified by each Party, through the ASEAN Secretariat, prior to the entry into force of this Agreement. Any subsequent changes shall be promptly notified by each Party, through the ASEAN Secretariat.</p>
+            <p align="center" id="ID0ERB">
+              <strong>Rule 2</strong>
+            </p>
+            <p id="ID0EVB">1.<tab/>The Issuing Authorities/Bodies shall provide the names, addresses, specimen signatures and specimens of the impressions of official seals of their respective Issuing Authorities/Bodies to the other Parties, through the ASEAN Secretariat. The Issuing Authorities/Bodies shall submit electronically to the ASEAN Secretariat the above information and specimens for dissemination to the other Parties. Any subsequent changes shall be promptly notified through the ASEAN Secretariat.</p>
+            <p id="ID0E2B">2.<tab/>Any Certificate of Origin issued by a person not included in the list may not be honoured by the Customs Authority of the importing Party.</p>
+            <p align="center" id="ID0EBC">
+              <strong>Rule 3</strong>
+            </p>
+            <p id="ID0EFC">For the purpose of determining originating status, the Issuing Authorities/Bodies shall have the right to call for supporting documentary evidence and/or other relevant information to carry out any check considered appropriate in accordance with respective domestic laws, regulations and administrative practices.</p>
+            <p id="ID0EIC">
+              <br/>
+            </p>
+            <p align="center" id="ID0ELC">
+              <strong>APPLICATIONS </strong>
+            </p>
+            <p align="center" id="ID0EPC">
+              <strong>Rule 4</strong>
+            </p>
+            <p id="ID0ETC">1.<tab/>The manufacturer, producer, or exporter of the good or its authorised representative shall apply in writing or by electronic means to an Issuing Authority/Body, in accordance with the exporting Party’s domestic laws, regulations and the Issuing Authority’s/Body’s procedures, requesting a pre-exportation examination of the origin of the good to be exported.</p>
+            <p id="ID0EZC">2.<tab/>The result of the examination, subject to review periodically or whenever appropriate, shall be accepted as the supporting evidence in issuing a Certificate of Origin for the good to be exported thereafter.</p>
+            <p id="ID0E6C">3.<tab/>Pre-exportation examination need not apply to a good for which, by its nature, origin can be easily determined.</p>
+            <p align="center" id="ID0EFD">
+              <strong>Rule 5</strong>
+            </p>
+            <p id="ID0EJD">The manufacturer, producer, or exporter of the good or its authorised representative shall apply for the Certificate of Origin by providing appropriate supporting documents and other relevant information, proving that the good to be exported qualifies as originating.</p>
+            <p align="center" id="ID0EMD">
+              <strong>PRE-EXPORTATION EXAMINATION </strong>
+            </p>
+            <p align="center" id="ID0EQD">
+              <strong>Rule 6</strong>
+            </p>
+            <p id="ID0EUD">The Issuing Authority/Body shall, to the best of its competence and ability, carry out proper examination, in accordance with the domestic laws and regulations of the exporting Party or the procedures of the Issuing Authority/Body, upon each application for the Certificate of Origin to ensure that:</p>
+            <ol>
           <li>
             <p id="ID0E1D">the application and the Certificate of Origin are duly completed and signed by the authorised signatory;</p>
           </li>
