@@ -69,13 +69,18 @@ ol {
 
 li {
     counter-increment: list-counter;
-    display: list-item;
+    display: block;
+    margin-left: 3em;
     margin-bottom: 1em;
 }
 
 li::before {
     content: "(" counter(list-counter, lower-roman) ")";
-    display: inline;
+    display: inline-block;
+    margin-left: -2cm;
+    text-align: right;
+    width: 5em;
+    padding-right: 0.5em;
 }
 
 li p {
