@@ -1,0 +1,67 @@
+
+@page {
+
+    counter-increment: page;
+    counter-reset: footnote 0;
+    size: a4;
+
+    @bottom-center {
+         content:  counter(page); 
+    }
+
+    @footnote {
+        border-top: dashed #ddd 1px;
+        float: bottom;
+    }
+}
+
+maintitle,
+title,
+metadata,
+authoraddresses {
+    display: none;
+    color: blue;
+}
+
+article {
+    -ah-columns: 2;
+    column-count: 2;
+    display: block;
+    column-gap: 3em;
+    column-rule: 7px solid #eee;
+    -ah-baseline-grid: new;
+}
+
+p {
+    display: block;
+    margin-bottom: 1em;
+    text-align: justify;
+    hyphens: auto;
+    hyphenate-before: 5;
+    hyphenate-after: 5;
+}                     
+
+p[align="center"] {
+    text-align: center;
+    break-after: avoid;
+}
+
+strong {
+    font-weight: bold;
+}
+
+
+
+
+fn { 
+    float: footnote; 
+    counter-increment: footnote;
+}
+
+fn::footnote-call {
+    content: counter(footnote, decimal) " ";
+}
+
+fn::footnote-marker {
+    content: counter(footnote, decimal);
+}
