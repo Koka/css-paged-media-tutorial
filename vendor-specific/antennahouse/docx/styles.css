@@ -50,8 +50,27 @@ strong {
     font-weight: bold;
 }
 
+tab {
+    display: inline-block;
+    width: 1em;
+}
 
+ol {
+    display: block;
+    margin-left: 2em;
+    counter-reset: list-counter;
+    list-style-type: none;
+}
 
+li {
+    counter-increment: list-counter;
+    display: list-item;
+}
+
+li::before {
+    content: "(" counter(list-counter, lower-roman) ")";
+    display: inline;
+}
 
 fn { 
     float: footnote; 
