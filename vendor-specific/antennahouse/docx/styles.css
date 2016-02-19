@@ -32,6 +32,7 @@ article {
     column-rule: 7px solid #eee;
     -ah-baseline-grid: new;
     -ro-line-grid: create;
+    font-size: 10pt;
 }
 
 p {
