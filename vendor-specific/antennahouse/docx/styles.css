@@ -64,11 +64,13 @@ ol {
     margin-left: 2em;
     counter-reset: list-counter;
     list-style-type: none;
+    margin-bottom: 1em;
 }
 
 li {
     counter-increment: list-counter;
     display: list-item;
+    margin-bottom: 1em;
 }
 
 li::before {
