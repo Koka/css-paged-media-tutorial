@@ -33,6 +33,7 @@ article {
     -ah-baseline-grid: new;
     -ro-line-grid: create;
     font-size: 10pt;
+    font-family: Arial;
 }
 
 p {
@@ -122,7 +123,6 @@ author bio {
     display: block; 
     font-size: 0.8em;
     text-align: justify;
-    hyphens: auto;
     margin-bottom: 0.5em;
-    line-height: 0.8em;
+    hyphens: auto;
 }
