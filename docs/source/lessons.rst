@@ -35,6 +35,7 @@ Lessons
   lesson-running-elements.rst
   lesson-tables.rst
   lesson-texts-rotated-360-degrees.rst
+  lesson-two-column-with-author-box.rst
   lesson-typography.rst
   lesson-xml.rst
   :maxdepth: 1
