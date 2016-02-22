@@ -2,7 +2,6 @@
 @page {
 
     counter-increment: page;
-    counter-reset: footnote 0;
     size: a4;
     margin: 2cm;
 
@@ -33,6 +32,8 @@ article {
     -ah-baseline-grid: new;
     -ro-line-grid: create;
     font-size: 10pt;
+    column-fill: balance;
+    -ah-column-rule-length: 100%;
 }
 
 p {
@@ -94,8 +95,10 @@ fn {
 
 fn::footnote-call {
     content: counter(footnote, decimal) " ";
+    vertical-align: super;
 }
 
 fn::footnote-marker {
     content: counter(footnote, decimal);
+    vertical-align: super;
 }
