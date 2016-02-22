@@ -1,7 +1,10 @@
 
+@import  url('../styles/a4.css');
+
 @page {
 
     counter-increment: page;
+    counter-reset: footnote 0;
     size: a4;
     margin: 2cm;
 
@@ -32,8 +35,6 @@ article {
     -ah-baseline-grid: new;
     -ro-line-grid: create;
     font-size: 10pt;
-    column-fill: balance;
-    -ah-column-rule-length: 100%;
 }
 
 p {
@@ -70,18 +71,13 @@ ol {
 
 li {
     counter-increment: list-counter;
-    display: block;
-    margin-left: 3em;
+    display: list-item;
     margin-bottom: 1em;
 }
 
 li::before {
     content: "(" counter(list-counter, lower-roman) ")";
-    display: inline-block;
-    margin-left: -2cm;
-    text-align: right;
-    width: 5em;
-    padding-right: 0.5em;
+    display: inline;
 }
 
 li p {
@@ -95,10 +91,39 @@ fn {
 
 fn::footnote-call {
     content: counter(footnote, decimal) " ";
-    vertical-align: super;
 }
 
 fn::footnote-marker {
     content: counter(footnote, decimal);
-    vertical-align: super;
+}
+
+
+authorbox {
+    display: block;
+    width: 4cm;
+    float: left;
+    margin-left: -1cm;
+    margin-right: 1em;
+    padding-right: 1em;
+    border-right: 2px solid grey;
+    margin-bottom: 1em;
+}
+
+author {
+    display: block;
+}
+
+author name {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+author bio {
+    display: block; 
+    font-size: 0.8em;
+    text-align: justify;
+    margin-bottom: 0.5em;
+    hyphens: auto;
 }

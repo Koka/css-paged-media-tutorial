@@ -96,6 +96,20 @@
       <maintitle>test ajung</maintitle>
     </header>
     <article>
+      <authorbox>
+          <author>
+              <name>Andreas Jung</name>
+              <bio>
+                  Integer aenean adipiscing proin magnis phasellus elementum scelerisque mus nascetur proin sed turpis, et, mattis vut elementum augue in tincidunt mauris facilisis et purus! Nisi aliquet porttitor. Tincidunt ultrices, velit in vel? 
+              </bio>
+          </author>
+          <author>
+              <name>Heinz Becker</name>
+              <bio>
+                  Integer aenean adipiscing proin magnis phasellus elementum scelerisque mus nascetur proin sed turpis, et, mattis vut elementum augue in tincidunt mauris facilisis et purus! Nisi aliquet porttitor. Tincidunt ultrices, velit in vel? 
+              </bio>
+          </author>
+      </authorbox>  
       <segment id="ID0EF" class="content">
         <p align="center" id="ID0EG">
           <strong>APPENDIX 2</strong>
