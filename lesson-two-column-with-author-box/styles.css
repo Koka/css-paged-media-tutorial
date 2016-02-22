@@ -122,8 +122,9 @@ author name {
 
 author bio {
     display: block; 
-    font-size: 0.8em;
+    font-size: 0.7em;
     text-align: justify;
     margin-bottom: 0.5em;
     hyphens: auto;
+    -ah-baseline-grid: none;
 }
