@@ -1,4 +1,9 @@
 @font-face {
+    font-family: Gentium;
+    src: url("Gentium/GentiumPlus-I.ttf");
+}
+
+@font-face {
     font-family: Lato;
     src: url("Lato2OFL/Lato-Regular.ttf");
 }
