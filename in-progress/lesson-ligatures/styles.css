@@ -1,7 +1,7 @@
 @import url("../styles/a5.css");
 
 h1 {
-    font-size: 30pt;
+    font-size: 20pt;
     color: red;
     margin-bottom: 1em;
 }
@@ -9,6 +9,8 @@ h1 {
 div.demo {
     margin-bottom: 2em;
     font-size: 20pt;
+    float: left;
+    width: 45%;
 }
 
 .with-ligatures {
