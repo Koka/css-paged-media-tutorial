@@ -1,7 +1,7 @@
-Lesson: lesson-typography
+Lesson: lesson-ligatures
 =====================================================
 
-.. include:: ../../lesson-typography/README.rst
+.. include:: ../../lesson-ligatures/README.rst
  
  
 .. raw:: html
@@ -13,7 +13,7 @@ Lesson: lesson-typography
 Repository files
 ++++++++++++++++
 
-- https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-typography
+- https://github.com/zopyx/css-paged-media-tutorial/tree/master/lesson-ligatures
 
 PDF files
 +++++++++
@@ -35,21 +35,17 @@ PDF files
                         <br/>
                         <span class="converter-status">ERROR</span>
                         <br/>
-                        <a class="pdf-download" href="_static/lesson-typography/pdfreactor.pdf">Download</a>
+                        <a class="pdf-download" href="_static/lesson-ligatures/pdfreactor.pdf">Download</a>
                     </td>
                     <td>
                            
-                            <a href="#" data-featherlight="_static/lesson-typography/images/pdfreactor/pdfreactor-0.png" >
-                                <img class="preview" src="_static/lesson-typography/images/pdfreactor/thumb-pdfreactor-0.png" />
-                            </a>
-                           
-                            <a href="#" data-featherlight="_static/lesson-typography/images/pdfreactor/pdfreactor-1.png" >
-                                <img class="preview" src="_static/lesson-typography/images/pdfreactor/thumb-pdfreactor-1.png" />
+                            <a href="#" data-featherlight="_static/lesson-ligatures/images/pdfreactor/pdfreactor.png" >
+                                <img class="preview" src="_static/lesson-ligatures/images/pdfreactor/thumb-pdfreactor.png" />
                             </a>
                           
                            
                               <div>
-                                no support for :first-line
+                                does not support ligatures in version 8
                               </div>
                          
                     </td>
@@ -61,16 +57,12 @@ PDF files
                         <br/>
                         <span class="converter-status">OK</span>
                         <br/>
-                        <a class="pdf-download" href="_static/lesson-typography/prince.pdf">Download</a>
+                        <a class="pdf-download" href="_static/lesson-ligatures/prince.pdf">Download</a>
                     </td>
                     <td>
                            
-                            <a href="#" data-featherlight="_static/lesson-typography/images/princexml/prince-0.png" >
-                                <img class="preview" src="_static/lesson-typography/images/princexml/thumb-prince-0.png" />
-                            </a>
-                           
-                            <a href="#" data-featherlight="_static/lesson-typography/images/princexml/prince-1.png" >
-                                <img class="preview" src="_static/lesson-typography/images/princexml/thumb-prince-1.png" />
+                            <a href="#" data-featherlight="_static/lesson-ligatures/images/princexml/prince.png" >
+                                <img class="preview" src="_static/lesson-ligatures/images/princexml/thumb-prince.png" />
                             </a>
                           
                           
@@ -83,16 +75,12 @@ PDF files
                         <br/>
                         <span class="converter-status">OK</span>
                         <br/>
-                        <a class="pdf-download" href="_static/lesson-typography/antennahouse.pdf">Download</a>
+                        <a class="pdf-download" href="_static/lesson-ligatures/antennahouse.pdf">Download</a>
                     </td>
                     <td>
                            
-                            <a href="#" data-featherlight="_static/lesson-typography/images/antennahouse/antennahouse-0.png" >
-                                <img class="preview" src="_static/lesson-typography/images/antennahouse/thumb-antennahouse-0.png" />
-                            </a>
-                           
-                            <a href="#" data-featherlight="_static/lesson-typography/images/antennahouse/antennahouse-1.png" >
-                                <img class="preview" src="_static/lesson-typography/images/antennahouse/thumb-antennahouse-1.png" />
+                            <a href="#" data-featherlight="_static/lesson-ligatures/images/antennahouse/antennahouse.png" >
+                                <img class="preview" src="_static/lesson-ligatures/images/antennahouse/thumb-antennahouse.png" />
                             </a>
                           
                           
@@ -103,21 +91,21 @@ PDF files
                     <td>
                         <span class="converter-name">Vivliostyle</span>
                         <br/>
-                        <span class="converter-status">OK</span>
+                        <span class="converter-status">ERROR</span>
                         <br/>
-                        <a class="pdf-download" href="_static/lesson-typography/vivliostyle-output.pdf">Download</a>
+                        <a class="pdf-download" href="_static/lesson-ligatures/vivliostyle-output.pdf">Download</a>
                     </td>
                     <td>
                            
-                            <a href="#" data-featherlight="_static/lesson-typography/images/vivliostyle/vivliostyle-0.png" >
-                                <img class="preview" src="_static/lesson-typography/images/vivliostyle/thumb-vivliostyle-0.png" />
+                            <a href="#" data-featherlight="_static/lesson-ligatures/images/vivliostyle/vivliostyle.png" >
+                                <img class="preview" src="_static/lesson-ligatures/images/vivliostyle/thumb-vivliostyle.png" />
                             </a>
+                          
                            
-                            <a href="#" data-featherlight="_static/lesson-typography/images/vivliostyle/vivliostyle-1.png" >
-                                <img class="preview" src="_static/lesson-typography/images/vivliostyle/thumb-vivliostyle-1.png" />
-                            </a>
-                          
-                          
+                              <div>
+                                does not support ligatures in release 2016.1
+                              </div>
+                         
                     </td>
                 </tr>
             
@@ -129,7 +117,7 @@ PDF files
 Stylesheet
 ++++++++++
 
-.. literalinclude:: ../../lesson-typography/styles.css
+.. literalinclude:: ../../lesson-ligatures/styles.css
   :language: css
   :linenos:
 
@@ -138,7 +126,7 @@ Stylesheet
 
 HTML input
 ++++++++++
-.. literalinclude:: ../../lesson-typography/index.html
+.. literalinclude:: ../../lesson-ligatures/index.html
   :language: html
   :linenos:
 

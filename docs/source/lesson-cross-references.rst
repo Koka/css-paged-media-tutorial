@@ -58,6 +58,22 @@ PDF files
                             <a href="#" data-featherlight="_static/lesson-cross-references/images/pdfreactor/pdfreactor-4.png" >
                                 <img class="preview" src="_static/lesson-cross-references/images/pdfreactor/thumb-pdfreactor-4.png" />
                             </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/pdfreactor/pdfreactor-5.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/pdfreactor/thumb-pdfreactor-5.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/pdfreactor/pdfreactor-6.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/pdfreactor/thumb-pdfreactor-6.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/pdfreactor/pdfreactor-7.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/pdfreactor/thumb-pdfreactor-7.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/pdfreactor/pdfreactor-8.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/pdfreactor/thumb-pdfreactor-8.png" />
+                            </a>
                           
                           
                     </td>
