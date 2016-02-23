@@ -1,0 +1,17 @@
+@import url("../styles/a5.css");
+
+div.demo {
+    margin-bottom: 2em;
+    font-size: 20pt;
+}
+
+.with-ligatures {
+    -ah-ligature-mode: auto;
+    -webkit-font-kerning: auto;
+}
+
+
+.without-ligatures {
+    -ah-ligature-mode: none;
+}
+
