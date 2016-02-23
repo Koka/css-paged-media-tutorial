@@ -1,14 +1,14 @@
 @import url("../styles/a5.css");
 
 h1 {
-    font-size: 20pt;
+    font-size: 15pt;
     color: red;
     margin-bottom: 1em;
 }
 
 div.demo {
-    margin-bottom: 2em;
-    font-size: 20pt;
+    margin-bottom: 1em;
+    font-size: 18pt;
     float: left;
     width: 45%;
 }
@@ -23,3 +23,6 @@ div.demo {
     -ah-ligature-mode: none;
 }
 
+.serif {
+    font-family: Times;
+}
