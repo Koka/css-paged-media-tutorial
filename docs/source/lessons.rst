@@ -22,6 +22,7 @@ Lessons
   lesson-footnotes-multi-columns.rst
   lesson-hyphenation.rst
   lesson-images.rst
+  lesson-ligatures.rst
   lesson-mathml-native.rst
   lesson-mathml-torture-test.rst
   lesson-multi-columns.rst

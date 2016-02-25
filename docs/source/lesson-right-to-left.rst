@@ -39,8 +39,12 @@ PDF files
                     </td>
                     <td>
                            
-                            <a href="#" data-featherlight="_static/lesson-right-to-left/images/pdfreactor/pdfreactor.png" >
-                                <img class="preview" src="_static/lesson-right-to-left/images/pdfreactor/thumb-pdfreactor.png" />
+                            <a href="#" data-featherlight="_static/lesson-right-to-left/images/pdfreactor/pdfreactor-0.png" >
+                                <img class="preview" src="_static/lesson-right-to-left/images/pdfreactor/thumb-pdfreactor-0.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-right-to-left/images/pdfreactor/pdfreactor-1.png" >
+                                <img class="preview" src="_static/lesson-right-to-left/images/pdfreactor/thumb-pdfreactor-1.png" />
                             </a>
                           
                            

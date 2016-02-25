@@ -11,6 +11,9 @@
         top: 0;
         width: 25mm;
         height: auto;
+        margin-bottom: 1em;
+        display: block;
+        border: 1px solid blue;
     }
 }
 
