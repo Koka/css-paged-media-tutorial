@@ -25,6 +25,8 @@ p.hyphenate {
     text-align: justify;
     font-size: 10pt;
     border: 1px solid grey;
+    hyphenate-before: 4;
+    hyphenate-after: 3;
     hyphens: auto;
     -epub-hyphens: auto;
     -webkit-hyphens: auto;
