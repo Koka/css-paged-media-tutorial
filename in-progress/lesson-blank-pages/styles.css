@@ -1,6 +1,5 @@
 @import url("../styles/a5.css");
 
-
 @page:blank {
     background: blue;
 
@@ -20,4 +19,9 @@ h1 {
 
 div.chapter {
     page-break-after: right;
+}
+
+/* PDFreactor: first page is left by default */
+@-ro-preferences {
+    first-page-side: right;
 }
