@@ -21,7 +21,3 @@ div.chapter {
     page-break-after: right;
 }
 
-/* PDFreactor: first page is left by default */
-@-ro-preferences {
-    first-page-side: right;
-}
