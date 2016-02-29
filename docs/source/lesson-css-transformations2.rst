@@ -51,7 +51,7 @@ PDF files
                     <td>
                         <span class="converter-name">PrinceXML</span>
                         <br/>
-                        <span class="converter-status">ERROR</span>
+                        <span class="converter-status">OK</span>
                         <br/>
                         <a class="pdf-download" href="_static/lesson-css-transformations2/prince.pdf">Download</a>
                     </td>
@@ -61,11 +61,7 @@ PDF files
                                 <img class="preview" src="_static/lesson-css-transformations2/images/princexml/thumb-prince.png" />
                             </a>
                           
-                           
-                              <div>
-                                improper transformation
-                              </div>
-                         
+                          
                     </td>
                 </tr>
             

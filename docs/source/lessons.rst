@@ -4,6 +4,7 @@ Lessons
 .. toctree::
   lesson-background-repeated.rst
   lesson-basic.rst
+  lesson-blank-pages.rst
   lesson-box-styling.rst
   lesson-chapter-numbering.rst
   lesson-chart-js.rst
