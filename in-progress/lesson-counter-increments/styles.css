@@ -7,7 +7,7 @@ body {
 @page {
     counter-increment: page 2;
 
-    @bottom-left {
+    @bottom-center {
          content: counter(page);
     }
 }
