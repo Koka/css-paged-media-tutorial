@@ -32,4 +32,5 @@ p.hyphenate {
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
+    page-break-after: always;
 }
