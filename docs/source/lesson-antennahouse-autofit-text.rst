@@ -38,6 +38,22 @@ PDF files
                         <a class="pdf-download" href="_static/lesson-antennahouse-autofit-text/antennahouse.pdf">Download</a>
                     </td>
                     <td>
+                           
+                            <a href="#" data-featherlight="_static/lesson-antennahouse-autofit-text/images/antennahouse/antennahouse-0.png" >
+                                <img class="preview" src="_static/lesson-antennahouse-autofit-text/images/antennahouse/thumb-antennahouse-0.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-antennahouse-autofit-text/images/antennahouse/antennahouse-1.png" >
+                                <img class="preview" src="_static/lesson-antennahouse-autofit-text/images/antennahouse/thumb-antennahouse-1.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-antennahouse-autofit-text/images/antennahouse/antennahouse-2.png" >
+                                <img class="preview" src="_static/lesson-antennahouse-autofit-text/images/antennahouse/thumb-antennahouse-2.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-antennahouse-autofit-text/images/antennahouse/antennahouse-3.png" >
+                                <img class="preview" src="_static/lesson-antennahouse-autofit-text/images/antennahouse/thumb-antennahouse-3.png" />
+                            </a>
                           
                           
                     </td>

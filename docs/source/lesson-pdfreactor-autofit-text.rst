@@ -38,6 +38,14 @@ PDF files
                         <a class="pdf-download" href="_static/lesson-pdfreactor-autofit-text/pdfreactor.pdf">Download</a>
                     </td>
                     <td>
+                           
+                            <a href="#" data-featherlight="_static/lesson-pdfreactor-autofit-text/images/pdfreactor/pdfreactor-0.png" >
+                                <img class="preview" src="_static/lesson-pdfreactor-autofit-text/images/pdfreactor/thumb-pdfreactor-0.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-pdfreactor-autofit-text/images/pdfreactor/pdfreactor-1.png" >
+                                <img class="preview" src="_static/lesson-pdfreactor-autofit-text/images/pdfreactor/thumb-pdfreactor-1.png" />
+                            </a>
                           
                           
                     </td>
