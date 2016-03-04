@@ -2,6 +2,7 @@ Lessons
 +++++++
 
 .. toctree::
+  lesson-antennahouse-autofit-text.rst
   lesson-background-repeated.rst
   lesson-basic.rst
   lesson-blank-pages.rst
@@ -22,6 +23,7 @@ Lessons
   lesson-footnotes.rst
   lesson-footnotes-multi-columns.rst
   lesson-hyphenation.rst
+  lesson-hyphenation-long-words.rst
   lesson-images.rst
   lesson-ligatures.rst
   lesson-mathml-native.rst
@@ -32,6 +34,7 @@ Lessons
   lesson-page-areas.rst
   lesson-page-numbers.rst
   lesson-pagination.rst
+  lesson-pdfreactor-autofit-text.rst
   lesson-positioning.rst
   lesson-right-to-left.rst
   lesson-running-elements.rst

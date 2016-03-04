@@ -10,4 +10,4 @@ images: FORCE
 	-convert -density 150 -quality 85 pdfreactor.pdf                                   images/pdfreactor/pdfreactor.png
 	-convert -thumbnail 100x100 -background white -alpha remove pdfreactor.pdf         images/pdfreactor/thumb-pdfreactor.png
 
-
+FORCE:
