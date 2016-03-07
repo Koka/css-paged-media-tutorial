@@ -9,6 +9,7 @@ div.box {
     font-size: 10pt;
     margin-bottom: 1em;
     page-break-after: always;
+    hyphens: auto;
 }
 
 
