@@ -1,0 +1,21 @@
+@import url("../styles/a5.css");
+
+div {
+    border: 2px solid red;
+}
+
+img {
+    width: 100%;
+}
+
+#w-300 {
+    width: 300px;
+}
+
+#w-600 {
+    width: 600px;
+}
+
+#w-1000 {
+    width: 1000px;
+}
