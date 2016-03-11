@@ -4,29 +4,27 @@
     </head>
     <body>
 
+        <h1> 300 px width, image should be clipped</h1> 
         <div class="w-300">
-            <div class="no-fit">
-                <img class="no-fit" src="600x300.jpg"/>
-            </div>
-        </div>
-        <div class="w-600">
-            <div class="no-fit">
-                <img class="no-fit" src="600x300.jpg"/>
-            </div>
-        </div>
-        <div class="w-1000">
             <div class="no-fit">
                 <img class="no-fit" src="600x300.jpg"/>
             </div>
         </div>
 
+        <h1> 600 px width, image should fill the box</h1> 
+        <div class="w-600">
+            <div class="no-fit">
+                <img class="no-fit" src="600x300.jpg"/>
+            </div>
+        </div>
+
+        <h1> 300 px width, image should scaled into the the box</h1> 
         <div class="w-300">
             <img class="fit-size" src="600x300.jpg"/>
         </div>
+
+        <h1> 600 px width, image should scaled into the the box</h1> 
         <div class="w-600">
-            <img class="fit-size" src="600x300.jpg"/>
-        </div>
-        <div class="w-1000">
             <img class="fit-size" src="600x300.jpg"/>
         </div>
 

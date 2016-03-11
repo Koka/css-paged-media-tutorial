@@ -2,6 +2,7 @@
 
 div.no-fit {
     overflow: hidden;
+    page-break-after: always;
 }
 
 img.fit-size {
