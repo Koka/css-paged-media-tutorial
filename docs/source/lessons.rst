@@ -24,6 +24,7 @@ Lessons
   lesson-footnotes-multi-columns.rst
   lesson-hyphenation.rst
   lesson-hyphenation-long-words.rst
+  lesson-image-scaling.rst
   lesson-images.rst
   lesson-ligatures.rst
   lesson-mathml-native.rst

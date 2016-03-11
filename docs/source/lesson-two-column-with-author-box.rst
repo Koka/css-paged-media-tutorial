@@ -58,10 +58,6 @@ PDF files
                             <a href="#" data-featherlight="_static/lesson-two-column-with-author-box/images/pdfreactor/pdfreactor-4.png" >
                                 <img class="preview" src="_static/lesson-two-column-with-author-box/images/pdfreactor/thumb-pdfreactor-4.png" />
                             </a>
-                           
-                            <a href="#" data-featherlight="_static/lesson-two-column-with-author-box/images/pdfreactor/pdfreactor-5.png" >
-                                <img class="preview" src="_static/lesson-two-column-with-author-box/images/pdfreactor/thumb-pdfreactor-5.png" />
-                            </a>
                           
                            
                               <div>
