@@ -1,8 +1,11 @@
 @import url("../styles/a5.css");
 
+div {
+    page-break-after: always;
+}
+
 div.no-fit {
     overflow: hidden;
-    page-break-after: always;
 }
 
 img.fit-size {
