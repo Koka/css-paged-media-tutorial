@@ -15,7 +15,7 @@ for name in os.listdir(html_dir):
     if nodes:
         title = nodes[0].text
         title += u' - CSS Paged Media Tutorial and Showcase - Andreas Jung, ZOPYX'
-        nodes[0].title = title
+        nodes[0].text = title
         print 'changed'
         print fname
     html = lxml.html.tostring(root)
