@@ -26,7 +26,7 @@ PDFreactor
   * Extensive and good documentation (Javascript API could be better documented with examples).
   * Reasonable pricing.
   * Good and responsive support.
-  * PDFreactor is now premier choice in customer projects.
+  * PDFreactor is now our premier choice in customer projects.
 
 PrinceXML
 +++++++++
