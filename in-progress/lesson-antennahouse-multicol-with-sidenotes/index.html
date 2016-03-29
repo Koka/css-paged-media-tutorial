@@ -1,85 +1,17 @@
 <html>
 <head>
-    <style type="text/css">
-    #content {
-            column-count: 2;
-    }
-
-
-    @page:right {
-        margin-right : 5cm;
-
-        @bottom-right {
-            content: counter(page);
-        }
-    }
-
-    @page:left {
-        margin-left: 5cm;
-        @bottom-left {
-            content: counter(page);
-        }
-    }
-
-    #first {
-        position: running(first);
-        font-size: 0.8em;
-        color: blue;
-        width: 2cm;
-    }
-
-    #last {
-        position: running(last);
-        font-size: 0.8em;
-        color: blue;
-        width: 2cm;
-    }
-
-    @page:first {
-        @right-middle {
-            content: element(first);
-        }
-    }
-
-    @page {
-        @left-middle {
-            content: element(last);
-        }
-    }
-
-    .marker {
-        font-weight: bold;
-        color: red;
-    }
-    .annotation {
-        font-size: 0.8em;
-        font-weight: 100;
-        min-height: 1cm;
-        -ah-float: outside;
-        width: 3cm;
-        border: 1px solid blue;
-        -ah-float-reference: multicol;        
-        -ah-float-offset-x: -5cm;
-    }
-
-    table#span2 {
-        border: 1px solid blue;
-        -ah-float: multicol after left;
-        width: 3gr;
-    }
-
-
-    </style>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
 </head>
 
 <body>
 
+    <!-- display right hand on first page -->
     <div id="first">
-        Andreas Jung
+        This is
         <br>
-        Hundskapfklinge 33
+        my 
         <br>
-        D-72074 Tübingen
+        home address
     </div>
 
     <div id="content">
@@ -87,7 +19,6 @@
     <p>Montes, nascetur ridiculus mus. Pellentesque risus turpis, aliquet ac,
     accumsan vel, iaculis eget, enim. Pellentesque nibh neque, malesuada id, tempor
     vel, aliquet ut, eros. 
-    <span class="marker">*</span>
     <span class="annotation">This is a small annotation 1</span>
     In hac habitasse platea dictumst. Integer neque purus,
     congue sed, mattis sed, vulputate ac, pede. Donec vestibulum purus non tortor.
@@ -124,8 +55,6 @@
     <p>Aliquam tincidunt enim sit amet tellus. Sed mauris nulla, semper tincidunt,
     luctus a, sodales eget, leo. Sed ligula augue, cursus et, posuere non, mollis
     sit amet, est. Mauris massa. Proin hendrerit massa. Phasellus eu purus. Donec
-    <span class="marker">*</span>
-    <span class="annotation">This is a small annotation 3</span>
     est neque, dignissim a, eleifend vitae, lobortis ut, nibh. Nullam sed lorem.
     Proin laoreet augue quis eros. Suspendisse vehicula nunc ac nisi.</p>
     <p>Suspendisse fermentum velit quis sem. Phasellus suscipit nunc in risus.
@@ -140,7 +69,6 @@
     <p>Aliquam tincidunt enim sit amet tellus. Sed mauris nulla, semper tincidunt,
     luctus a, sodales eget, leo. Sed ligula augue, cursus et, posuere non, mollis
     sit amet, est. Mauris massa. Proin hendrerit massa. Phasellus eu purus. Donec
-    <span class="annotation">This is a small annotation</span>
     est neque, dignissim a, eleifend vitae, lobortis ut, nibh. Nullam sed lorem.
     Proin laoreet augue quis eros. Suspendisse vehicula nunc ac nisi.</p>
     <p>Suspendisse fermentum velit quis sem. Phasellus suscipit nunc in risus.
@@ -224,6 +152,7 @@ sodales sit amet, elit.</p>
     <!--/lorem-->
     </div>
 
+    <!-- display last hand on last page -->
     <div id="last">
         hello world
         <br>
@@ -232,12 +161,6 @@ sodales sit amet, elit.</p>
         hello world
         <br>
     </div>
-<!--lorem-->
-<p>Orci at nulla tristique condimentum. Donec arcu quam, dictum accumsan,
-convallis accumsan, cursus sit amet, ipsum. In pharetra sagittis nunc.</p>
-
-<p>Donec consequat.</p>
-<!--/lorem-->
 
 </body>
 </html>
