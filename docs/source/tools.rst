@@ -26,7 +26,7 @@ PDFreactor
   * Extensive and good documentation (Javascript API could be better documented with examples).
   * Reasonable pricing.
   * Good and responsive support.
-  * PDFreactor is now premier choice in customer projects.
+  * PDFreactor is now our premier choice in customer projects.
 
 PrinceXML
 +++++++++
@@ -57,10 +57,9 @@ Antennahouse CSS Formatter
 * `CSS Compliance <http://www.antennahouse.com/antenna1/css-conformance/>`_
 * Pricing:
 
-  * Server license with one CPU: 5000 USD
-  * each additional CPU: 4000 USD 
-  * Standalone license: 1250 USD
-  * SVG output option: 2000 USD
+  * AH Server license with one CPU: 5000 USD (+ 4000 USD per additional CPU)
+  * AH Lite version (various restrictions): 2000 USD (+ 1600 USD per additional CPU) 
+  * for all prices see `here <https://www.antennahouse.com/antenna1/prices/>`_
 
 * Personal rating:
 

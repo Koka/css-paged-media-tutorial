@@ -36,8 +36,8 @@ push:
 docs: FORCE
 	git pull
 	virtualenv-2.7 .
-	bin/pip install sphinx sphinx-bootstrap-theme ninja sphinxcontrib-googleanalytics
-	cd docs; make html
+	bin/pip install sphinx sphinx-bootstrap-theme ninja sphinxcontrib-googleanalytics lxml
+	cd docs; rm -fr build; make html; ../bin/python fix_titles.py
 	cp -a docs/build/html/* /var/www/print-css.rocks
 
 FORCE:
