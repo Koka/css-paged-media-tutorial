@@ -6,8 +6,12 @@
 
 	function annotations() {
 		var annotations = document.querySelectorAll(".annotation");
+        console.log('HELLO WORLD');
+        console.log(annotations.length);
 		for (var i = 0; i < annotations.length; i++) {
 			var annotation = annotations[i];
+            console.log(i);
+            console.log(annotation);
 			var boxDescription = ro.layout.getBoxDescriptions(annotation)[0];
 
 			// check if on a right page
@@ -119,6 +123,7 @@
     Proin laoreet augue quis eros. Suspendisse vehicula nunc ac nisi.</p>
     <p>Suspendisse fermentum velit quis sem. Phasellus suscipit nunc in risus.
     Nulla sed lectus. Morbi sollicitudin, diam ac bibendum scelerisque, enim tortor
+    <span class="annotation">This is a small annotation 1</span>
     rhoncus sapien, vel posuere dolor neque in sem. Pellentesque tellus augue,
     tempus nec, laoreet at, porttitor blandit, leo. Phasellus in odio. Duis
 /bin/bash: :wa: command not found

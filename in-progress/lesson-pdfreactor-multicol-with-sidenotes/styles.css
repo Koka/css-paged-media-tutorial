@@ -53,13 +53,12 @@
 .annotation {
     font-size: 0.8em;
     font-weight: 100;
-    -ah-float: outside;
+    float: left;
     width: 3cm;
-    border: 1px solid #ddd;
-    -ah-float-reference: multicol;        
-    -ah-float-offset-x: -5cm;
-    padding-left: 0.25em;
-    padding-right: 0.25em;
+    border: 1px solid blue;
+    left: 0cm;
+    position: absolute;
+    margin-left: -5cm;
 }
 
 .annotation.right {
