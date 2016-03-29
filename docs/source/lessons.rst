@@ -3,6 +3,7 @@ Lessons
 
 .. toctree::
   lesson-antennahouse-autofit-text.rst
+  lesson-antennahouse-multicol-with-sidenotes.rst
   lesson-background-repeated.rst
   lesson-basic.rst
   lesson-blank-pages.rst
@@ -36,6 +37,7 @@ Lessons
   lesson-page-numbers.rst
   lesson-pagination.rst
   lesson-pdfreactor-autofit-text.rst
+  lesson-pdfreactor-multicol-with-sidenotes.rst
   lesson-positioning.rst
   lesson-right-to-left.rst
   lesson-running-elements.rst
