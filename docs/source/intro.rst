@@ -51,7 +51,7 @@ This tutorial and shortcut covers and compares the following four tools:
 - PDFreactor 8
 - PrinceXML 10
 - Antennahouse 6.2 CSS formatter 
-- Vivliostyle Formatter 2016.1
+- Vivliostyle Formatter 2016.4
 
 This tutorial does not cover and installation issues. Please refer to
 the vendor documentation. All tools are available for free for the purpose

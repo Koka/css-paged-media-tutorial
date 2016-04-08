@@ -70,7 +70,7 @@ Antennahouse CSS Formatter
 Vivliostyle Formatter
 +++++++++++++++++++++
 
-* Current version: 2016.1
+* Current version: 2016.4
 * Website: http://www.vivliostyle.com
 * Samples: http://www.vivliostyle.com/en/sample/
 * Documentation: http://www.vivliostyle.com/en/documentation/supported-features/
