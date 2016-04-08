@@ -11,6 +11,7 @@ div.demo {
     font-size: 18pt;
     float: left;
     width: 45%;
+    min-width: 45%;
 }
 
 .with-ligatures {

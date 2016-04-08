@@ -3,16 +3,24 @@
     <link rel="stylesheet" href="styles.css" type="text/css" />
 
 	<script type="text/javascript">
+function listProperties(obj) {
+   var propList = "";
+   for(var propName in obj) {
+      if(typeof(obj[propName]) != "undefined") {
+         propList += (propName + ", ");
+      }
+   }
+   alert(propList);
+}
+
+
 
 	function annotations() {
 		var annotations = document.querySelectorAll(".annotation");
-        console.log('HELLO WORLD');
-        console.log(annotations.length);
 		for (var i = 0; i < annotations.length; i++) {
 			var annotation = annotations[i];
-            console.log(i);
-            console.log(annotation);
 			var boxDescription = ro.layout.getBoxDescriptions(annotation)[0];
+            listProperties(annotation);
 
 			// check if on a right page
 			if (!boxDescription.pageLeft) {
