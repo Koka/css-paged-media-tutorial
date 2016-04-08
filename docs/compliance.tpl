@@ -14,7 +14,7 @@
             {% for row in data[category] %}
                 <tr>
                     <td>      
-                        <a href="{{ row['name'] }}.html">{{ row['name']}}</a>
+                        <a class="lesson-title" href="{{ row['name'] }}.html">{{ row['name']}}</a>
                         {% if row['readme'] %}
                             <div class="readme">
                                 {{ row['readme'] }}

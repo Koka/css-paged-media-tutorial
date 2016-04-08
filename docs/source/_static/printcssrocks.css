@@ -56,3 +56,7 @@ caption {
 #about-table li {
     margin-left: 1.0em;
 }
+
+.lesson-title {
+    white-space: pre-wrap;
+}
