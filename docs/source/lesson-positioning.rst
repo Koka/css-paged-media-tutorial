@@ -93,12 +93,8 @@ PDF files
                     </td>
                     <td>
                            
-                            <a href="#" data-featherlight="_static/lesson-positioning/images/vivliostyle/vivliostyle-0.png" >
-                                <img class="preview" src="_static/lesson-positioning/images/vivliostyle/thumb-vivliostyle-0.png" />
-                            </a>
-                           
-                            <a href="#" data-featherlight="_static/lesson-positioning/images/vivliostyle/vivliostyle-1.png" >
-                                <img class="preview" src="_static/lesson-positioning/images/vivliostyle/thumb-vivliostyle-1.png" />
+                            <a href="#" data-featherlight="_static/lesson-positioning/images/vivliostyle/vivliostyle.png" >
+                                <img class="preview" src="_static/lesson-positioning/images/vivliostyle/thumb-vivliostyle.png" />
                             </a>
                           
                           

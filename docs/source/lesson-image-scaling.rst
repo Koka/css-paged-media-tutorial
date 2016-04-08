@@ -144,6 +144,10 @@ PDF files
                             <a href="#" data-featherlight="_static/lesson-image-scaling/images/vivliostyle/vivliostyle-2.png" >
                                 <img class="preview" src="_static/lesson-image-scaling/images/vivliostyle/thumb-vivliostyle-2.png" />
                             </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-image-scaling/images/vivliostyle/vivliostyle-3.png" >
+                                <img class="preview" src="_static/lesson-image-scaling/images/vivliostyle/thumb-vivliostyle-3.png" />
+                            </a>
                           
                           
                     </td>

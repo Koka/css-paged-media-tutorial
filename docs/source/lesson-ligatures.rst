@@ -91,7 +91,7 @@ PDF files
                     <td>
                         <span class="converter-name">Vivliostyle</span>
                         <br/>
-                        <span class="converter-status">ERROR</span>
+                        <span class="converter-status">(OK)</span>
                         <br/>
                         <a class="pdf-download" href="_static/lesson-ligatures/vivliostyle-output.pdf">Download</a>
                     </td>
@@ -103,7 +103,7 @@ PDF files
                           
                            
                               <div>
-                                does not support ligatures in release 2016.1
+                                Ligature support now works in 2016.4 however there is a CSS isuess with float: left boxes
                               </div>
                          
                     </td>

@@ -111,7 +111,7 @@ PDF files
                     <td>
                         <span class="converter-name">Vivliostyle</span>
                         <br/>
-                        <span class="converter-status">ERROR</span>
+                        <span class="converter-status">OK</span>
                         <br/>
                         <a class="pdf-download" href="_static/lesson-multi-columns/vivliostyle-output.pdf">Download</a>
                     </td>
@@ -128,12 +128,12 @@ PDF files
                             <a href="#" data-featherlight="_static/lesson-multi-columns/images/vivliostyle/vivliostyle-2.png" >
                                 <img class="preview" src="_static/lesson-multi-columns/images/vivliostyle/thumb-vivliostyle-2.png" />
                             </a>
-                          
                            
-                              <div>
-                                does not support standard CSS multi columns (see  vivliostyle/vivliostyle.js#107 )
-                              </div>
-                         
+                            <a href="#" data-featherlight="_static/lesson-multi-columns/images/vivliostyle/vivliostyle-3.png" >
+                                <img class="preview" src="_static/lesson-multi-columns/images/vivliostyle/thumb-vivliostyle-3.png" />
+                            </a>
+                          
+                          
                     </td>
                 </tr>
             

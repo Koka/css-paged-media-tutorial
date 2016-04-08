@@ -95,7 +95,7 @@ PDF files
                     <td>
                         <span class="converter-name">Vivliostyle</span>
                         <br/>
-                        <span class="converter-status">ERROR</span>
+                        <span class="converter-status">OK</span>
                         <br/>
                         <a class="pdf-download" href="_static/lesson-css-gradients/vivliostyle-output.pdf">Download</a>
                     </td>
@@ -107,7 +107,7 @@ PDF files
                           
                            
                               <div>
-                                no support for gradients as this time
+                                partial support for gradients
                               </div>
                          
                     </td>

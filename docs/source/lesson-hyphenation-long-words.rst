@@ -144,6 +144,14 @@ PDF files
                             <a href="#" data-featherlight="_static/lesson-hyphenation-long-words/images/vivliostyle/vivliostyle-1.png" >
                                 <img class="preview" src="_static/lesson-hyphenation-long-words/images/vivliostyle/thumb-vivliostyle-1.png" />
                             </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-hyphenation-long-words/images/vivliostyle/vivliostyle-2.png" >
+                                <img class="preview" src="_static/lesson-hyphenation-long-words/images/vivliostyle/thumb-vivliostyle-2.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-hyphenation-long-words/images/vivliostyle/vivliostyle-3.png" >
+                                <img class="preview" src="_static/lesson-hyphenation-long-words/images/vivliostyle/thumb-vivliostyle-3.png" />
+                            </a>
                           
                            
                               <div>

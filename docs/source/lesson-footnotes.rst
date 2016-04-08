@@ -97,7 +97,11 @@ PDF files
                                 <img class="preview" src="_static/lesson-footnotes/images/vivliostyle/thumb-vivliostyle.png" />
                             </a>
                           
-                          
+                           
+                              <div>
+                                Footnote counters not incremented properly
+                              </div>
+                         
                     </td>
                 </tr>
             
