@@ -8,7 +8,7 @@
                 height: 100%;
                 min-height: 100%;
                 max-height: 100%;
-                border: 1px solid red;
+                outline: 1px solid red;
                 display: table-cell;
                 text-align: center;
                 vertical-align: middle;
@@ -16,17 +16,22 @@
             }
 
             #inner {
-                border: 1px solid blue;
+                outline: 1px solid blue;
                 display: table-cell;
                 vertical-align: middle;
                 text-align: center;
-
             }
 
             #content {
+                position: relative;
                 width: 50%;
-                outline: 1px solid green;
+                height: 50%;
+                border: 1px solid green;
+                display: inline-block;
+                transform: rotate(90deg);
+                /*
                 transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+                */
             }
 
         </style>
