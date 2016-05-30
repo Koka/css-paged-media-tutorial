@@ -19,6 +19,9 @@ clean:
 check-css:
 	csslint --ignore=ids,bulletproof-font-face,import *css
 
+check-html:
+	htmllint index.html
+
 images: FORCE
 	-rm -fr images
 	mkdir -p images/pdfreactor images/princexml images/antennahouse images/vivliostyle
