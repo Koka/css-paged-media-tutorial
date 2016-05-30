@@ -16,6 +16,9 @@ antennahouse:
 clean:
 	find . -name \*.pdf -exec rm {} \;
 
+check-css:
+	csslint --ignore=ids,bulletproof-font-face,import *css
+
 images: FORCE
 	-rm -fr images
 	mkdir -p images/pdfreactor images/princexml images/antennahouse images/vivliostyle
