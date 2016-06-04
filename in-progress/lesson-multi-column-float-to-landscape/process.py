@@ -4,7 +4,7 @@ from lxml.cssselect import CSSSelector
 
 
 outer_tmpl = """
-<div class="outer">
+<div class="outer" data-float-fn="{float_fn}">
     <div class="inner">
         <div class="wrapper">
         </div>
@@ -16,7 +16,6 @@ fn = sys.argv[-1]
 with open(fn, 'rb') as fp:
     root = lxml.html.fromstring(fp.read())
 
-print root
 sel = CSSSelector('.floatable-next-page')
 
 for num, node in enumerate(sel(root)):
@@ -24,7 +23,8 @@ for num, node in enumerate(sel(root)):
     with open(float_fn, 'wb') as fp:
         fp.write(lxml.html.tostring(node))
 
-    new_node = lxml.html.fromstring(outer_tmpl)
+    outer_html = outer_tmpl.format(float_fn=float_fn)
+    new_node = lxml.html.fromstring(outer_html)
     node.getparent().replace(node, new_node)
 
 fn_out = 'out.html'
