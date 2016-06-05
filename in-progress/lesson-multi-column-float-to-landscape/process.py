@@ -1,3 +1,4 @@
+import os
 import sys
 import lxml.html
 from lxml.cssselect import CSSSelector
@@ -27,6 +28,8 @@ for num, node in enumerate(sel(root)):
     new_node = lxml.html.fromstring(outer_html)
     node.getparent().replace(node, new_node)
 
-fn_out = 'out.html'
-with open(fn_out, 'wb') as fp:
+base, ext = os.path.splitext(fn)
+out_fn = '{}-out{}'.format(base, ext)
+with open(out_fn, 'wb') as fp:
     fp.write(lxml.html.tostring(root))
+print 'Output written to', out_fn
