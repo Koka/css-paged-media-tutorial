@@ -8,7 +8,7 @@ outer_tmpl = """
 <div class="outer" data-float-fn="{float_fn}">
     <div class="inner">
         <div class="wrapper">
-        template::{template}
+        template::{template}::HELLO WORLD::ABC=DEF:XXX=EFD
         </div>
     </div>
 </div>
