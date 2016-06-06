@@ -8,6 +8,7 @@ outer_tmpl = """
 <div class="outer" data-float-fn="{float_fn}">
     <div class="inner">
         <div class="wrapper">
+        template::{template}
         </div>
     </div>
 </div>
@@ -24,7 +25,7 @@ for num, node in enumerate(sel(root)):
     with open(float_fn, 'wb') as fp:
         fp.write(lxml.html.tostring(node))
 
-    outer_html = outer_tmpl.format(float_fn=float_fn)
+    outer_html = outer_tmpl.format(float_fn=float_fn, template=float_fn)
     new_node = lxml.html.fromstring(outer_html)
     node.getparent().replace(node, new_node)
 
