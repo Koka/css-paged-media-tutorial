@@ -1,8 +1,6 @@
 import os
-import re
+import pprint
 import sys
-import tempfile
-import commands
 import lxml.etree
 
 
@@ -24,5 +22,5 @@ for node in root.xpath('//*[contains(@text,"template::")]'):
             page_no=page_no,
             abs_page_no=abs_page_no))
 
-print result
+pprint.pprint(result)
 

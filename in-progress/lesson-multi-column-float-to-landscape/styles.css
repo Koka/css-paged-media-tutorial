@@ -4,6 +4,7 @@
         column-count: 2;
 }
 
+/* ensure some fake counter */
 @page {
     counter-increment: page 3;
 }
