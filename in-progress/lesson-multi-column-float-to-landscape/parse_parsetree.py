@@ -2,6 +2,7 @@ import os
 import pprint
 import sys
 import lxml.etree
+import PyPDF2
 
 
 in_fn = sys.argv[-1]
@@ -24,3 +25,18 @@ for node in root.xpath('//*[contains(@text,"template::")]'):
 
 pprint.pprint(result)
 
+
+pdf_in = 'index-out.pdf'
+pdf_out = 'index-out2.pdf'
+
+with open(pdf_in, 'rb') as fp_in:
+    reader = PyPDF2.PdfFileReader(fp_in)
+    writer = PyPDF2.PdfFileWriter()
+
+
+    for page_no in range(reader.numPages):
+        page = reader.getPage(page_no)
+        writer.addPage(page)
+
+    with open(pdf_out, 'wb') as fp_out:
+        writer.write(fp_out)

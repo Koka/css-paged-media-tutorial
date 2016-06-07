@@ -5,7 +5,7 @@ from lxml.cssselect import CSSSelector
 
 
 outer_tmpl = """
-<div class="outer" data-float-fn="{float_fn}">
+<div class="outer floatable" data-float-fn="{float_fn}" id="{id}">
     <div class="inner">
         <div class="wrapper">
         template::{template}::HELLO WORLD::ABC=DEF:XXX=EFD
@@ -21,11 +21,13 @@ with open(fn, 'rb') as fp:
 sel = CSSSelector('.floatable-next-page')
 
 for num, node in enumerate(sel(root)):
+
     float_fn = 'floatable-{}.html'.format(num+1)
     with open(float_fn, 'wb') as fp:
         fp.write(lxml.html.tostring(node))
 
-    outer_html = outer_tmpl.format(float_fn=float_fn, template=float_fn)
+    id = 'floatable-{}'.format(num+1)
+    outer_html = outer_tmpl.format(float_fn=float_fn, template=float_fn, id=id)
     new_node = lxml.html.fromstring(outer_html)
     node.getparent().replace(node, new_node)
 
