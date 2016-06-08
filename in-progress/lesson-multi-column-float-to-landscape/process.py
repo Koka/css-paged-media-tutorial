@@ -8,7 +8,7 @@ outer_tmpl = """
 <div class="outer floatable" data-float-fn="{float_fn}" id="{id}">
     <div class="inner">
         <div class="wrapper">
-        template::{template}::HELLO WORLD::ABC=DEF:XXX=EFD
+        template={template}
         </div>
     </div>
 </div>
@@ -23,8 +23,12 @@ sel = CSSSelector('.floatable-next-page')
 for num, node in enumerate(sel(root)):
 
     float_fn = 'floatable-{}.html'.format(num+1)
+    base_fn, ext  = os.path.splitext(float_fn)
     with open(float_fn, 'wb') as fp:
         fp.write(lxml.html.tostring(node))
+    cmd = 'run.sh -d "{base_fn}.html" -o "{base_fn}.pdf"'.format(base_fn=base_fn)
+    print cmd
+    os.system(cmd)
 
     id = 'floatable-{}'.format(num+1)
     outer_html = outer_tmpl.format(float_fn=float_fn, template=float_fn, id=id)
