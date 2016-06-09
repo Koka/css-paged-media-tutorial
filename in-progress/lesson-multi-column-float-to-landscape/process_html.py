@@ -18,7 +18,6 @@ outer_tmpl = """
 fn = sys.argv[-1]
 
 
-def create_template(fn, template_fn='template.html'):
 
     # take given input file and create a template file with an injected CSS
     # file for the flowables and an empty body (with placeholder for inserting
@@ -43,7 +42,6 @@ def create_template(fn, template_fn='template.html'):
             fp_out.write(lxml.html.tostring(root, encoding=unicode))
 
         print 'template generated: {}'.format(template_fn)
-
 
 def extract_flowables(fn, output_fn='index-out.html'):
     """ Extract flowables into dedicated HTML snippet files and replace 

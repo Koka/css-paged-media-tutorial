@@ -2,7 +2,6 @@ import os
 import sys
 import tempfile
 import lxml.html
-import ah
 import shutil
 import commands
 from lxml.cssselect import CSSSelector
@@ -118,6 +117,9 @@ class Processor(object):
         if status != 0:
             raise RuntimeError('{} executed with status {}'.format(cmd, status))
 
+    def __str__(self):
+        return '{}(logfile={}, workdir={})'.format(self.__class__.__name__, self.logfile, self.tmpdir)
+
     def __call__(self):
         self.create_template()
         self.extract_flowables()
@@ -127,4 +129,6 @@ class Processor(object):
 
 if __name__ == '__main__':
     proc = Processor('index.html')
+    import pdb; pdb.set_trace() 
+    print proc
     proc()
