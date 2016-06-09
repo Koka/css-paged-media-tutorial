@@ -46,6 +46,10 @@ class Processor(object):
         with open(self.logfile, 'a') as fp:
             print >>fp, message
 
+    def get_log(self):
+        with open (self.logfile, 'rb') as fp:
+            return fp.read()
+
     def create_template(self):
 
         # take given input file and create a template file with an injected CSS
@@ -199,3 +203,4 @@ if __name__ == '__main__':
             styles_directory='styles',
             output_directory='/tmp/out')
     proc()
+    print proc.get_log()
