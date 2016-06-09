@@ -1,6 +1,7 @@
 import os
 import sys
 import lxml.html
+import ah
 from lxml.cssselect import CSSSelector
 
 
@@ -76,9 +77,16 @@ def extract_flowables(fn, output_fn='index-out.html'):
     print 'Output written to', output_fn
     return output_fn
 
+
+def create_pdf(fn, pdf_out_fn='index-out.pdf', areatree=False):
+    return ah.run_ah(fn, pdf_out_fn, areatree=areatree)
+
+
 if __name__ == '__main__':
 
     fn = os.path.abspath(sys.argv[-1])
     print 'processing: {}'. format(fn)
     create_template(fn)
-    extract_flowables(fn)
+    fn2 = extract_flowables(fn)
+    create_pdf(fn2)
+    create_pdf(fn2, areatree=True)

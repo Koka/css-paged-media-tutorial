@@ -44,7 +44,6 @@ def process_floatables(parsetree_fn, pdf_in_fn='index-out.pdf', pdf_out_fn='inde
             page_data = result.get(page_no + 1)
             page = reader.getPage(page_no)
             if page_data:
-                import pdb; pdb.set_trace()     
                 floatable_id = page_data['id']
                 floatable_html_fn = os.path.join(dirname, '{}.html'.format(floatable_id))
                 floatable_html_fn2 = os.path.join(dirname, '{}-2.html'.format(floatable_id))
