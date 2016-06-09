@@ -2,6 +2,7 @@ import os
 import pprint
 import sys
 import lxml.etree
+import ah
 import PyPDF2
 
 
@@ -57,10 +58,7 @@ def process_floatables(parsetree_fn, pdf_in_fn='index-out.pdf', pdf_out_fn='inde
                             floatable_html_out.write(template_html)
 
                 floatable_pdf_fn = os.path.join(dirname, '{}.pdf'.format(floatable_id))
-                cmd = 'run.sh -d "{floatable_html_fn}" -o "{floatable_pdf_fn}"'.format(
-                    floatable_html_fn=floatable_html_fn2,
-                    floatable_pdf_fn=floatable_pdf_fn)                    
-                status = os.system(cmd)
+                ah.run_ah(floatable_html_fn, floatable_pdf_fn)
                 with open(floatable_pdf_fn, 'rb') as floatable_in:
                     print '*'*80
                     print 'merging', floatable_pdf_fn

@@ -12,7 +12,6 @@ def run_ah(index_fn, pdf_fn, ah_options='ah.options', areatree=False):
     index_base, ext = os.path.splitext(os.path.basename(index_fn))
 
     if areatree:
-        import pdb; pdb.set_trace() 
         areatree_fn = os.path.join(dirname, '{}.parsetree'.format(index_base))
         cmd = 'run.sh -p @AreaTree -d "{}" | xmllint --format - >"{}"'.format(index_fn, areatree_fn)
 
