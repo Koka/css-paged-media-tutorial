@@ -23,9 +23,15 @@ outer_tmpl = """
 
 class Processor(object):
 
-    def __init__(self, input_filename):
+    def __init__(self, input_filename, output_directory=None, styles_directory='styles'):
         self.input_filename = os.path.abspath(input_filename)
-        self.tmpdir = tempfile.mkdtemp()
+        if output_directory:
+            if os.path.exists(output_directory):
+                shutil.rmtree(output_directory)
+            os.makedirs(output_directory)
+            self.tmpdir = output_directory
+        else:
+            self.tmpdir = tempfile.mkdtemp()
         self.logfile = os.path.join(self.tmpdir, 'conversion.log')
         self.index_html = os.path.join(self.tmpdir, 'index.html')
         self.index2_html = os.path.join(self.tmpdir, 'index2.html')
@@ -33,11 +39,10 @@ class Processor(object):
         self.index2_areatree = os.path.join(self.tmpdir, 'index2.areatree')
         self.pdf_final = os.path.join(self.tmpdir, 'final.pdf')
         shutil.copy(input_filename, self.index_html)
-        shutil.copytree('styles', os.path.join(self.tmpdir, 'styles'))
+        shutil.copytree(styles_directory, os.path.join(self.tmpdir, 'styles'))
         self._log('copied {} -> {}'.format(self.input_filename, self.index_html))
 
     def _log(self, message, level='info'):
-        print message
         with open(self.logfile, 'a') as fp:
             print >>fp, message
 
@@ -53,7 +58,7 @@ class Processor(object):
 
             head = root.find('head')
             link = lxml.html.Element('link')
-            link.attrib.update(dict(rel='stylesheet', type='text/css', href='flowable.css'))
+            link.attrib.update(dict(rel='stylesheet', type='text/css', href='styles/flowable.css'))
             head.append(link)
 
             body = root.find('body')
@@ -167,10 +172,9 @@ class Processor(object):
                                 floatable_html_out.write(template_html)
 
                     floatable_pdf_fn = os.path.join(self.tmpdir, '{}.pdf'.format(floatable_id))
-                    self.run_ah(floatable_html_fn, floatable_pdf_fn)
+                    self.run_ah(floatable_html_fn2, floatable_pdf_fn)
                     with open(floatable_pdf_fn, 'rb') as floatable_in:
-                        print '*'*80
-                        print 'merging', floatable_pdf_fn
+                        self._log('merging: {}'.format(floatable_pdf_fn))
                         floatable_reader = PyPDF2.PdfFileReader(floatable_in)
                         page.mergePage(floatable_reader.getPage(0))
 
@@ -178,7 +182,7 @@ class Processor(object):
 
             with open(self.pdf_final, 'wb') as fp_out:
                 writer.write(fp_out)
-                print 'resulting PDF: {}'.format(self.pdf_final)
+                self._log('resulting PDF: {}'.format(self.pdf_final))
 
     def __str__(self):
         return '{}(logfile={}, workdir={})'.format(self.__class__.__name__, self.logfile, self.tmpdir)
@@ -191,5 +195,7 @@ class Processor(object):
         self.process_floatables()
 
 if __name__ == '__main__':
-    proc = Processor('index.html')
+    proc = Processor('index.html',
+            styles_directory='styles',
+            output_directory='/tmp/out')
     proc()
