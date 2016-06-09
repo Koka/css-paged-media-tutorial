@@ -23,8 +23,11 @@ outer_tmpl = """
 
 class Processor(object):
 
-    def __init__(self, input_filename, output_directory=None, styles_directory='styles'):
-        self.input_filename = os.path.abspath(input_filename)
+    def __init__(self, input_directory='src', input_filename='index.html', output_directory=None, styles_directory='styles'):
+        self.input_directory = input_directory
+        self.input_filename = input_filename
+        self.input_filename = os.path.abspath(os.path.join(self.input_directory, self.input_filename))
+        self.styles_directory = styles_directory
         if output_directory:
             if os.path.exists(output_directory):
                 shutil.rmtree(output_directory)
@@ -33,14 +36,26 @@ class Processor(object):
         else:
             self.tmpdir = tempfile.mkdtemp()
         self.logfile = os.path.join(self.tmpdir, 'conversion.log')
-        self.index_html = os.path.join(self.tmpdir, 'index.html')
+        self.index_html = os.path.join(self.tmpdir, input_filename)
         self.index2_html = os.path.join(self.tmpdir, 'index2.html')
         self.index2_pdf= os.path.join(self.tmpdir, 'index2.pdf')
         self.index2_areatree = os.path.join(self.tmpdir, 'index2.areatree')
         self.pdf_final = os.path.join(self.tmpdir, 'final.pdf')
-        shutil.copy(input_filename, self.index_html)
-        shutil.copytree(styles_directory, os.path.join(self.tmpdir, 'styles'))
+        self._copy_src()
+        self._copy_resources()
         self._log('copied {} -> {}'.format(self.input_filename, self.index_html))
+
+    def _recursive_copy(self, src, dst, ignore_top_level_dir=False):
+
+        src = os.path.abspath(src)
+        dst = os.path.abspath(dst)
+        shutil.copytree(src, dst)
+
+    def _copy_src(self):
+        self._recursive_copy(self.input_directory, os.path.join(self.tmpdir, self.input_directory))
+
+    def _copy_resources(self):
+        self._recursive_copy(self.styles_directory, os.path.join(self.tmpdir, self.styles_directory))
 
     def _log(self, message, level='info'):
         with open(self.logfile, 'a') as fp:
@@ -199,7 +214,9 @@ class Processor(object):
         self.process_floatables()
 
 if __name__ == '__main__':
-    proc = Processor('index.html',
+    proc = Processor(
+            input_directory='src',
+            input_filename='src/index.html',
             styles_directory='styles',
             output_directory='/tmp/out')
     proc()
