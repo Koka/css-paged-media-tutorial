@@ -19,7 +19,7 @@ outer_tmpl = """
 </div>
 """
 
-
+# check external dependencies
 for dep in ('which', 'xmllint', 'pdftk'):
     if not shutil.which(dep):
         raise RuntimeError('"{}" not found'.format(dep))
@@ -56,7 +56,6 @@ class Processor(object):
         self._log('copied {} -> {}'.format(self.input_filename, self.index_html))
 
     def _recursive_copy(self, src, dst, ignore_top_level_dir=False):
-
         src = os.path.abspath(src)
         dst = os.path.abspath(dst)
         shutil.copytree(src, dst)
