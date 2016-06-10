@@ -4,7 +4,7 @@ import tempfile
 import lxml.html
 import shutil
 import pprint
-import commands
+import subprocess
 import PyPDF2
 from lxml.cssselect import CSSSelector
 
@@ -58,8 +58,9 @@ class Processor(object):
         self._recursive_copy(self.styles_directory, os.path.join(self.tmpdir, self.styles_directory))
 
     def _log(self, message, level='info'):
+        print(message, sep='\n')
         with open(self.logfile, 'a') as fp:
-            print >>fp, message
+            print(fp, message, file=fp, sep='\n')
 
     def get_log(self):
         with open (self.logfile, 'rb') as fp:
@@ -86,8 +87,8 @@ class Processor(object):
                 body.remove(child)
 
             template_fn = os.path.join(self.tmpdir, 'template.html')
-            with open(template_fn, 'wb') as fp_out:
-                fp_out.write(lxml.html.tostring(root, encoding=unicode))
+            with open(template_fn, 'w') as fp_out:
+                fp_out.write(lxml.html.tostring(root, encoding='unicode'))
 
             self._log('generated template: {}'.format(template_fn))
 
@@ -106,8 +107,8 @@ class Processor(object):
 
             float_fn = os.path.join(self.tmpdir, 'floatable-{}.html'.format(num+1))
             base_fn, ext  = os.path.splitext(float_fn)
-            with open(float_fn, 'wb') as fp:
-                fp.write(lxml.html.tostring(node))
+            with open(float_fn, 'w') as fp:
+                fp.write(lxml.html.tostring(node, encoding='unicode'))
                 self._log('generated flowable: {}'.format(float_fn))
 
             floatable_id = 'floatable-{}'.format(num+1)
@@ -115,8 +116,8 @@ class Processor(object):
             new_node = lxml.html.fromstring(outer_html)
             node.getparent().replace(node, new_node)
 
-        with open(self.index2_html, 'wb') as fp:
-            fp.write(lxml.html.tostring(root))
+        with open(self.index2_html, 'w') as fp:
+            fp.write(lxml.html.tostring(root, encoding='unicode'))
             
         self._log('generated html file: {}'.format(self.index2_html))
 
@@ -139,7 +140,7 @@ class Processor(object):
             cmd = 'run.sh -d "{}" -o "{}"'.format(input_fn, pdf_fn)
 
         self._log(cmd)
-        status, output = commands.getstatusoutput(cmd)
+        status, output = subprocess.getstatusoutput(cmd)
         self._log(output)
         if status != 0:
             raise RuntimeError('{} executed with status {}'.format(cmd, status))
@@ -183,11 +184,11 @@ class Processor(object):
                     floatable_html_fn = os.path.join(self.tmpdir, '{}.html'.format(floatable_id))
                     floatable_html_fn2 = os.path.join(self.tmpdir, '{}-2.html'.format(floatable_id))
                     # wrap floatable HTML snippet with template.html
-                    with open(os.path.join(self.tmpdir, 'template.html'), 'rb') as template_in:
-                        with open(floatable_html_fn, 'rb') as floatable_html_in:
+                    with open(os.path.join(self.tmpdir, 'template.html'), 'r') as template_in:
+                        with open(floatable_html_fn, 'r') as floatable_html_in:
                             template_html = template_in.read()
                             template_html = template_html.format(body=floatable_html_in.read())
-                            with open(floatable_html_fn2, 'wb') as floatable_html_out:
+                            with open(floatable_html_fn2, 'w') as floatable_html_out:
                                 floatable_html_out.write(template_html)
 
                     floatable_pdf_fn = os.path.join(self.tmpdir, '{}.pdf'.format(floatable_id))
@@ -220,4 +221,4 @@ if __name__ == '__main__':
             styles_directory='styles',
             output_directory='/tmp/out')
     proc()
-    print proc.get_log()
+    print(proc.get_log())
