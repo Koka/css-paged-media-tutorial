@@ -23,10 +23,16 @@ outer_tmpl = """
 
 class Processor(object):
 
-    def __init__(self, input_directory='src', input_filename='index.html', output_directory=None, styles_directory='styles'):
+    def __init__(self, 
+        input_directory='src', 
+        input_filename='index.html', 
+        output_directory=None, 
+        styles_directory='styles',
+        ah_options=''):
         self.input_directory = input_directory
         self.input_filename = input_filename
         self.input_filename = os.path.abspath(os.path.join(self.input_directory, self.input_filename))
+        self.ah_options = ah_options
         self.styles_directory = styles_directory
         if output_directory:
             if os.path.exists(output_directory):
@@ -58,12 +64,21 @@ class Processor(object):
         self._recursive_copy(self.styles_directory, os.path.join(self.tmpdir, self.styles_directory))
 
     def _log(self, message, level='info'):
-        print(message, sep='\n')
         with open(self.logfile, 'a') as fp:
-            print(fp, message, file=fp, sep='\n')
+            print(message, file=fp, sep='\n')
+
+    def _runcmd(self, cmd):
+        self._log('*' * 80)
+        self._log(cmd)
+        status, output = subprocess.getstatusoutput(cmd)
+        self._log('Status: {}'.format(status))
+        if output:
+            self._log('Output:\n{}'.format(output))
+        if status != 0:
+            raise RuntimeError('Execution of "{}" failed\n\nOutput:\n{}'.format(cmd, output))
 
     def get_log(self):
-        with open (self.logfile, 'rb') as fp:
+        with open (self.logfile, 'r') as fp:
             return fp.read()
 
     def create_template(self):
@@ -135,15 +150,11 @@ class Processor(object):
         """
 
         if areatree:
-            cmd = 'run.sh -p @AreaTree -d "{}" | xmllint --format - >"{}"'.format(input_fn, self.index2_areatree)
+            cmd = 'run.sh {} -p @AreaTree -d "{}" | xmllint --format - >"{}"'.format(self.ah_options, input_fn, self.index2_areatree)
         else:
-            cmd = 'run.sh -d "{}" -o "{}"'.format(input_fn, pdf_fn)
+            cmd = 'run.sh {} -d "{}" -o "{}"'.format(self.ah_options, input_fn, pdf_fn)
 
-        self._log(cmd)
-        status, output = subprocess.getstatusoutput(cmd)
-        self._log(output)
-        if status != 0:
-            raise RuntimeError('{} executed with status {}'.format(cmd, status))
+        self._runcmd(cmd)
 
     def process_floatables(self):
 
@@ -174,11 +185,17 @@ class Processor(object):
 
         with open(self.index2_pdf, 'rb') as fp_in:
             reader = PyPDF2.PdfFileReader(fp_in)
-            writer = PyPDF2.PdfFileWriter()
 
             for page_no in range(reader.numPages):
                 page_data = result.get(page_no + 1)
                 page = reader.getPage(page_no)
+
+                pdf_out_fn = os.path.join(self.tmpdir, '{}.pdf').format(page_no + 1)
+                writer = PyPDF2.PdfFileWriter()
+                writer.addPage(page)
+                with open(pdf_out_fn, 'wb') as pdf_out:
+                    writer.write(pdf_out)
+
                 if page_data:
                     floatable_id = page_data['id']
                     floatable_html_fn = os.path.join(self.tmpdir, '{}.html'.format(floatable_id))
@@ -191,18 +208,21 @@ class Processor(object):
                             with open(floatable_html_fn2, 'w') as floatable_html_out:
                                 floatable_html_out.write(template_html)
 
-                    floatable_pdf_fn = os.path.join(self.tmpdir, '{}.pdf'.format(floatable_id))
+                    floatable_pdf_fn = os.path.join(self.tmpdir, 'floatable-{}.pdf'.format(page_no + 1))
                     self.run_ah(floatable_html_fn2, floatable_pdf_fn)
-                    with open(floatable_pdf_fn, 'rb') as floatable_in:
-                        self._log('merging: {}'.format(floatable_pdf_fn))
-                        floatable_reader = PyPDF2.PdfFileReader(floatable_in)
-                        page.mergePage(floatable_reader.getPage(0))
 
-                writer.addPage(page)
+                    # merge with original PDF page
+                    pdf_tmp_fn = tempfile.mktemp(suffix='.pdf')
+                    cmd = 'pdftk "{}" background "{}" output "{}"'.format(pdf_out_fn, floatable_pdf_fn, pdf_tmp_fn)
+                    self._runcmd(cmd)
+                    shutil.copy(pdf_tmp_fn, pdf_out_fn)
+                    os.unlink(pdf_tmp_fn)
 
-            with open(self.pdf_final, 'wb') as fp_out:
-                writer.write(fp_out)
-                self._log('resulting PDF: {}'.format(self.pdf_final))
+
+            all_pdfs = ' '.join(['"{}"'.format(os.path.join(self.tmpdir, '{}.pdf').format(page_no + 1)) for page_no in range(reader.numPages)])
+            cmd = 'pdftk {} cat output "{}"'.format(all_pdfs, self.pdf_final)
+            self._runcmd(cmd)
+            self._log('resulting PDF: {}'.format(self.pdf_final))
 
     def __str__(self):
         return '{}(logfile={}, workdir={})'.format(self.__class__.__name__, self.logfile, self.tmpdir)
@@ -214,11 +234,14 @@ class Processor(object):
         self.create_pdf(areatree=True)
         self.process_floatables()
 
+
 if __name__ == '__main__':
     proc = Processor(
             input_directory='src',
             input_filename='src/index.html',
             styles_directory='styles',
-            output_directory='/tmp/out')
+            output_directory='/tmp/out',
+            ah_options='-tpdf',
+            )
     proc()
     print(proc.get_log())
