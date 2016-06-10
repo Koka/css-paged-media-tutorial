@@ -20,6 +20,10 @@ outer_tmpl = """
 """
 
 
+for dep in ('which', 'xmllint', 'pdftk'):
+    if not shutil.which(dep):
+        raise RuntimeError('"{}" not found'.format(dep))
+
 
 class Processor(object):
 
@@ -153,24 +157,27 @@ class Processor(object):
             cmd = 'run.sh {} -p @AreaTree -d "{}" | xmllint --format - >"{}"'.format(self.ah_options, input_fn, self.index2_areatree)
         else:
             cmd = 'run.sh {} -d "{}" -o "{}"'.format(self.ah_options, input_fn, pdf_fn)
-
         self._runcmd(cmd)
 
     def process_floatables(self):
 
-
+        # Read the Antennahouse areatree
         with open(self.index2_areatree, 'rb') as fp:
             root = lxml.etree.fromstring(fp.read())
 
+        # and for all pages with a floatable placeholder text with id=....
         result = dict()
         for node in root.xpath('//*[contains(@text,"id=")]'):
             current = node
+
+            # get hold of the parent page element inside the areatree
             while current.tag != '{http://www.antennahouse.com/names/XSL/AreaTree}PageViewportArea':
                 current = current.getparent()
 
+            # text, absolute and internal page number
+            text = node.attrib['text']
             page_no = int(current.attrib['page-number'])
             abs_page_no = int(current.attrib['abs-page-number'])
-            text = node.attrib['text']
             
             d = dict(
                     text=text,
@@ -183,6 +190,8 @@ class Processor(object):
 
         self._log(pprint.pformat(result))
 
+
+        # split PDF document with placeholder pages into single PDF document 1.pdf, 2.pdf etc.
         with open(self.index2_pdf, 'rb') as fp_in:
             reader = PyPDF2.PdfFileReader(fp_in)
 
@@ -190,13 +199,17 @@ class Processor(object):
                 page_data = result.get(page_no + 1)
                 page = reader.getPage(page_no)
 
+                # write <page_no>.pdf
                 pdf_out_fn = os.path.join(self.tmpdir, '{}.pdf').format(page_no + 1)
                 writer = PyPDF2.PdfFileWriter()
                 writer.addPage(page)
                 with open(pdf_out_fn, 'wb') as pdf_out:
                     writer.write(pdf_out)
 
+                # current page contains a placeholder?
                 if page_data:
+
+                    # read the floatable snippet and reformat it using template.html
                     floatable_id = page_data['id']
                     floatable_html_fn = os.path.join(self.tmpdir, '{}.html'.format(floatable_id))
                     floatable_html_fn2 = os.path.join(self.tmpdir, '{}-2.html'.format(floatable_id))
@@ -208,17 +221,18 @@ class Processor(object):
                             with open(floatable_html_fn2, 'w') as floatable_html_out:
                                 floatable_html_out.write(template_html)
 
+                    # generate a PDF for the floatable 
                     floatable_pdf_fn = os.path.join(self.tmpdir, 'floatable-{}.pdf'.format(page_no + 1))
                     self.run_ah(floatable_html_fn2, floatable_pdf_fn)
 
-                    # merge with original PDF page
+                    # merge it with original PDF page
                     pdf_tmp_fn = tempfile.mktemp(suffix='.pdf')
                     cmd = 'pdftk "{}" background "{}" output "{}"'.format(pdf_out_fn, floatable_pdf_fn, pdf_tmp_fn)
                     self._runcmd(cmd)
                     shutil.copy(pdf_tmp_fn, pdf_out_fn)
                     os.unlink(pdf_tmp_fn)
 
-
+            # join all files 1.pdf, 2.pdf ... into final.pdf
             all_pdfs = ' '.join(['"{}"'.format(os.path.join(self.tmpdir, '{}.pdf').format(page_no + 1)) for page_no in range(reader.numPages)])
             cmd = 'pdftk {} cat output "{}"'.format(all_pdfs, self.pdf_final)
             self._runcmd(cmd)
