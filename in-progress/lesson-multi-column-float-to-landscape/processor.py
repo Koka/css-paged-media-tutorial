@@ -45,9 +45,11 @@ class Processor(object):
         styles_directory='styles',
         ah_options='',
         verbose=True,
+        metadata={}
         ):
 
         self.verbose = verbose
+        self.metadata = metadata
         self.input_directory = input_directory
         self.input_filename = input_filename
         self.input_filename = os.path.abspath(os.path.join(self.input_directory, self.input_filename))
@@ -112,6 +114,14 @@ class Processor(object):
         cmd = 'java -jar "{}" {} {}'.format(pdfbox_jar, pdfbox_command, ' '.join(args))
         return self._runcmd(cmd)
 
+    def num_pages_should_be(self, pdf_fn, num_pages):
+        """ Ensure that a PDF files has exactly <num_pages> pages """
+
+        with open(pdf_fn, 'rb') as fp_in:
+            reader = PyPDF2.PdfFileReader(fp_in)
+            if reader.numPages != num_pages:
+                raise ValueError('PDF files {} has {} pages instead of {} (expected)'.format(pdf_fn, reader.numPages, num_pages))
+
     def create_template(self):
 
         # take given input file and create a template file with an injected CSS
@@ -133,8 +143,8 @@ class Processor(object):
                 body.remove(child)
 
             template_fn = os.path.join(self.tmpdir, 'template.html')
-            with open(template_fn, 'w') as fp_out:
-                fp_out.write(lxml.html.tostring(root, encoding='unicode'))
+            with open(template_fn, 'wb') as fp_out:
+                fp_out.write(lxml.html.tostring(root, encoding='utf8'))
 
             self._log('generated template: {}'.format(template_fn))
 
@@ -240,16 +250,17 @@ class Processor(object):
             floatable_html_fn = os.path.join(self.tmpdir, '{}.html'.format(floatable_id))
             floatable_html_fn2 = os.path.join(self.tmpdir, '{}-2.html'.format(floatable_id))
             # wrap floatable HTML snippet with template.html
-            with open(os.path.join(self.tmpdir, 'template.html'), 'r') as template_in:
-                with open(floatable_html_fn, 'r') as floatable_html_in:
+            with open(os.path.join(self.tmpdir, 'template.html'), 'r', encoding='utf8') as template_in:
+                with open(floatable_html_fn, mode='r', encoding='utf8') as floatable_html_in:
                     template_html = template_in.read()
                     template_html = template_html.format(body=floatable_html_in.read())
-                    with open(floatable_html_fn2, 'w') as floatable_html_out:
+                    with open(floatable_html_fn2, 'w', encoding='utf8') as floatable_html_out:
                         floatable_html_out.write(template_html)
 
             # generate a PDF for the floatable 
             floatable_pdf_fn = os.path.join(self.tmpdir, 'floatable-{}.pdf'.format(page_no + 1))
             self.run_ah(floatable_html_fn2, floatable_pdf_fn)
+            self.num_pages_should_be(floatable_pdf_fn, 1)
 
             # merge it with original PDF page
             pdf_tmp_fn = tempfile.mktemp(suffix='.pdf')
@@ -268,8 +279,15 @@ class Processor(object):
         self._pdfbox('PDFMerger', all_pdfs)
         self._log('Final PDF: {}'.format(self.pdf_final))
 
+
     def __str__(self):
         return '{}(logfile={}, workdir={})'.format(self.__class__.__name__, self.logfile, self.tmpdir)
+
+    def document_info(self):
+
+        with open(self.pdf_final, 'rb') as fp_in:
+            reader = PyPDF2.PdfFileReader(fp_in)
+            return reader.getDocumentInfo()
 
     def __call__(self):
         ts = datetime.datetime.now()
@@ -288,7 +306,7 @@ if __name__ == '__main__':
             input_filename='src/index.html',
             styles_directory='styles',
             output_directory='/tmp/out',
-            ah_options='-tpdf',
+            ah_options='-tpdf -pdfver PDF1.7',
             )
     proc()
     print(proc.get_log())
