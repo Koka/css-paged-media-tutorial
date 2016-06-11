@@ -1,5 +1,6 @@
 import os
 import sys
+import datetime
 import tempfile
 import lxml.html
 import shutil
@@ -20,9 +21,19 @@ outer_tmpl = """
 """
 
 # check external dependencies
-for dep in ('which', 'xmllint', 'pdftk'):
+for dep in ('which', 'xmllint'):
     if not shutil.which(dep):
         raise RuntimeError('"{}" not found'.format(dep))
+
+# Find and check PDFBox installation
+lib_dir = os.path.join(os.path.dirname(__file__), 'lib')
+jar_files = [f for f in os.listdir(lib_dir) if f.endswith('.jar')]
+
+try:
+    pdfbox_jar = [f for f in jar_files if f.startswith('pdfbox-app')][0]
+    pdfbox_jar = os.path.abspath(os.path.join(lib_dir, pdfbox_jar))
+except IndexError:
+    raise RuntimeError('Could not find suitable pdfbox-app*.jar file')
 
 
 class Processor(object):
@@ -32,7 +43,11 @@ class Processor(object):
         input_filename='index.html', 
         output_directory=None, 
         styles_directory='styles',
-        ah_options=''):
+        ah_options='',
+        verbose=True,
+        ):
+
+        self.verbose = verbose
         self.input_directory = input_directory
         self.input_filename = input_filename
         self.input_filename = os.path.abspath(os.path.join(self.input_directory, self.input_filename))
@@ -67,6 +82,12 @@ class Processor(object):
         self._recursive_copy(self.styles_directory, os.path.join(self.tmpdir, self.styles_directory))
 
     def _log(self, message, level='info'):
+        message = '{} {:5s} {}'.format(
+                datetime.datetime.now().strftime('%Y%m%dT%H:%M:%S'),
+                level,
+                message)
+        if self.verbose:
+            print(message)
         with open(self.logfile, 'a') as fp:
             print(message, file=fp, sep='\n')
 
@@ -83,6 +104,13 @@ class Processor(object):
     def get_log(self):
         with open (self.logfile, 'r') as fp:
             return fp.read()
+
+    def _pdfbox(self, pdfbox_command, args):
+
+        if isinstance(args, str):
+            args = [args]
+        cmd = 'java -jar "{}" {} {}'.format(pdfbox_jar, pdfbox_command, ' '.join(args))
+        return self._runcmd(cmd)
 
     def create_template(self):
 
@@ -134,8 +162,8 @@ class Processor(object):
             new_node = lxml.html.fromstring(outer_html)
             node.getparent().replace(node, new_node)
 
-        with open(self.index2_html, 'w') as fp:
-            fp.write(lxml.html.tostring(root, encoding='unicode'))
+        with open(self.index2_html, 'wb') as fp:
+            fp.write(lxml.html.tostring(root, encoding='utf8'))
             
         self._log('generated html file: {}'.format(self.index2_html))
 
@@ -190,62 +218,68 @@ class Processor(object):
         self._log(pprint.pformat(result))
 
 
-        # split PDF document with placeholder pages into single PDF document 1.pdf, 2.pdf etc.
+        # split PDF document with placeholder pages into single PDF document index2-1.pdf, index2-2.pdf etc.
+        self._pdfbox('PDFSplit', self.index2_pdf)
+
+        # determine the number of overall pages
         with open(self.index2_pdf, 'rb') as fp_in:
             reader = PyPDF2.PdfFileReader(fp_in)
+            num_pages = reader.numPages
+            self._log('Number of pages to be processed: {}'.format(num_pages))
 
-            for page_no in range(reader.numPages):
-                page_data = result.get(page_no + 1)
-                page = reader.getPage(page_no)
+        for page_no in range(num_pages):
+            page_data = result.get(page_no + 1)
+            page = reader.getPage(page_no)
 
-                # write <page_no>.pdf
-                pdf_out_fn = os.path.join(self.tmpdir, '{}.pdf').format(page_no + 1)
-                writer = PyPDF2.PdfFileWriter()
-                writer.addPage(page)
-                with open(pdf_out_fn, 'wb') as pdf_out:
-                    writer.write(pdf_out)
+            if not page_data:
+                continue # nothing to do 
 
-                # current page contains a placeholder?
-                if page_data:
+            # current page contains a placeholder?
+            # read the floatable snippet and reformat it using template.html
+            floatable_id = page_data['id']
+            floatable_html_fn = os.path.join(self.tmpdir, '{}.html'.format(floatable_id))
+            floatable_html_fn2 = os.path.join(self.tmpdir, '{}-2.html'.format(floatable_id))
+            # wrap floatable HTML snippet with template.html
+            with open(os.path.join(self.tmpdir, 'template.html'), 'r') as template_in:
+                with open(floatable_html_fn, 'r') as floatable_html_in:
+                    template_html = template_in.read()
+                    template_html = template_html.format(body=floatable_html_in.read())
+                    with open(floatable_html_fn2, 'w') as floatable_html_out:
+                        floatable_html_out.write(template_html)
 
-                    # read the floatable snippet and reformat it using template.html
-                    floatable_id = page_data['id']
-                    floatable_html_fn = os.path.join(self.tmpdir, '{}.html'.format(floatable_id))
-                    floatable_html_fn2 = os.path.join(self.tmpdir, '{}-2.html'.format(floatable_id))
-                    # wrap floatable HTML snippet with template.html
-                    with open(os.path.join(self.tmpdir, 'template.html'), 'r') as template_in:
-                        with open(floatable_html_fn, 'r') as floatable_html_in:
-                            template_html = template_in.read()
-                            template_html = template_html.format(body=floatable_html_in.read())
-                            with open(floatable_html_fn2, 'w') as floatable_html_out:
-                                floatable_html_out.write(template_html)
+            # generate a PDF for the floatable 
+            floatable_pdf_fn = os.path.join(self.tmpdir, 'floatable-{}.pdf'.format(page_no + 1))
+            self.run_ah(floatable_html_fn2, floatable_pdf_fn)
 
-                    # generate a PDF for the floatable 
-                    floatable_pdf_fn = os.path.join(self.tmpdir, 'floatable-{}.pdf'.format(page_no + 1))
-                    self.run_ah(floatable_html_fn2, floatable_pdf_fn)
+            # merge it with original PDF page
+            pdf_tmp_fn = tempfile.mktemp(suffix='.pdf')
+            pdf_out_fn = os.path.join(self.tmpdir, 'index2-{}.pdf'.format(page_no + 1))
+            self._pdfbox('OverlayPDF', 
+                [pdf_out_fn,
+                 floatable_pdf_fn,
+                 pdf_tmp_fn])
+            shutil.copy(pdf_tmp_fn, pdf_out_fn)
+            os.unlink(pdf_tmp_fn)
 
-                    # merge it with original PDF page
-                    pdf_tmp_fn = tempfile.mktemp(suffix='.pdf')
-                    cmd = 'pdftk "{}" background "{}" output "{}"'.format(pdf_out_fn, floatable_pdf_fn, pdf_tmp_fn)
-                    self._runcmd(cmd)
-                    shutil.copy(pdf_tmp_fn, pdf_out_fn)
-                    os.unlink(pdf_tmp_fn)
-
-            # join all files 1.pdf, 2.pdf ... into final.pdf
-            all_pdfs = ' '.join(['"{}"'.format(os.path.join(self.tmpdir, '{}.pdf').format(page_no + 1)) for page_no in range(reader.numPages)])
-            cmd = 'pdftk {} cat output "{}"'.format(all_pdfs, self.pdf_final)
-            self._runcmd(cmd)
-            self._log('resulting PDF: {}'.format(self.pdf_final))
+        # join all files index2-1.pdf, index2-2.pdf ... into final.pdf
+        all_pdfs =['"{}"'.format(os.path.join(self.tmpdir, 'index2-{}.pdf').format(page_no + 1)) 
+                   for page_no in range(reader.numPages)]
+        all_pdfs.append(self.pdf_final)
+        self._pdfbox('PDFMerger', all_pdfs)
+        self._log('Final PDF: {}'.format(self.pdf_final))
 
     def __str__(self):
         return '{}(logfile={}, workdir={})'.format(self.__class__.__name__, self.logfile, self.tmpdir)
 
     def __call__(self):
+        ts = datetime.datetime.now()
         self.create_template()
         self.extract_flowables()
         self.create_pdf()
         self.create_pdf(areatree=True)
         self.process_floatables()
+        duration = datetime.datetime.now() - ts
+        self._log('Duration: {}'.format(duration))
 
 
 if __name__ == '__main__':
