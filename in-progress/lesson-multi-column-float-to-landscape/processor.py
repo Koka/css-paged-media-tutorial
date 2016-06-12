@@ -5,8 +5,8 @@ import tempfile
 import lxml.html
 import shutil
 import pprint
-import subprocess
 import PyPDF2
+import easyprocess
 from lxml.cssselect import CSSSelector
 
 
@@ -21,7 +21,7 @@ outer_tmpl = """
 """
 
 # check external dependencies
-for dep in ('which', 'xmllint'):
+for dep in ('run.sh',):
     if not shutil.which(dep):
         raise RuntimeError('"{}" not found'.format(dep))
 
@@ -72,18 +72,26 @@ class Processor(object):
         self._copy_resources()
         self._log('copied {} -> {}'.format(self.input_filename, self.index_html))
 
-    def _recursive_copy(self, src, dst, ignore_top_level_dir=False):
+    def _recursive_copy(self, src, dst):
+        """ Perform a recursive copy from <src> to <dst> directory """
+
         src = os.path.abspath(src)
         dst = os.path.abspath(dst)
         shutil.copytree(src, dst)
 
     def _copy_src(self):
+        """ Copy source directory to working directory """
+
         self._recursive_copy(self.input_directory, os.path.join(self.tmpdir, self.input_directory))
 
     def _copy_resources(self):
+        """ Copy resource directory to working directory """
+
         self._recursive_copy(self.styles_directory, os.path.join(self.tmpdir, self.styles_directory))
 
     def _log(self, message, level='info'):
+        """ A simple file-based logger """
+
         message = '{} {:5s} {}'.format(
                 datetime.datetime.now().strftime('%Y%m%dT%H:%M:%S'),
                 level,
@@ -94,20 +102,38 @@ class Processor(object):
             print(message, file=fp, sep='\n')
 
     def _runcmd(self, cmd):
+        """ Execute a given external <cmd> and log the results.
+            The command must succeed (status=0) in order to count
+            execution as an success.
+        """
+
         self._log('*' * 80)
         self._log(cmd)
-        status, output = subprocess.getstatusoutput(cmd)
+        proc = easyprocess.EasyProcess(cmd)
+        result = proc.call()
+        status = result.return_code
+        stdout = result.stdout.strip()
+        stderr = result.stderr.strip()
         self._log('Status: {}'.format(status))
-        if output:
-            self._log('Output:\n{}'.format(output))
+        if stdout:
+            self._log(stdout)
+        if stderr:
+            self._log(stderr)
         if status != 0:
             raise RuntimeError('Execution of "{}" failed\n\nOutput:\n{}'.format(cmd, output))
+        return
 
     def get_log(self):
+        """ Return the conversion log as string """
+
         with open (self.logfile, 'r') as fp:
             return fp.read()
 
     def _pdfbox(self, pdfbox_command, args):
+        """ Wrapper around Apache PDFBox.
+            <pdfbox_command> = OverlayPDF, PDFMerger etc.
+            <args> = list of arguments as strings
+        """
 
         if isinstance(args, str):
             args = [args]
@@ -123,10 +149,10 @@ class Processor(object):
                 raise ValueError('PDF files {} has {} pages instead of {} (expected)'.format(pdf_fn, reader.numPages, num_pages))
 
     def create_template(self):
-
-        # take given input file and create a template file with an injected CSS
-        # file for the flowables and an empty body (with placeholder for inserting
-        # the flowable html snippets)
+        """ Take given input file and create a template file with an injected CSS
+            file for the flowables and an empty body (with placeholder for inserting
+            # the flowable html snippets).
+        """
 
         with open(self.index_html, 'rb') as fp:
 
@@ -153,7 +179,6 @@ class Processor(object):
             them using a custom markup.
         """
 
-
         with open(self.index_html, 'rb') as fp:
             root = lxml.html.fromstring(fp.read())
 
@@ -178,6 +203,8 @@ class Processor(object):
         self._log('generated html file: {}'.format(self.index2_html))
 
     def create_pdf(self, areatree=False):
+        """ Generated initial PDF from given HTML file (with placeholders) """ 
+
         result = self.run_ah(
             self.index2_html,
             self.index2_pdf,
@@ -186,12 +213,12 @@ class Processor(object):
         return result
 
     def run_ah(self, input_fn, pdf_fn, areatree=False):
-        """ Run Antennahouse on given input file ``index.fn`` generating
+        """ Run Antennahouse on given input file ``index_fn`` generating
             a PDF output file ``pdf_fn``.
         """
 
         if areatree:
-            cmd = 'run.sh {} -p @AreaTree -d "{}" | xmllint --format - >"{}"'.format(self.ah_options, input_fn, self.index2_areatree)
+            cmd = 'run.sh {} -p @AreaTree -d "{}" -o "{}"'.format(self.ah_options, input_fn, self.index2_areatree)
         else:
             cmd = 'run.sh {} -d "{}" -o "{}"'.format(self.ah_options, input_fn, pdf_fn)
         self._runcmd(cmd)
@@ -281,9 +308,11 @@ class Processor(object):
 
 
     def __str__(self):
+        """ Printable representation of the PDF processor """
         return '{}(logfile={}, workdir={})'.format(self.__class__.__name__, self.logfile, self.tmpdir)
 
     def document_info(self):
+        """ Return PDF internal metadata as dict (title, description...) """
 
         with open(self.pdf_final, 'rb') as fp_in:
             reader = PyPDF2.PdfFileReader(fp_in)
