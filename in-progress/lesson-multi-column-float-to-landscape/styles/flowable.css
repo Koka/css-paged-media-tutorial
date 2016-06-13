@@ -18,3 +18,19 @@
         content: ""
     }
 }
+
+.page-left {
+    color: green;
+}
+
+.page-right {
+    color: orange;
+}
+
+.page-left .floatable-next-page {
+    transform: rotate(-45deg);
+}
+
+.page-right .floatable-next-page {
+    transform: rotate(45deg);
+}

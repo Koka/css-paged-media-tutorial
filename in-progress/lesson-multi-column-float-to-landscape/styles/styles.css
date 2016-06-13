@@ -6,7 +6,7 @@
 
 /* ensure some fake counter */
 @page {
-    counter-increment: page 3;
+    counter-increment: page 1;
 }
 
 @page:left {

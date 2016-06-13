@@ -86,6 +86,10 @@ class Processor(object):
         self._recursive_copy(self.input_directory, os.path.join(
             self.tmpdir, self.input_directory))
 
+        for name in os.listdir(os.path.join(self.tmpdir, 'src')):
+            fn = os.path.join(self.tmpdir, 'src', name)
+            shutil.copy(fn, self.tmpdir)
+
     def _copy_resources(self):
         """ Copy resource directory to working directory """
 
