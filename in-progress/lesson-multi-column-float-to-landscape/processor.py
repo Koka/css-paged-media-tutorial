@@ -38,21 +38,22 @@ except IndexError:
 
 class Processor(object):
 
-    def __init__(self, 
-        input_directory='src', 
-        input_filename='index.html', 
-        output_directory=None, 
-        styles_directory='styles',
-        ah_options='',
-        verbose=True,
-        metadata={}
-        ):
+    def __init__(self,
+                 input_directory='src',
+                 input_filename='index.html',
+                 output_directory=None,
+                 styles_directory='styles',
+                 ah_options='',
+                 verbose=True,
+                 metadata={}
+                 ):
 
         self.verbose = verbose
         self.metadata = metadata
         self.input_directory = input_directory
         self.input_filename = input_filename
-        self.input_filename = os.path.abspath(os.path.join(self.input_directory, self.input_filename))
+        self.input_filename = os.path.abspath(
+            os.path.join(self.input_directory, self.input_filename))
         self.ah_options = ah_options
         self.styles_directory = styles_directory
         if output_directory:
@@ -65,7 +66,7 @@ class Processor(object):
         self.logfile = os.path.join(self.tmpdir, 'conversion.log')
         self.index_html = os.path.join(self.tmpdir, input_filename)
         self.index2_html = os.path.join(self.tmpdir, 'index2.html')
-        self.index2_pdf= os.path.join(self.tmpdir, 'index2.pdf')
+        self.index2_pdf = os.path.join(self.tmpdir, 'index2.pdf')
         self.index2_areatree = os.path.join(self.tmpdir, 'index2.areatree')
         self.pdf_final = os.path.join(self.tmpdir, 'final.pdf')
         self._copy_src()
@@ -82,20 +83,22 @@ class Processor(object):
     def _copy_src(self):
         """ Copy source directory to working directory """
 
-        self._recursive_copy(self.input_directory, os.path.join(self.tmpdir, self.input_directory))
+        self._recursive_copy(self.input_directory, os.path.join(
+            self.tmpdir, self.input_directory))
 
     def _copy_resources(self):
         """ Copy resource directory to working directory """
 
-        self._recursive_copy(self.styles_directory, os.path.join(self.tmpdir, self.styles_directory))
+        self._recursive_copy(self.styles_directory, os.path.join(
+            self.tmpdir, self.styles_directory))
 
     def _log(self, message, level='info'):
         """ A simple file-based logger """
 
         message = '{} {:5s} {}'.format(
-                datetime.datetime.now().strftime('%Y%m%dT%H:%M:%S'),
-                level,
-                message)
+            datetime.datetime.now().strftime('%Y%m%dT%H:%M:%S'),
+            level,
+            message)
         if self.verbose:
             print(message)
         with open(self.logfile, 'a') as fp:
@@ -120,13 +123,18 @@ class Processor(object):
         if stderr:
             self._log(stderr)
         if status != 0:
+<<<<<<< HEAD
             raise RuntimeError('Execution of "{}" failed\n\nOutput:\n{}'.format(cmd, stdout + stderr))
+=======
+            raise RuntimeError(
+                'Execution of "{}" failed\n\nOutput:\n{}'.format(cmd, output))
+>>>>>>> fb08a26b2934edec975f18667a1db5567bb47ce2
         return
 
     def get_log(self):
         """ Return the conversion log as string """
 
-        with open (self.logfile, 'r') as fp:
+        with open(self.logfile, 'r') as fp:
             return fp.read()
 
     def _pdfbox(self, pdfbox_command, args):
@@ -137,16 +145,23 @@ class Processor(object):
 
         if isinstance(args, str):
             args = [args]
-        cmd = 'java -jar "{}" {} {}'.format(pdfbox_jar, pdfbox_command, ' '.join(args))
+        cmd = 'java -jar "{}" {} {}'.format(pdfbox_jar,
+                                            pdfbox_command, ' '.join(args))
         return self._runcmd(cmd)
 
     def num_pages_should_be(self, pdf_fn, num_pages):
         """ Ensure that a PDF files has exactly <num_pages> pages """
 
+        if self.num_pages(pdf_fn) != num_pages:
+            raise ValueError('PDF files {} has {} pages instead of {} (expected)'.format(
+                pdf_fn, reader.numPages, num_pages))
+
+    def num_pages(self, pdf_fn):
+        """ Return number of pages for a given PDF document """
+
         with open(pdf_fn, 'rb') as fp_in:
             reader = PyPDF2.PdfFileReader(fp_in)
-            if reader.numPages != num_pages:
-                raise ValueError('PDF files {} has {} pages instead of {} (expected)'.format(pdf_fn, reader.numPages, num_pages))
+            return reader.numPages
 
     def create_template(self):
         """ Take given input file and create a template file with an injected CSS
@@ -160,13 +175,15 @@ class Processor(object):
 
             head = root.find('head')
             link = lxml.html.Element('link')
-            link.attrib.update(dict(rel='stylesheet', type='text/css', href='styles/flowable.css'))
+            link.attrib.update(
+                dict(rel='stylesheet', type='text/css', href='styles/flowable.css'))
             head.append(link)
 
             body = root.find('body')
             body.text = u'{body}'
             for child in body.iterchildren():
                 body.remove(child)
+            body.attrib['class'] = 'page-{page}'
 
             template_fn = os.path.join(self.tmpdir, 'template.html')
             with open(template_fn, 'wb') as fp_out:
@@ -186,30 +203,32 @@ class Processor(object):
 
         for num, node in enumerate(sel(root)):
 
-            float_fn = os.path.join(self.tmpdir, 'floatable-{}.html'.format(num+1))
-            base_fn, ext  = os.path.splitext(float_fn)
+            float_fn = os.path.join(
+                self.tmpdir, 'floatable-{}.html'.format(num + 1))
+            base_fn, ext = os.path.splitext(float_fn)
             with open(float_fn, 'w') as fp:
                 fp.write(lxml.html.tostring(node, encoding='unicode'))
                 self._log('generated flowable: {}'.format(float_fn))
 
-            floatable_id = 'floatable-{}'.format(num+1)
+            floatable_id = 'floatable-{}'.format(num + 1)
             outer_html = outer_tmpl.format(id=floatable_id)
             new_node = lxml.html.fromstring(outer_html)
             node.getparent().replace(node, new_node)
 
         with open(self.index2_html, 'wb') as fp:
             fp.write(lxml.html.tostring(root, encoding='utf8'))
-            
+
         self._log('generated html file: {}'.format(self.index2_html))
 
     def create_pdf(self, areatree=False):
-        """ Generated initial PDF from given HTML file (with placeholders) """ 
+        """ Generated initial PDF from given HTML file (with placeholders) """
 
         result = self.run_ah(
             self.index2_html,
             self.index2_pdf,
             areatree=areatree)
-        self._log('generated PDF from {} (areatree={})'.format(self.index2_html, areatree))
+        self._log('generated PDF from {} (areatree={})'.format(
+            self.index2_html, areatree))
         return result
 
     def run_ah(self, input_fn, pdf_fn, areatree=False):
@@ -218,9 +237,11 @@ class Processor(object):
         """
 
         if areatree:
-            cmd = 'run.sh {} -p @AreaTree -d "{}" -o "{}"'.format(self.ah_options, input_fn, self.index2_areatree)
+            cmd = 'run.sh {} -p @AreaTree -d "{}" -o "{}"'.format(
+                self.ah_options, input_fn, self.index2_areatree)
         else:
-            cmd = 'run.sh {} -d "{}" -o "{}"'.format(self.ah_options, input_fn, pdf_fn)
+            cmd = 'run.sh {} -d "{}" -o "{}"'.format(
+                self.ah_options, input_fn, pdf_fn)
         self._runcmd(cmd)
 
     def process_floatables(self):
@@ -242,11 +263,11 @@ class Processor(object):
             text = node.attrib['text']
             page_no = int(current.attrib['page-number'])
             abs_page_no = int(current.attrib['abs-page-number'])
-            
+
             d = dict(
-                    text=text,
-                    page_no=page_no,
-                    abs_page_no=abs_page_no)
+                text=text,
+                page_no=page_no,
+                abs_page_no=abs_page_no)
             for item in text.split('::'):
                 k, v = item.split('=')
                 d[k] = v
@@ -254,58 +275,62 @@ class Processor(object):
 
         self._log(pprint.pformat(result))
 
-
-        # split PDF document with placeholder pages into single PDF document index2-1.pdf, index2-2.pdf etc.
+        # split PDF document with placeholder pages into single PDF document
+        # index2-1.pdf, index2-2.pdf etc.
         self._pdfbox('PDFSplit', self.index2_pdf)
 
         # determine the number of overall pages
-        with open(self.index2_pdf, 'rb') as fp_in:
-            reader = PyPDF2.PdfFileReader(fp_in)
-            num_pages = reader.numPages
-            self._log('Number of pages to be processed: {}'.format(num_pages))
+        num_pages = self.num_pages(self.index2_pdf)
+        self._log('Number of pages to be processed: {}'.format(num_pages))
 
         for page_no in range(num_pages):
             page_data = result.get(page_no + 1)
-            page = reader.getPage(page_no)
 
             if not page_data:
-                continue # nothing to do 
+                continue  # nothing to do
 
             # current page contains a placeholder?
             # read the floatable snippet and reformat it using template.html
             floatable_id = page_data['id']
-            floatable_html_fn = os.path.join(self.tmpdir, '{}.html'.format(floatable_id))
-            floatable_html_fn2 = os.path.join(self.tmpdir, '{}-2.html'.format(floatable_id))
-            # wrap floatable HTML snippet with template.html
+            floatable_html_fn = os.path.join(
+                self.tmpdir, '{}.html'.format(floatable_id))
+            floatable_html_fn2 = os.path.join(
+                self.tmpdir, '{}-2.html'.format(floatable_id))
+
+            # wrap floatable HTML snippet into template.html
             with open(os.path.join(self.tmpdir, 'template.html'), 'r', encoding='utf8') as template_in:
                 with open(floatable_html_fn, mode='r', encoding='utf8') as floatable_html_in:
                     template_html = template_in.read()
-                    template_html = template_html.format(body=floatable_html_in.read())
+                    template_html = template_html.format(
+                        page='left' if page_data[
+                            'page_no'] % 2 == 0 else 'right',
+                        body=floatable_html_in.read())
                     with open(floatable_html_fn2, 'w', encoding='utf8') as floatable_html_out:
                         floatable_html_out.write(template_html)
 
-            # generate a PDF for the floatable 
-            floatable_pdf_fn = os.path.join(self.tmpdir, 'floatable-{}.pdf'.format(page_no + 1))
+            # generate a PDF for the floatable
+            floatable_pdf_fn = os.path.join(
+                self.tmpdir, 'floatable-{}.pdf'.format(page_no + 1))
             self.run_ah(floatable_html_fn2, floatable_pdf_fn)
             self.num_pages_should_be(floatable_pdf_fn, 1)
 
             # merge it with original PDF page
             pdf_tmp_fn = tempfile.mktemp(suffix='.pdf')
-            pdf_out_fn = os.path.join(self.tmpdir, 'index2-{}.pdf'.format(page_no + 1))
-            self._pdfbox('OverlayPDF', 
-                [pdf_out_fn,
-                 floatable_pdf_fn,
-                 pdf_tmp_fn])
+            pdf_out_fn = os.path.join(
+                self.tmpdir, 'index2-{}.pdf'.format(page_no + 1))
+            self._pdfbox('OverlayPDF',
+                         [pdf_out_fn,
+                          floatable_pdf_fn,
+                          pdf_tmp_fn])
             shutil.copy(pdf_tmp_fn, pdf_out_fn)
             os.unlink(pdf_tmp_fn)
 
         # join all files index2-1.pdf, index2-2.pdf ... into final.pdf
-        all_pdfs =['"{}"'.format(os.path.join(self.tmpdir, 'index2-{}.pdf').format(page_no + 1)) 
-                   for page_no in range(reader.numPages)]
+        all_pdfs = ['"{}"'.format(os.path.join(self.tmpdir, 'index2-{}.pdf').format(page_no + 1))
+                    for page_no in range(num_pages)]
         all_pdfs.append(self.pdf_final)
         self._pdfbox('PDFMerger', all_pdfs)
         self._log('Final PDF: {}'.format(self.pdf_final))
-
 
     def __str__(self):
         """ Printable representation of the PDF processor """
@@ -326,16 +351,17 @@ class Processor(object):
         self.create_pdf(areatree=True)
         self.process_floatables()
         duration = datetime.datetime.now() - ts
+        self._log('PDF pages: {}'.format(self.num_pages(self.pdf_final)))
         self._log('Duration: {}'.format(duration))
 
 
 if __name__ == '__main__':
     proc = Processor(
-            input_directory='src',
-            input_filename='src/index.html',
-            styles_directory='styles',
-            output_directory='/tmp/out',
-            ah_options='-tpdf -pdfver PDF1.7',
-            )
+        input_directory='src',
+        input_filename='src/index.html',
+        styles_directory='styles',
+        output_directory='/tmp/out',
+        ah_options='-tpdf -pdfver PDF1.7',
+    )
     proc()
     print(proc.get_log())
