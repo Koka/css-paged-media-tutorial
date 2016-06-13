@@ -120,7 +120,7 @@ class Processor(object):
         if stderr:
             self._log(stderr)
         if status != 0:
-            raise RuntimeError('Execution of "{}" failed\n\nOutput:\n{}'.format(cmd, output))
+            raise RuntimeError('Execution of "{}" failed\n\nOutput:\n{}'.format(cmd, stdout + stderr))
         return
 
     def get_log(self):
