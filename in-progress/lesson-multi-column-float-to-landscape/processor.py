@@ -123,13 +123,7 @@ class Processor(object):
         if stderr:
             self._log(stderr)
         if status != 0:
-<<<<<<< HEAD
             raise RuntimeError('Execution of "{}" failed\n\nOutput:\n{}'.format(cmd, stdout + stderr))
-=======
-            raise RuntimeError(
-                'Execution of "{}" failed\n\nOutput:\n{}'.format(cmd, output))
->>>>>>> fb08a26b2934edec975f18667a1db5567bb47ce2
-        return
 
     def get_log(self):
         """ Return the conversion log as string """
