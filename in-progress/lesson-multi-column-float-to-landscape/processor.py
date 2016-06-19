@@ -21,7 +21,7 @@ outer_tmpl = """
 """
 
 # check external dependencies
-for dep in ('run.sh',):
+for dep in ('run.sh', 'cpdf'):
     if not shutil.which(dep):
         raise RuntimeError('"{}" not found'.format(dep))
 
@@ -229,6 +229,18 @@ class Processor(object):
             self.index2_html, areatree))
         return result
 
+    def _rotate_pdf(self, pdf_in, pdf_out, angle):
+        """ Rotate <pdf_in> by <angle> degrees to <pdf_out> using cpdf"""
+
+        pdf_tmp = tempfile.mktemp(suffix='.pdf')
+
+        cmd = 'cpdf -rotate {} "{}" -o "{}"'.format(angle, pdf_in, pdf_tmp)
+        self._runcmd(cmd)
+
+        cmd = 'cpdf -upright {} -o "{}"'.format(pdf_tmp, pdf_out)
+        self._runcmd(cmd)
+        os.unlink(pdf_tmp)
+
     def run_ah(self, input_fn, pdf_fn, areatree=False):
         """ Run Antennahouse on given input file ``index_fn`` generating
             a PDF output file ``pdf_fn``.
@@ -306,19 +318,28 @@ class Processor(object):
                     with open(floatable_html_fn2, 'w', encoding='utf8') as floatable_html_out:
                         floatable_html_out.write(template_html)
 
-            # generate a PDF for the floatable
+            # generate a PDF for the floatable (flowable.css defines this page as
+            # landscape mode. So we need to rotate it later before merging)
             floatable_pdf_fn = os.path.join(
                 self.tmpdir, 'floatable-{}.pdf'.format(page_no + 1))
+            floatable_rotated_pdf_fn = os.path.join(
+                self.tmpdir, 'floatable-{}-rotated.pdf'.format(page_no + 1))
             self.run_ah(floatable_html_fn2, floatable_pdf_fn)
             self.num_pages_should_be(floatable_pdf_fn, 1)
+
+            self._rotate_pdf(floatable_pdf_fn,
+                             floatable_rotated_pdf_fn,
+                            '90' if page_data['page_no'] % 2 == 0 else '270')
 
             # merge it with original PDF page
             pdf_tmp_fn = tempfile.mktemp(suffix='.pdf')
             pdf_out_fn = os.path.join(
                 self.tmpdir, 'index2-{}.pdf'.format(page_no + 1))
+
             self._pdfbox('OverlayPDF',
-                         [pdf_out_fn,
-                          floatable_pdf_fn,
+                         [
+                          floatable_rotated_pdf_fn,
+                          pdf_out_fn,
                           pdf_tmp_fn])
             shutil.copy(pdf_tmp_fn, pdf_out_fn)
             os.unlink(pdf_tmp_fn)
