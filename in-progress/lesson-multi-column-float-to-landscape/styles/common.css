@@ -47,3 +47,7 @@ body {
     font-family: Lato;
     font-size: 12pt;
 }
+
+.wrapper {
+    color: white;
+}
