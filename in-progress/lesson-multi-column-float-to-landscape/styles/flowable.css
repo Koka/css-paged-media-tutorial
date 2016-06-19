@@ -1,7 +1,8 @@
 @page {
-    size: a4 landscape
+    size: a4 landscape;
+    margin: 2cm;
+    padding: 0;
 }
-
 
 @page {
     @top-center {
@@ -24,44 +25,11 @@
     }
 }
 
-.page-left {
-    color: green;
-}
-
-.page-right {
-    color: orange;
-}
-
-.page-left .floatable-next-page {
-    /*
-    transform: rotate(-90deg);
-    */
-}
-
-.page-right .floatable-next-page {
-    /*
-    transform: rotate(90deg);
-    */
-}
-/*
-#outer {
-    width: 18cm;
-    height: 24cm;
-    outline: 2px solid blue;
-    position: absolute;
-}
-
 .floatable-next-page {
-
-    width: 50%;
-    position: absolute;    
-    left: 25%;
-    top: 25%;
-
-    border: 1px solid green;
-
-    transform: rotate(-90deg);
-    transform-origin: 50% 50%;
-
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    outline: 3px solid blue;
+    text-align: center;
 }
-*/
