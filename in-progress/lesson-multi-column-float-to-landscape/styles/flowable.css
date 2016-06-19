@@ -1,4 +1,9 @@
 @page {
+    size: a4 landscape
+}
+
+
+@page {
     @top-center {
         content: ""
     }
@@ -28,9 +33,35 @@
 }
 
 .page-left .floatable-next-page {
-    transform: rotate(-45deg);
+    /*
+    transform: rotate(-90deg);
+    */
 }
 
 .page-right .floatable-next-page {
-    transform: rotate(45deg);
+    /*
+    transform: rotate(90deg);
+    */
 }
+/*
+#outer {
+    width: 18cm;
+    height: 24cm;
+    outline: 2px solid blue;
+    position: absolute;
+}
+
+.floatable-next-page {
+
+    width: 50%;
+    position: absolute;    
+    left: 25%;
+    top: 25%;
+
+    border: 1px solid green;
+
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+
+}
+*/
