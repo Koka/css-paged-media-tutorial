@@ -14,10 +14,20 @@ outer_tmpl = """
 <div class="outer floatable" id="{id}">
     <div class="inner">
         <div class="wrapper">
-        id={id}
+        id={id}::orientation={orientation}
         </div>
     </div>
 </div>
+"""
+
+
+style_tmpl = """
+<style type="text/css">
+    @page {
+
+
+    }
+</style>
 """
 
 # check external dependencies
@@ -25,9 +35,11 @@ for dep in ('run.sh', 'cpdf'):
     if not shutil.which(dep):
         raise RuntimeError('"{}" not found'.format(dep))
 
+
 # Find and check PDFBox installation
 lib_dir = os.path.join(os.path.dirname(__file__), 'lib')
 jar_files = [f for f in os.listdir(lib_dir) if f.endswith('.jar')]
+
 
 try:
     pdfbox_jar = [f for f in jar_files if f.startswith('pdfbox-app')][0]
@@ -171,18 +183,22 @@ class Processor(object):
 
             root = lxml.html.fromstring(fp.read())
 
+            # inject flowable.css into the template
             head = root.find('head')
             link = lxml.html.Element('link')
             link.attrib.update(
                 dict(rel='stylesheet', type='text/css', href='styles/flowable.css'))
             head.append(link)
+#            head.append(lxml.etree.fromstring(style_tmpl))
 
+            # remove all body childs
             body = root.find('body')
             body.text = u'{body}'
             for child in body.iterchildren():
                 body.remove(child)
             body.attrib['class'] = 'page-{page}'
 
+            # save as template.html
             template_fn = os.path.join(self.tmpdir, 'template.html')
             with open(template_fn, 'wb') as fp_out:
                 fp_out.write(lxml.html.tostring(root, encoding='utf8'))
@@ -197,7 +213,7 @@ class Processor(object):
         with open(self.index_html, 'rb') as fp:
             root = lxml.html.fromstring(fp.read())
 
-        sel = CSSSelector('.floatable-next-page')
+        sel = CSSSelector('.floatable-next-landscape,.floatable-next-portrait')
 
         for num, node in enumerate(sel(root)):
 
@@ -209,7 +225,8 @@ class Processor(object):
                 self._log('generated flowable: {}'.format(float_fn))
 
             floatable_id = 'floatable-{}'.format(num + 1)
-            outer_html = outer_tmpl.format(id=floatable_id)
+            orientation = 'landscape' if 'floatable-next-landscape' in node.attrib['class'] else 'portrait'
+            outer_html = outer_tmpl.format(id=floatable_id, orientation=orientation)
             new_node = lxml.html.fromstring(outer_html)
             node.getparent().replace(node, new_node)
 
@@ -320,16 +337,25 @@ class Processor(object):
 
             # generate a PDF for the floatable (flowable.css defines this page as
             # landscape mode. So we need to rotate it later before merging)
-            floatable_pdf_fn = os.path.join(
-                self.tmpdir, 'floatable-{}.pdf'.format(page_no + 1))
-            floatable_rotated_pdf_fn = os.path.join(
-                self.tmpdir, 'floatable-{}-rotated.pdf'.format(page_no + 1))
-            self.run_ah(floatable_html_fn2, floatable_pdf_fn)
-            self.num_pages_should_be(floatable_pdf_fn, 1)
-
-            self._rotate_pdf(floatable_pdf_fn,
-                             floatable_rotated_pdf_fn,
-                            '90' if page_data['page_no'] % 2 == 0 else '270')
+            if page_data['orientation'] == 'landscape':
+                floatable_pdf_fn = os.path.join(
+                    self.tmpdir, 'floatable-{}.pdf'.format(page_no + 1))
+                floatable_rotated_pdf_fn = os.path.join(
+                    self.tmpdir, 'floatable-{}-rotated.pdf'.format(page_no + 1))
+                self.run_ah(floatable_html_fn2, floatable_pdf_fn)
+                self.num_pages_should_be(floatable_pdf_fn, 1)
+                self._rotate_pdf(floatable_pdf_fn,
+                                 floatable_rotated_pdf_fn,
+                                '90' if page_data['page_no'] % 2 == 0 else '270')
+            else:
+                import pdb; pdb.set_trace() 
+                floatable_pdf_fn = os.path.join(
+                    self.tmpdir, 'floatable-{}.pdf'.format(page_no + 1))
+                self.run_ah(floatable_html_fn2, floatable_pdf_fn)
+                self.num_pages_should_be(floatable_pdf_fn, 1)
+                # just fake the filename for making the further merging code
+                # reusable for portrait and landscape
+                floatable_rotated_pdf_fn = floatable_pdf_fn 
 
             # merge it with original PDF page
             pdf_tmp_fn = tempfile.mktemp(suffix='.pdf')
@@ -337,8 +363,7 @@ class Processor(object):
                 self.tmpdir, 'index2-{}.pdf'.format(page_no + 1))
 
             self._pdfbox('OverlayPDF',
-                         [
-                          floatable_rotated_pdf_fn,
+                         [floatable_rotated_pdf_fn,
                           pdf_out_fn,
                           pdf_tmp_fn])
             shutil.copy(pdf_tmp_fn, pdf_out_fn)
