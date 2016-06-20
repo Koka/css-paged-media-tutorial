@@ -21,15 +21,6 @@ outer_tmpl = """
 """
 
 
-style_tmpl = """
-<style type="text/css">
-    @page {
-
-
-    }
-</style>
-"""
-
 # check external dependencies
 for dep in ('run.sh', 'cpdf'):
     if not shutil.which(dep):
@@ -189,7 +180,6 @@ class Processor(object):
             link.attrib.update(
                 dict(rel='stylesheet', type='text/css', href='styles/flowable.css'))
             head.append(link)
-#            head.append(lxml.etree.fromstring(style_tmpl))
 
             # remove all body childs
             body = root.find('body')
@@ -258,17 +248,19 @@ class Processor(object):
         self._runcmd(cmd)
         os.unlink(pdf_tmp)
 
-    def run_ah(self, input_fn, pdf_fn, areatree=False):
+    def run_ah(self, input_fn, pdf_fn, areatree=False, custom_css=None):
         """ Run Antennahouse on given input file ``index_fn`` generating
             a PDF output file ``pdf_fn``.
         """
+
+        css_cmd = '-s "{}/styles/{}"'.format(self.tmpdir, custom_css) if custom_css else ''
 
         if areatree:
             cmd = 'run.sh {} -p @AreaTree -d "{}" -o "{}"'.format(
                 self.ah_options, input_fn, self.index2_areatree)
         else:
-            cmd = 'run.sh {} -d "{}" -o "{}"'.format(
-                self.ah_options, input_fn, pdf_fn)
+            cmd = 'run.sh {} {} -d "{}" -o "{}"'.format(
+                css_cmd, self.ah_options, input_fn, pdf_fn)
         self._runcmd(cmd)
 
     def process_floatables(self):
@@ -342,13 +334,12 @@ class Processor(object):
                     self.tmpdir, 'floatable-{}.pdf'.format(page_no + 1))
                 floatable_rotated_pdf_fn = os.path.join(
                     self.tmpdir, 'floatable-{}-rotated.pdf'.format(page_no + 1))
-                self.run_ah(floatable_html_fn2, floatable_pdf_fn)
+                self.run_ah(floatable_html_fn2, floatable_pdf_fn, custom_css='flowable-landscape.css')
                 self.num_pages_should_be(floatable_pdf_fn, 1)
                 self._rotate_pdf(floatable_pdf_fn,
                                  floatable_rotated_pdf_fn,
                                 '90' if page_data['page_no'] % 2 == 0 else '270')
             else:
-                import pdb; pdb.set_trace() 
                 floatable_pdf_fn = os.path.join(
                     self.tmpdir, 'floatable-{}.pdf'.format(page_no + 1))
                 self.run_ah(floatable_html_fn2, floatable_pdf_fn)
