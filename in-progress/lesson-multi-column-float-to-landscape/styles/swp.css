@@ -96,10 +96,11 @@
 }
 
 @page:left {
-    @bottom-left {
+    @bottom-left-corner {
         content: element(footer);
         font-size: 0.8em;
         margin-top: -3em;
+        border: 1px solid blue;
     }
 
     @bottom-center {
@@ -110,10 +111,11 @@
 }
 
 @page:right {
-    @bottom-right {
+    @bottom-right-corner {
         content: element(footer);
         font-size: 0.8em;
         margin-top: -3em;
+        border: 1px solid blue;
     }
     @bottom-center {
         content: counter(page);
