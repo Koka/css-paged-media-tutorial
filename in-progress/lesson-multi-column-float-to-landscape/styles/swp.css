@@ -152,3 +152,6 @@ table td {
     padding: 0.25em;
 }
 
+img {
+    max-width: 90%;
+}

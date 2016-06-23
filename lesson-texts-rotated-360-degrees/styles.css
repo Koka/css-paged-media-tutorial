@@ -1,28 +1,3 @@
-@import url("../styles/a4.css");
-
-.box {
-    border: 1px solid grey;
-    text-align: right;
-    vertical-align: middle;
-    height: 300px;
-    width: 300px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -150px;
-    margin-top: -150px;
-    line-height: 300px;
-}
-
-#r-0 {transform: rotate(0deg)}
-#r-1 {transform: rotate(1deg)}
-#r-2 {transform: rotate(2deg)}
-#r-3 {transform: rotate(3deg)}
-#r-4 {transform: rotate(4deg)}
-#r-5 {transform: rotate(5deg)}
-#r-6 {transform: rotate(6deg)}
-#r-7 {transform: rotate(7deg)}
-#r-8 {transform: rotate(8deg)}
 #r-9 {transform: rotate(9deg)}
 #r-10 {transform: rotate(10deg)}
 #r-11 {transform: rotate(11deg)}

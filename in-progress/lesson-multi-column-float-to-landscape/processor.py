@@ -154,9 +154,10 @@ class Processor(object):
     def num_pages_should_be(self, pdf_fn, num_pages):
         """ Ensure that a PDF files has exactly <num_pages> pages """
 
-        if self.num_pages(pdf_fn) != num_pages:
+        np = self.num_pages(pdf_fn)
+        if np != num_pages:
             raise ValueError('PDF files {} has {} pages instead of {} (expected)'.format(
-                pdf_fn, reader.numPages, num_pages))
+                pdf_fn, np, num_pages))
 
     def num_pages(self, pdf_fn):
         """ Return number of pages for a given PDF document """
@@ -207,7 +208,6 @@ class Processor(object):
         sel = CSSSelector('.floatable-next-landscape,.floatable-next-portrait')
 
         for num, node in enumerate(sel(root)):
-
             float_fn = os.path.join(
                 self.tmpdir, 'floatable-{}.html'.format(num + 1))
             base_fn, ext = os.path.splitext(float_fn)
