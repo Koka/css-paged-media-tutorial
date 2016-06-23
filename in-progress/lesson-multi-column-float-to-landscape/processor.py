@@ -107,9 +107,10 @@ class Processor(object):
             level,
             message)
         if self.verbose:
-            print(message)
+            print(message.encode('utf8'))
+
         with open(self.logfile, 'a') as fp:
-            print(message, file=fp, sep='\n')
+            print(message.encode('utf8'), file=fp, sep='\n')
 
     def _runcmd(self, cmd):
         """ Execute a given external <cmd> and log the results.
@@ -391,9 +392,13 @@ class Processor(object):
 
 
 if __name__ == '__main__':
+    import sys
+
+    src = sys.argv[-1]
+
     proc = Processor(
         input_directory='src',
-        input_filename='src/index.html',
+        input_filename=src,
         styles_directory='styles',
         output_directory='/tmp/out',
         ah_options='-tpdf -pdfver PDF1.7',

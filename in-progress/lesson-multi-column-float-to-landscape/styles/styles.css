@@ -1,7 +1,11 @@
-@import url("a4.css");
+
 
 #content {
-        column-count: 2;
+    column-count: 2;
+    hyphens: auto;
+    hyphenate-before: 4;
+    hyphenate-after: 4;
+    font-size: 10pt;
 }
 
 /* ensure some fake counter */
@@ -58,3 +62,23 @@
     position: relative;
     display: inline-block;
 }
+
+/* SWP */
+
+#headline {
+    font-size: 2em;
+}
+
+#headline2 {
+    font-size: 1.4em;
+}
+
+#abstract {
+    font-weight: bold;
+}
+
+#karte {
+    max-width: 100%;
+}
+
+
