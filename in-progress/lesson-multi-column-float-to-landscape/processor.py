@@ -107,10 +107,10 @@ class Processor(object):
             level,
             message)
         if self.verbose:
-            print(message.encode('utf8'))
+            print(message)
 
         with open(self.logfile, 'a') as fp:
-            print(message.encode('utf8'), file=fp, sep='\n')
+            print(message, file=fp, sep='\n')
 
     def _runcmd(self, cmd):
         """ Execute a given external <cmd> and log the results.

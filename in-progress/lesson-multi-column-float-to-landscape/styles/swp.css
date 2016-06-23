@@ -1,5 +1,11 @@
+@import "swp-fonts.css";
+
 @page {
     size: a4;
+}
+
+body {
+    font-family: Lato;
 }
 
 #content {
@@ -11,27 +17,6 @@
     -ah-baseline-grid: new;
     -ah-baseline-block-snap: auto;
 }
-
-/* ensure some fake counter */
-@page {
-    counter-increment: page 1;
-}
-
-@page:left {
-    margin-left: 5cm;
-    @bottom-left {
-        content: counter(page);
-    }
-}
-
-@page:right {
-    margin-right : 5cm;
-
-    @bottom-right {
-        content: counter(page);
-    }
-}
-
 
 .outer  {
     -ah-float-y: before;
@@ -96,31 +81,30 @@
 }
 
 @page:left {
-    @bottom-left-corner {
+    @bottom-center {
         content: element(footer);
         font-size: 0.8em;
-        margin-top: -3em;
-        border: 1px solid blue;
+        text-align: left;
+        vertical-align: top;
+        margin-top: 0.5cm;
+        margin-left: -1.5cm;
     }
-
-    @bottom-center {
+    @bottom-left {
         content: counter(page);
-        margin-top: 1em;
-        margin-left: -13.7cm;
     }
 }
 
 @page:right {
-    @bottom-right-corner {
+    @bottom-center {
         content: element(footer);
         font-size: 0.8em;
-        margin-top: -3em;
-        border: 1px solid blue;
+        text-align: right;
+        vertical-align: top;
+        margin-top: 0.5cm;
+        margin-right: -1.5cm;
     }
-    @bottom-center {
-        content: counter(page);
-        margin-top: 1em;
-        margin-right: -13.7cm;
+    @bottom-right {
+        content:  counter(page);
     }
 }
 
@@ -142,6 +126,7 @@ span.footnote {
     line-height: 0.4em;
     -ah-baseline-grid: new;
     -ah-baseline-block-snap: auto;
+    margin-left: 0.5em;
 }
 
 .footnote::footnote-call {
@@ -151,3 +136,15 @@ span.footnote {
 .footnote::footnote-marker {
     content: counter(footnote);
 }
+
+
+table {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+
+table td {
+    padding: 0.25em;
+}
+
