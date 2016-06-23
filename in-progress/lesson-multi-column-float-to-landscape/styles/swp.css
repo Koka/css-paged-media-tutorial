@@ -82,6 +82,7 @@ body {
 
 @page:left {
     @bottom-center {
+        font-family: Lato;
         content: element(footer);
         font-size: 0.8em;
         text-align: left;
@@ -90,12 +91,14 @@ body {
         margin-left: -1.5cm;
     }
     @bottom-left {
+        font-family: Lato;
         content: counter(page);
     }
 }
 
 @page:right {
     @bottom-center {
+        font-family: Lato;
         content: element(footer);
         font-size: 0.8em;
         text-align: right;
@@ -104,6 +107,7 @@ body {
         margin-right: -1.5cm;
     }
     @bottom-right {
+        font-family: Lato;
         content:  counter(page);
     }
 }
