@@ -36,6 +36,8 @@ Lessons
   lesson-page-areas.rst
   lesson-page-numbers.rst
   lesson-pagination.rst
+  lesson-pdf-bookmarks.rst
+  lesson-pdf-links.rst
   lesson-pdfreactor-autofit-text.rst
   lesson-pdfreactor-multicol-with-dual-sidenotes.rst
   lesson-pdfreactor-multicol-with-sidenotes.rst

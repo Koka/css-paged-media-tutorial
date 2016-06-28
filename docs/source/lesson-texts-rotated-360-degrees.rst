@@ -39,8 +39,32 @@ PDF files
                     </td>
                     <td>
                            
-                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/pdfreactor/pdfreactor.png" >
-                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/pdfreactor/thumb-pdfreactor.png" />
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/pdfreactor/pdfreactor-0.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/pdfreactor/thumb-pdfreactor-0.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/pdfreactor/pdfreactor-1.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/pdfreactor/thumb-pdfreactor-1.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/pdfreactor/pdfreactor-2.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/pdfreactor/thumb-pdfreactor-2.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/pdfreactor/pdfreactor-3.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/pdfreactor/thumb-pdfreactor-3.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/pdfreactor/pdfreactor-4.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/pdfreactor/thumb-pdfreactor-4.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/pdfreactor/pdfreactor-5.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/pdfreactor/thumb-pdfreactor-5.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/pdfreactor/pdfreactor-6.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/pdfreactor/thumb-pdfreactor-6.png" />
                             </a>
                           
                           
@@ -57,8 +81,36 @@ PDF files
                     </td>
                     <td>
                            
-                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/princexml/prince.png" >
-                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/princexml/thumb-prince.png" />
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/princexml/prince-0.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/princexml/thumb-prince-0.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/princexml/prince-1.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/princexml/thumb-prince-1.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/princexml/prince-2.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/princexml/thumb-prince-2.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/princexml/prince-3.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/princexml/thumb-prince-3.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/princexml/prince-4.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/princexml/thumb-prince-4.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/princexml/prince-5.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/princexml/thumb-prince-5.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/princexml/prince-6.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/princexml/thumb-prince-6.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/princexml/prince-7.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/princexml/thumb-prince-7.png" />
                             </a>
                           
                           
@@ -75,8 +127,32 @@ PDF files
                     </td>
                     <td>
                            
-                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/antennahouse/antennahouse.png" >
-                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/antennahouse/thumb-antennahouse.png" />
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/antennahouse/antennahouse-0.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/antennahouse/thumb-antennahouse-0.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/antennahouse/antennahouse-1.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/antennahouse/thumb-antennahouse-1.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/antennahouse/antennahouse-2.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/antennahouse/thumb-antennahouse-2.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/antennahouse/antennahouse-3.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/antennahouse/thumb-antennahouse-3.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/antennahouse/antennahouse-4.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/antennahouse/thumb-antennahouse-4.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/antennahouse/antennahouse-5.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/antennahouse/thumb-antennahouse-5.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/antennahouse/antennahouse-6.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/antennahouse/thumb-antennahouse-6.png" />
                             </a>
                           
                           
@@ -93,8 +169,40 @@ PDF files
                     </td>
                     <td>
                            
-                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/vivliostyle.png" >
-                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/thumb-vivliostyle.png" />
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/vivliostyle-0.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/thumb-vivliostyle-0.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/vivliostyle-1.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/thumb-vivliostyle-1.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/vivliostyle-2.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/thumb-vivliostyle-2.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/vivliostyle-3.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/thumb-vivliostyle-3.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/vivliostyle-4.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/thumb-vivliostyle-4.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/vivliostyle-5.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/thumb-vivliostyle-5.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/vivliostyle-6.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/thumb-vivliostyle-6.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/vivliostyle-7.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/thumb-vivliostyle-7.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/vivliostyle-8.png" >
+                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/thumb-vivliostyle-8.png" />
                             </a>
                           
                           
