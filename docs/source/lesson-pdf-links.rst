@@ -111,7 +111,7 @@ PDF files
                     <td>
                         <span class="converter-name">Vivliostyle</span>
                         <br/>
-                        <span class="converter-status">ERROR</span>
+                        <span class="converter-status">OK</span>
                         <br/>
                         <a class="pdf-download" href="_static/lesson-pdf-links/vivliostyle-output.pdf">Download</a>
                     </td>
@@ -129,11 +129,7 @@ PDF files
                                 <img class="preview" src="_static/lesson-pdf-links/images/vivliostyle/thumb-vivliostyle-2.png" />
                             </a>
                           
-                           
-                              <div>
-                                internal links not properly resolved
-                              </div>
-                         
+                          
                     </td>
                 </tr>
             

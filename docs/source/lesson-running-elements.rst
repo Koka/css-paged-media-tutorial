@@ -145,7 +145,11 @@ PDF files
                                 <img class="preview" src="_static/lesson-running-elements/images/vivliostyle/thumb-vivliostyle-4.png" />
                             </a>
                           
-                          
+                           
+                              <div>
+                                No support for running elements
+                              </div>
+                         
                     </td>
                 </tr>
             

@@ -33,7 +33,7 @@ PDF files
                     <td>
                         <span class="converter-name">PDFreactor</span>
                         <br/>
-                        <span class="converter-status">(OK)</span>
+                        <span class="converter-status">OK</span>
                         <br/>
                         <a class="pdf-download" href="_static/lesson-chapter-numbering/pdfreactor.pdf">Download</a>
                     </td>
@@ -47,11 +47,7 @@ PDF files
                                 <img class="preview" src="_static/lesson-chapter-numbering/images/pdfreactor/thumb-pdfreactor-1.png" />
                             </a>
                           
-                           
-                              <div>
-                                Chapter numbering correct but chapter numbering left-aligned instead of right-aligned
-                              </div>
-                         
+                          
                     </td>
                 </tr>
             

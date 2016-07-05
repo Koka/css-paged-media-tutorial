@@ -161,11 +161,7 @@ PDF files
                                 <img class="preview" src="_static/lesson-css-transformations/images/vivliostyle/thumb-vivliostyle-4.png" />
                             </a>
                           
-                           
-                              <div>
-                                Vivliostyle ignores pagination styles
-                              </div>
-                         
+                          
                     </td>
                 </tr>
             

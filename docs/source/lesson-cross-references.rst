@@ -220,6 +220,10 @@ PDF files
                             <a href="#" data-featherlight="_static/lesson-cross-references/images/vivliostyle/vivliostyle-8.png" >
                                 <img class="preview" src="_static/lesson-cross-references/images/vivliostyle/thumb-vivliostyle-8.png" />
                             </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-cross-references/images/vivliostyle/vivliostyle-9.png" >
+                                <img class="preview" src="_static/lesson-cross-references/images/vivliostyle/thumb-vivliostyle-9.png" />
+                            </a>
                           
                           
                     </td>

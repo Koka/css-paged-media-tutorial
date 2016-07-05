@@ -91,7 +91,7 @@ PDF files
                     <td>
                         <span class="converter-name">Vivliostyle</span>
                         <br/>
-                        <span class="converter-status">ERROR</span>
+                        <span class="converter-status">OK</span>
                         <br/>
                         <a class="pdf-download" href="_static/lesson-background-repeated/vivliostyle-output.pdf">Download</a>
                     </td>
@@ -101,11 +101,7 @@ PDF files
                                 <img class="preview" src="_static/lesson-background-repeated/images/vivliostyle/thumb-vivliostyle.png" />
                             </a>
                           
-                           
-                              <div>
-                                does not cover the complete height
-                              </div>
-                         
+                          
                     </td>
                 </tr>
             

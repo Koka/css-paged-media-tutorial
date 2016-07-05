@@ -33,7 +33,7 @@ PDF files
                     <td>
                         <span class="converter-name">PDFreactor</span>
                         <br/>
-                        <span class="converter-status">ERROR</span>
+                        <span class="converter-status">OK</span>
                         <br/>
                         <a class="pdf-download" href="_static/lesson-image-scaling/pdfreactor.pdf">Download</a>
                     </td>
@@ -55,11 +55,7 @@ PDF files
                                 <img class="preview" src="_static/lesson-image-scaling/images/pdfreactor/thumb-pdfreactor-3.png" />
                             </a>
                           
-                           
-                              <div>
-                                Image in first example not correctly clipped
-                              </div>
-                         
+                          
                     </td>
                 </tr>
             

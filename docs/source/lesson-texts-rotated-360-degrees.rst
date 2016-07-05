@@ -200,10 +200,6 @@ PDF files
                             <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/vivliostyle-7.png" >
                                 <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/thumb-vivliostyle-7.png" />
                             </a>
-                           
-                            <a href="#" data-featherlight="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/vivliostyle-8.png" >
-                                <img class="preview" src="_static/lesson-texts-rotated-360-degrees/images/vivliostyle/thumb-vivliostyle-8.png" />
-                            </a>
                           
                           
                     </td>
