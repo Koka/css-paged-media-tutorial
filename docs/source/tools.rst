@@ -11,7 +11,7 @@ Converters, tools and services
 PDFreactor
 ++++++++++
 
-* Current version: 8
+* Current version: 8.1
 * Website: http://www.pdfreactor.com
 * `CSS Compliance <http://www.pdfreactor.com/product/doc_html/index.html#SupportedCSSPropertiesSection>`_
 * Sample documents: http://www.pdfreactor.com/samples/
@@ -31,7 +31,7 @@ PDFreactor
 PrinceXML
 +++++++++
 
-* Current version: 10
+* Current version: 10 (revision 7)
 * Website: http://www.princexml.com
 * Sample documents: http://www.princexml.com/samples
 * `CSS Compliance <http://www.princexml.com/doc/properties/>`_
@@ -52,7 +52,7 @@ PrinceXML
 Antennahouse CSS Formatter
 ++++++++++++++++++++++++++
 
-* Current version: 6.3
+* Current version: 6.3 (MR2)
 * Website: http://www.antennahouse.com
 * `CSS Compliance <http://www.antennahouse.com/antenna1/css-conformance/>`_
 * Pricing:
@@ -70,7 +70,7 @@ Antennahouse CSS Formatter
 Vivliostyle Formatter
 +++++++++++++++++++++
 
-* Current version: 2016.4
+* Current version: 2016.7
 * Website: http://www.vivliostyle.com
 * Samples: http://www.vivliostyle.com/en/sample/
 * Documentation: http://www.vivliostyle.com/en/documentation/supported-features/
