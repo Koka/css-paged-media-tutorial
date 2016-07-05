@@ -46,12 +46,12 @@ work cross-platform on multiple operating systems (Mac OSX, Linux, Windows).
 Tests do not include tools that only work on a single operating system or
 platform for inclusion as a library.
 
-This tutorial and shortcut covers and compares the following four tools:
+This tutorial covers and compares the following four tools:
 
-- PDFreactor 8
+- PDFreactor 8.1
 - PrinceXML 10
-- Antennahouse 6.2 CSS formatter 
-- Vivliostyle Formatter 2016.4
+- Antennahouse 6.3 CSS formatter 
+- Vivliostyle Formatter 2016.7
 
 This tutorial does not cover and installation issues. Please refer to
 the vendor documentation. All tools are available for free for the purpose
