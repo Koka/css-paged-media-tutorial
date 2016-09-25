@@ -14,6 +14,7 @@ A tutorial and showcase for CSS Paged Media
    references.rst
    supplementary.rst
    discussion.rst
+   blog.rst
    about.rst
    :maxdepth: 2
 
