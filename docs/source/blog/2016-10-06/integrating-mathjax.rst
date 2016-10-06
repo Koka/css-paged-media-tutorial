@@ -15,8 +15,10 @@ number of Javascript add-ons.
 
 So here is the blueprint for generating PDF documents with arbitrary CSS Paged Media renderers:
 
-- you need to iterate over all formulas of your source document and extract each formula into  
-  a dedicated input HTML file. Here is an example document (taken from the MathJAX tests directory)
+- you need to iterate over all formulas of your source document and extract
+  each formula into  a dedicated input HTML file. Here is an example document
+  (taken from the MathJAX tests directory, we assume that MathJAX is installed
+  locally).
 
 .. literalinclude :: in.html
    :language:  html
