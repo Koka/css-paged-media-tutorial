@@ -1,5 +1,5 @@
 CSS Paged Media Blog
 ====================
 
-This section will feature blog entries on various aspects.
-Please check back in a few days.
+.. toctree::
+    blog/2016-10-06/integrating-mathjax.rst
