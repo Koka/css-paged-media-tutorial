@@ -53,6 +53,15 @@ or
 
     <img src="out2.png" />
 
+Alternative solution
+--------------------
+
+There is another option to generate SVG from MathML or LaTeX using the
+``text2svg`` script that comes from the NodeJS ``mathjax-node`` module. The
+approach is described `here
+<http://askubuntu.com/questions/33196/how-to-convert-latex-equations-to-svg#answer-762113>`_.
+The generated SVG files appear to be a bit strange. They render properly inside a browser
+but can not be displayed using standard image tools (at least on MacOSX).
 
 .. note::
 
