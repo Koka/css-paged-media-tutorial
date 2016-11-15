@@ -1,8 +1,6 @@
 CSS Paged Media Blog
 ====================
 
-xxxx
-
 Blog articles
 -------------
 
