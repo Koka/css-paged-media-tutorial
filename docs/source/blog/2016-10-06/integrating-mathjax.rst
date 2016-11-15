@@ -23,9 +23,9 @@ So here is the blueprint for generating PDF documents with arbitrary CSS Paged M
 .. literalinclude :: in.html
    :language:  html
 
-- you convert the input file using `WKHtmltoPDF  <http://wkhtmltopdf.org/>`_ to PDF::
+- you convert the input file using `WKHtmltoPDF  <http://wkhtmltopdf.org/>`_ to PDF
 
-.. code-block:: bash
+.. code-block:: shell
 
     wkhtmltopdf in.html --javascript-delay 25000 out.pdf
 
@@ -33,9 +33,9 @@ So here is the blueprint for generating PDF documents with arbitrary CSS Paged M
   need to crop the PDF to its bounding boxes. This can be accomplished using 
   `pdfcrop.pl <ftp://ftp.tu-chemnitz.de/pub/tex/support/pdfcrop/pdfcrop.pl>`_. ``pdfcrop`` is small
   Perl script that can manipulate the borders of a given PDF document. In our case we need to remove 
-  all borders using::
+  all borders using
 
-.. code-block:: bash
+.. code-block:: shell
 
     pdfcrop.pl --margins 0 out.pdf out2.pdf
 
