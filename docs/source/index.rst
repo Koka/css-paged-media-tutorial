@@ -3,8 +3,8 @@
     :class: banner
 
 
-A tutorial and showcase for CSS Paged Media
-===========================================
+Print-CSS: Generating PDF from XML/HTML and CSS - A tutorial and showcase for CSS Paged Media
+=============================================================================================
 
 
 .. toctree::
