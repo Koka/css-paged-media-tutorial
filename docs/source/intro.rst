@@ -3,7 +3,7 @@ Introduction
 
 This tutorial shows how to generate PDF documents from XML/HTML
 using the "CSS Paged Media" approach where the complete styling
-and layout information is keep in cascading stylessheets (CSS).
+and layout information is kept in cascading stylesheets (CSS).
 In addition we show what different tools produce with identical data.
 This gives an impression on functionality and output quality.
 
@@ -40,7 +40,7 @@ Tools
 -----
 
 There are various CSS Paged Media converters on the market. However we focus on
-some tools that are widely used and the ones that provide a reasonable quality
+tools that are widely used and that provide a reasonable quality
 for professional use. Another (personal) requirement is also that tools should
 work cross-platform on multiple operating systems (Mac OSX, Linux, Windows).
 Tests do not include tools that only work on a single operating system or
@@ -53,7 +53,7 @@ This tutorial covers and compares the following four tools:
 - Antennahouse 6.3 CSS formatter 
 - Vivliostyle Formatter 2016.7
 
-This tutorial does not cover and installation issues. Please refer to
+This tutorial does not cover installation issues. Please refer to
 the vendor documentation. All tools are available for free for the purpose
 of evaluation. Depending on the converter the generated PDF documents will
 contain a watermark or a vendor specific message or icon.
@@ -61,7 +61,7 @@ contain a watermark or a vendor specific message or icon.
 Using this tutorial
 -------------------
 
-You can either download all the complete tutorial with all samples from
+You can either download all the complete tutorials with samples from
 
 https://github.com/zopyx/css-paged-media-tutorial/releases
 
