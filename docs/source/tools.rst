@@ -160,10 +160,7 @@ Docraptor
   * Pricing is based on conversion volume and appears reasonable. Not sure when
     a self-hosted version of some other professional converter is cheaper when
     a self-hosted version of some other professional converter is cheaper and
-    the better option in the long run).  See their `TCO calculator
-    <http://docraptor.com/tco>`_ (however TCO are only one factor out of many
-    for making technical decisions).
-
+    the better option in the long run).  
 
 
 RenderX Cloudformatter
