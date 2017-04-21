@@ -11,7 +11,7 @@ Converters, tools and services
 PDFreactor
 ++++++++++
 
-* Current version: 8.1
+* Current version: 9
 * Website: http://www.pdfreactor.com
 * `CSS Compliance <http://www.pdfreactor.com/product/doc_html/index.html#SupportedCSSPropertiesSection>`_
 * Sample documents: http://www.pdfreactor.com/samples/
@@ -31,7 +31,7 @@ PDFreactor
 PrinceXML
 +++++++++
 
-* Current version: 10 (revision 7)
+* Current version: 11 (revision 1)
 * Website: http://www.princexml.com
 * Sample documents: http://www.princexml.com/samples
 * `CSS Compliance <http://www.princexml.com/doc/properties/>`_
@@ -52,7 +52,7 @@ PrinceXML
 Antennahouse CSS Formatter
 ++++++++++++++++++++++++++
 
-* Current version: 6.3 (MR2)
+* Current version: 6.4 (MR2)
 * Website: http://www.antennahouse.com
 * `CSS Compliance <http://www.antennahouse.com/antenna1/css-conformance/>`_
 * Pricing:
@@ -70,7 +70,7 @@ Antennahouse CSS Formatter
 Vivliostyle Formatter
 +++++++++++++++++++++
 
-* Current version: 2016.7
+* Current version: 2017.2
 * Website: http://www.vivliostyle.com
 * Samples: http://www.vivliostyle.com/en/sample/
 * Documentation: http://www.vivliostyle.com/en/documentation/supported-features/
@@ -87,7 +87,7 @@ Vivliostyle Formatter
 pdfChip 
 +++++++
 
-* Current version. 1.1
+* Current version. 1.2
 * Website: https://www.callassoftware.com/en/products/pdfchip
 * Pricing: the various pdfChip versions are artificially limited (you pay
   for document volume and usage):
@@ -119,7 +119,7 @@ pdfChip
 Weasyprint
 ++++++++++
 
-* Current version: 0.24
+* Current version: 0.36
 * Website: http://www.weasyprint.org
 * Pricing:
 
