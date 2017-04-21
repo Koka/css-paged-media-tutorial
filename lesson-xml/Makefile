@@ -1,10 +1,10 @@
 all: pdfreactor prince vivliostyle antennahouse
 
 pdfreactor:
-	pdfreactor -s styles.css index.xml pdfreactor.pdf
+	pdfreactor.py -s styles.css index.xml -o pdfreactor.pdf
 
 prince: 
-	prince -s styles.css  index.xml prince.pdf
+	prince -s styles.css  index.xml -o prince.pdf
 
 vivliostyle: 
 	vivliostyle-formatter --style=styles.css index.xml 
