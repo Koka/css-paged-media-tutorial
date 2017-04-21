@@ -84,6 +84,10 @@ PDF files
                             <a href="#" data-featherlight="_static/lesson-running-elements/images/princexml/prince-3.png" >
                                 <img class="preview" src="_static/lesson-running-elements/images/princexml/thumb-prince-3.png" />
                             </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-running-elements/images/princexml/prince-4.png" >
+                                <img class="preview" src="_static/lesson-running-elements/images/princexml/thumb-prince-4.png" />
+                            </a>
                           
                           
                     </td>
@@ -109,6 +113,10 @@ PDF files
                            
                             <a href="#" data-featherlight="_static/lesson-running-elements/images/antennahouse/antennahouse-2.png" >
                                 <img class="preview" src="_static/lesson-running-elements/images/antennahouse/thumb-antennahouse-2.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-running-elements/images/antennahouse/antennahouse-3.png" >
+                                <img class="preview" src="_static/lesson-running-elements/images/antennahouse/thumb-antennahouse-3.png" />
                             </a>
                           
                           
@@ -143,6 +151,10 @@ PDF files
                            
                             <a href="#" data-featherlight="_static/lesson-running-elements/images/vivliostyle/vivliostyle-4.png" >
                                 <img class="preview" src="_static/lesson-running-elements/images/vivliostyle/thumb-vivliostyle-4.png" />
+                            </a>
+                           
+                            <a href="#" data-featherlight="_static/lesson-running-elements/images/vivliostyle/vivliostyle-5.png" >
+                                <img class="preview" src="_static/lesson-running-elements/images/vivliostyle/thumb-vivliostyle-5.png" />
                             </a>
                           
                            
