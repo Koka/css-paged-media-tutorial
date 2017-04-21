@@ -1,8 +1,7 @@
 all: pdfreactor prince antennahouse vivliostyle
 
 pdfreactor:
-#	-pdfreactor -v -j index.html pdfreactor.pdf
-	-python /opt/PDFreactor8/bin/pdfreactor.py -v --addLinks --addBookmarks --javaScriptMode ENABLED -i index.html -o pdfreactor.pdf
+	-pdfreactor.py -v --addLinks --addBookmarks --javaScriptMode ENABLED -i index.html -o pdfreactor.pdf
 
 prince: 
 	-prince -v --javascript index.html prince.pdf
