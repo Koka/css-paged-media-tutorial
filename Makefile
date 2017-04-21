@@ -4,7 +4,7 @@ pdfreactor:
 	-pdfreactor.py -v --addLinks --addBookmarks --javaScriptMode ENABLED -i index.html -o pdfreactor.pdf
 
 prince: 
-	-prince -v --javascript index.html prince.pdf
+	-prince -v --javascript index.html -o prince.pdf
 
 vivliostyle: 
 	-vivliostyle-formatter index.html 
